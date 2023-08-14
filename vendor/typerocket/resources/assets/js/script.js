@@ -211,6 +211,63 @@ var swiper = new Swiper(".ourteamSwiper", {
     },
 });
 
+var swiper = new Swiper(".googleadsSwiper", {
+    slidesPerView: 1,
+    spaceBetween: 0,
+    slidesPerGroup: 1,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    direction: "horizontal",
+    effect: "fade",
+    // autoplay: {
+    //     delay: 5000,
+    //     disableOnInteraction: false,
+    // },
+    mousewheel: {
+        eventsTarged: ".swiper-slide",
+        sensitivity: 5
+    },
+      keyboard: {
+        enabled: true,
+        onlyInViewport: true
+    },
+    on: {
+        init: function() {
+        //   swiperAnimation.init(this).animate();
+        },
+        slideChange: function() {
+            console.log("Slideeeeeeeeeeeeeeeeeeee");
+        }
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 0,
+            spaceBetween: 0,
+        },
+        576: {
+            slidesPerView: 1,
+            spaceBetween: 0
+        },
+        768: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+        },
+        992: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+        },
+        1200: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+        },
+        1400: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+        },
+    },
+});
+
+
 // lightGallery Scripts
 lightGallery(document.querySelector("#our-team .gallery"), {
     plugins: [
