@@ -358,6 +358,62 @@ section .row-fluid {
     --desc-color: #949494;
     --main-font: 'IranSans';
     --second-font: 'IranSansDN';
+
+    /* google */
+    --glue-grey-0: #fff;
+    --glue-grey-25: #f1f1f1;
+    --glue-grey-50: #f8f9fa;
+    --glue-grey-100: #f1f3f4;
+    --glue-grey-200: #e8eaed;
+    --glue-grey-300: #dadce0;
+    --glue-grey-400: #bdc1c6;
+    --glue-grey-500: #9aa0a6;
+    --glue-grey-600: #80868b;
+    --glue-grey-700: #5f6368;
+    --glue-grey-800: #3c4043;
+    --glue-grey-900: #202124;
+    --glue-blue-50: #e8f0fe;
+    --glue-blue-100: #d2e3fc;
+    --glue-blue-200: #aecbfa;
+    --glue-blue-300: #8ab4f8;
+    --glue-blue-400: #669df6;
+    --glue-blue-500: #4285f4;
+    --glue-blue-600: #1a73e8;
+    --glue-blue-700: #1967d2;
+    --glue-blue-800: #185abc;
+    --glue-blue-900: #174ea6;
+    --glue-green-50: #e6f4ea;
+    --glue-green-100: #ceead6;
+    --glue-green-200: #a8dab5;
+    --glue-green-300: #81c995;
+    --glue-green-400: #5bb974;
+    --glue-green-500: #34a853;
+    --glue-green-600: #1e8e3e;
+    --glue-green-700: #188038;
+    --glue-green-800: #137333;
+    --glue-green-900: #0d652d;
+    --glue-red-50: #fce8e6;
+    --glue-red-100: #fad2cf;
+    --glue-red-200: #f6aea9;
+    --glue-red-300: #f28b82;
+    --glue-red-400: #ee675c;
+    --glue-red-500: #ea4335;
+    --glue-red-600: #d93025;
+    --glue-red-700: #c5221f;
+    --glue-red-800: #b31412;
+    --glue-red-900: #a50e0e;
+    --glue-yellow-50: #fef7e0;
+    --glue-yellow-100: #feefc3;
+    --glue-yellow-200: #fde293;
+    --glue-yellow-300: #fdd663;
+    --glue-yellow-400: #fcc934;
+    --glue-yellow-500: #fbbc04;
+    --glue-yellow-600: #f9ab00;
+    --glue-yellow-700: #f29900;
+    --glue-yellow-800: #ea8600;
+    --glue-yellow-900: #e37400;
+    --glue-purple-100: #ea80fc;
+    --glue-purple-900: #681da8;
 }
 
 /* Global Styles */
@@ -2592,9 +2648,290 @@ a:hover {
 
 
 
-/************* Google Ads Page2 *************/
-.gads-animated-hero {}
+/************* Google Ads New Page *************/
+.gads-animated-hero {
+    margin-bottom: 200px;
+}
 
 .gads-animated-hero .row {}
 
-.gads-animated-hero .column {}
+.gads-animated-hero .column {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.googleadsSwiper {}
+
+.googleadsSwiper .swiper-wrapper {}
+
+.googleadsSwiper .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.googleadsSwiper .swiper-slide .title {
+    display: block;
+    width: 100%;
+    height: auto;
+    min-height: 80px;
+    position: relative;
+    font-size: 65px;
+    font-weight: 900;
+    /* line-height: 5rem; */
+    text-align: center;
+    color: var(--title-color);
+    -webkit-animation: slide-bottom 500ms ease-in-out forwards;
+    animation: slide-bottom 500ms ease-in-out forwards;
+}
+
+@-webkit-keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(30px);
+              transform: translateY(30px);
+    }
+}
+
+@keyframes slide-bottom {
+    0% {
+      -webkit-transform: translateY(0);
+              transform: translateY(0);
+    }
+    100% {
+      -webkit-transform: translateY(30px);
+              transform: translateY(30px);
+    }
+}
+  
+.googleadsSwiper .swiper-slide .title1 {
+    color: var(--glue-blue-600);
+    right: -10%;
+}
+
+.googleadsSwiper .swiper-slide .title2 {
+    color: var(--glue-red-600);
+}
+
+.googleadsSwiper .swiper-slide .title3 {
+    color: var(--glue-yellow-600);
+    left: -10%;
+}
+
+.googleadsSwiper .swiper-slide .image {
+    width: auto;
+    height: auto;
+    min-height: 450px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.googleadsSwiper .swiper-slide .image img {
+    width: auto;
+    height: auto;
+    max-width: 360px;
+    object-fit: contain;
+    -webkit-animation: scale-up-center 500ms ease-in-out forwards;
+    animation: scale-up-center 500ms ease-in-out forwards;
+}
+
+@-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+}
+
+@keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+} 
+
+.googleadsSwiper .swiper-slide .shape {
+    width: 460px;
+    height: 460px;
+    position: absolute;
+    background: var(--main-color);
+    opacity: 0.1;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.googleadsSwiper .swiper-slide .shape1 {
+    background-color: var(--glue-blue-600);
+}
+
+.googleadsSwiper .swiper-slide .shape2 {
+    background-color: var(--glue-red-600);
+}
+
+.googleadsSwiper .swiper-slide .shape3 {
+    background-color: var(--glue-yellow-600);
+}
+
+.gads-animated-hero .swiper-caption {
+    width: 100%;
+    position: absolute;
+    bottom: -90px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    z-index: 1;
+}
+
+.gads-animated-hero .caption-title {
+    display: block;
+    width: 100%;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 45px;
+    text-align: center;
+    color: var(--title-color);
+}
+
+.gads-animated-hero .caption-desc {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: center;
+    color: var(--desc-color);
+}
+
+.gads-animated-hero .caption-btn {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.gads-animated-hero .caption-btn .btn {
+    padding: 10px 30px;
+}
+
+.advertising-animated-hero {}
+
+.advertising-animated-hero .row {}
+
+.advertising-animated-hero .column {}
+
+
+
+
+.advertising-animated-hero .heading-title {
+    display: block;
+    font-size: 30px;
+    font-weight: 900;
+    font-family: var(--main-font);
+    text-align: center;
+    color: var(--title-color);
+    margin-bottom: 50px;
+}
+
+.advertising-animated-hero .tabs {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.advertising-animated-hero .nav {
+    min-width: max-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.advertising-animated-hero .nav-link {
+    width: 100%;
+    min-width: max-content;
+    font-size: 15px;
+    color: var(--title-color);
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.advertising-animated-hero .nav-link.active {
+    /* color: var(--title-color); */
+    /* background-color: var(--main-color); */
+    background-color: var(--second-color);
+}
+
+.advertising-animated-hero .tab-content {
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.advertising-animated-hero .tab-pane {
+    width: 100%;
+}
+
+.advertising-animated-hero .tab-pane .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.advertising-animated-hero .tab-pane .content img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.advertising-animated-hero .tab-pane .content .desc {
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+}

@@ -217,6 +217,39 @@
         max-width: 400px;
     }
 
+    /************* Google Ads New Page *************/
+    .gads-animated-hero {
+        margin-bottom: 100px;
+    }
+
+    .googleadsSwiper .swiper-slide .title {
+        font-size: 45px;
+    }
+
+    .googleadsSwiper .swiper-slide .title1,
+    .googleadsSwiper .swiper-slide .title2,
+    .googleadsSwiper .swiper-slide .title3 {
+        right: auto;
+        left: auto;
+    }
+
+    .googleadsSwiper .swiper-slide .image {}
+
+    .googleadsSwiper .swiper-slide .image img {}
+
+    .googleadsSwiper .swiper-slide .shape {}
+
+    .gads-animated-hero .swiper-caption {
+        position: relative;
+        bottom: 0;
+    }
+
+    .gads-animated-hero .caption-title {
+        font-size: 35px;
+    }
+
+    .gads-animated-hero .caption-desc {}
+
     /************* Youtube Ads Page *************/
     .advertising {
         margin-top: 70px;
