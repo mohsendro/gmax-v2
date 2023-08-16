@@ -1,5 +1,8 @@
-// menu script
+// const { indexOf } = require("lodash");
+
 jQuery(document).ready(function($) {
+
+    // menu script
     jQuery('.stellarnav').stellarNav({
         theme: 'plain',
         breakpoint: 1199.98,
@@ -26,6 +29,29 @@ jQuery(document).ready(function($) {
         // mobileMode: false,
         // scrollbarFix: false // fixes horizontal scrollbar issue on very long navs
     });
+
+
+    // Tab Navs swicth
+    const tabChange = () => {
+
+        const parentNav = document.querySelectorAll(".advertising-animated-hero .nav button");
+        const firstNav = 0;
+        const lastNav = parentNav.length - 1;
+        
+        for (let num = 0; num < parentNav.length; num++) {
+
+            const element = parentNav[num];
+
+            if( element.classList.contains('active') ) {
+
+                const currentNav = element;
+    
+            }
+        }
+    
+    }
+    // const tabCycle = setInterval( tabChange, 1000);
+
 });
 
 
@@ -248,6 +274,7 @@ var swiper = new Swiper(".googleadsSwiper", {
         },
     },
 });
+
 
 // lightGallery Scripts
 lightGallery(document.querySelector("#our-team .gallery"), {

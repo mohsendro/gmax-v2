@@ -2848,13 +2848,11 @@ a:hover {
 
 .advertising-animated-hero .column {}
 
-
-
-
 .advertising-animated-hero .heading-title {
     display: block;
     font-size: 30px;
     font-weight: 900;
+    line-height: 40px;
     font-family: var(--main-font);
     text-align: center;
     color: var(--title-color);
@@ -2873,6 +2871,7 @@ a:hover {
 }
 
 .advertising-animated-hero .nav {
+    width: 35%;
     min-width: max-content;
     display: flex;
     flex-direction: column;
@@ -2886,16 +2885,26 @@ a:hover {
 .advertising-animated-hero .nav-link {
     width: 100%;
     min-width: max-content;
+    max-width: 220px;
+    height: 52px;
     font-size: 15px;
-    color: var(--title-color);
-    border-radius: 4px;
-    padding: 15px;
+    font-weight: 400;
+    color: var(--glue-grey-700);
+    border: 1px solid var(--glue-grey-200);
+    background-color: var(--glue-grey-0);
+    border-radius: 500px;
+    padding: 0 24px;
 }
 
 .advertising-animated-hero .nav-link.active {
-    /* color: var(--title-color); */
-    /* background-color: var(--main-color); */
-    background-color: var(--second-color);
+    background-color: var(--glue-grey-900);
+    -webkit-box-shadow: 2px 2px 2px 1px #00000010;
+    box-shadow: 2px 2px 2px 1px #00000010;
+}
+
+.advertising-animated-hero .nav-link i {
+    font-size: 20px;
+    vertical-align: middle;
 }
 
 .advertising-animated-hero .tab-content {
@@ -2914,24 +2923,195 @@ a:hover {
     width: 100%;
 }
 
+.advertising-animated-hero .tab-pane .image {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+}
+
 .advertising-animated-hero .tab-pane .content {
     width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 10%;
+}
+
+.advertising-animated-hero .tab-pane .title {
+    width: 100%;
+    display: block;
+    font-family: var(--main-font);
+    font-size: 25px;
+    font-weight: 500;
+    text-align: right;
+    color: var(--title-color);
+}
+
+.advertising-animated-hero .tab-pane .desc {
+    width: 100%;
+    display: block;
+    font-family: var(--main-font);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: justify;
+    color: var(--desc-color);
+}
+
+.advertising-animated-hero .tab-pane .link {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--glue-blue-600);
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+}
+
+.advertising-animated-hero .tab-pane .link:hover {
+    color: var(--glue-blue-900);
+}
+
+.advertising-animated-hero .tab-pane .link i {
+    width: 55px;
+    height: 55px;
+    font-size: 25px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: center;
+    color: var(--glue-grey-0);
+    background-color: var(--glue-blue-600);
+    border-radius: 50%;
 }
 
-.advertising-animated-hero .tab-pane .content img {
-    width: auto;
-    max-width: 100%;
-    height: auto;
+.advertising-animated-hero .tab-pane .link:hover i {
+    color: var(--glue-blue-900);
+    background-color: var(--glue-blue-50);
 }
 
-.advertising-animated-hero .tab-pane .content .desc {
-    font-size: 15px;
-    line-height: 25px;
-    text-align: center;
+
+
+
+.cta-animated-hero {
+    margin-top: 100px;
 }
+
+.cta-animated-hero .row {}
+
+.cta-animated-hero .column {}
+
+.cta-animated-hero .container-cta {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--glue-blue-50);
+    padding: 12px 24px;
+    border-radius: 20px;
+    -webkit-box-shadow: 2px 2px 2px 1px #00000010;
+    box-shadow: 2px 2px 2px 1px #00000010;
+}
+
+.cta-animated-hero .image {}
+
+.cta-animated-hero img {}
+
+.cta-animated-hero .content {}
+
+.cta-animated-hero .title {}
+
+.cta-animated-hero .desc {}
+
+.cta-animated-hero .btn-cta {}
+
+
+
+/* .btn-3 {
+  position: relative;
+  border-radius: 500px;
+}
+.btn-3 span {
+  border-radius: 500px;
+}
+.btn-3::before,
+.btn-3::after {
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: red;
+}
+
+span::before,
+span::after {
+  content: "";
+  width: 2px;
+  height: 0;
+  position: absolute;
+  transition: all 0.2s linear;
+  background: red;
+}
+.btn-3:hover::before,
+.btn-3:hover::after {
+  width: 100%;
+}
+.btn-3:hover span::before,
+.btn-3:hover span::after {
+  height: 100%;
+}
+
+.btn-3::after {
+  left: 0;
+  bottom: 0;
+  transition-delay: 0.6s;
+}
+.btn-3 span::after {
+  transition-delay: 0.4s;
+  right: 0;
+  bottom: 0;
+}
+.btn-3::before {
+  right: 0;
+  top: 0;
+  transition-delay: 0.2s;
+}
+.btn-3 span::before {
+  transition-delay: 0s;
+  left: 0;
+  top: 0;
+}
+
+.btn-3:hover::after {
+  transition-delay: 0s;
+}
+.btn-3:hover span::after {
+  transition-delay: 0.2s;
+}
+.btn-3:hover::before {
+  transition-delay: 0.4s;
+}
+.btn-3:hover span::before {
+  transition-delay: 0.6s;
+}  */

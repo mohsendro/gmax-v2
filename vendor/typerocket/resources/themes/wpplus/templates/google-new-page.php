@@ -79,33 +79,43 @@
         </div>
     </section>
 
-
-
-
-
     <section id="advertising-animated-hero" class="container-fluid advertising-animated-hero">
         <div class="container">
             <div class="row">
-                <div class="col-12 column">
+                <div class="col-12 col-xl-10 mx-auto column">
                     <div class="heading-title">گوگل ادز، به شما کمک می کند تا در بهترین جای ممکن دیده شوید</div>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-12 column">
+                <div class="col-12 col-xl-10 mx-auto column">
                     <div class="tabs">
                         <div class="nav nav-pills" role="tablist" aria-orientation="vertical">
-                            <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#v-pills-one" type="button" role="tab" aria-selected="true">تبلیغات Skippable</button>
-                            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#v-pills-two" type="button" role="tab" aria-selected="false">تبلیغات Non Skippable</button>
-                            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#v-pills-three" type="button" role="tab" aria-selected="false">تبلیغات In-Feed</button>
-                            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#v-pills-four" type="button" role="tab" aria-selected="false">تبلیغات Bumper</button>
+                            <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#v-pills-one" type="button" role="tab" aria-selected="true"><i class="lab la-youtube"></i> تبلیغات Skippable</button>
+                            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#v-pills-two" type="button" role="tab" aria-selected="false"><i class="lab la-youtube"></i> تبلیغات Non Skippable</button>
+                            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#v-pills-three" type="button" role="tab" aria-selected="false"><i class="lab la-youtube"></i> تبلیغات In-Feed</button>
+                            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#v-pills-four" type="button" role="tab" aria-selected="false"><i class="lab la-youtube"></i> تبلیغات Bumper</button>
                         </div>
                         <div class="tab-content">
                             <div class="tab-pane fade show active" id="v-pills-one" role="tabpanel" tabindex="0">
-                                <div class="content">
-                                    <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/skippable.gif" alt="" class="image">
-                                    <div class="desc">
-                                        این تبلیغات بعد از 5 ثانیه قابل رد کردن هستند. اگر کاربر بر روی Skip کلیک کند، هزینه ای شامل شما نمی شود
+                                <div class="row">
+                                    <div class="col-12 col-xl-6 order-1">
+                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/skippable.png" alt="تبلیغات Skippable" class="image">
+                                    </div>
+                                    <div class="col-12 col-xl-6 order-2">
+                                        <div class="content">
+                                            <div class="title">
+                                                همه چیز با گوگل شروع می شود 
+                                            </div>
+                                            <div class="desc">
+                                                به کمک تبلیغ در گوگل، فروش و ترافیک بیشتری را تجربه کنید. گوگل ادز به شما این امکان را می دهد که در
+                                                مقابل چشم کاربرانی که برای محصوالت و خدمات شما جستجو می کنند قرار بگیرید.
+                                            </div>
+                                            <a href="tel:02191095659" class="link">
+                                                <i class="las la-long-arrow-alt-left"></i>
+                                                تماس با ما
+                                            </a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -135,6 +145,45 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section id="cta-animated-hero" class="container-fluid cta-animated-hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-xl-10 mx-auto column">
+                    <div class="container-cta">
+                        <div class="image">
+                            <img src="<?php echo TYPEROCKET_DIR_URL . 'resources/assets/img/team/optimize/torkamaneh.webp'; ?>" />
+                        </div>
+                        <div class="content">
+                            <div class="title">
+                                اگر همچنان سوالی در ذهن دارید با کارشناسان ما تماس حاصل فرمایید
+                            </div>
+                            <div class="desc">
+                                برای مشاوره و اطلاع از تعرفه ی خدمات تبلیغات گوگل با کارشناسان ما در تماس باشید
+                            </div>
+                        </div>
+                        <a href="https://gmaxads.com/contact-us/" class="btn-cta">
+                            همین الان مشاوره بگیرید
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="goals-animated-hero" class="container-fluid goals-animated-hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-xl-10 mx-auto column">
+
                 </div>
             </div>
         </div>

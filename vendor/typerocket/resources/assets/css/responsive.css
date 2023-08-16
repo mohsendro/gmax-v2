@@ -250,6 +250,34 @@
 
     .gads-animated-hero .caption-desc {}
 
+    .advertising-animated-hero .tabs {
+        flex-direction: column;
+    }
+
+    .advertising-animated-hero .nav {
+        width: 100%;
+        min-width: auto;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+
+    .advertising-animated-hero .tab-pane .content {
+        padding: 10% 1%;
+    }
+
+    .advertising-animated-hero .tab-pane .title {
+        text-align: center;
+    }
+
+    .advertising-animated-hero .tab-pane .desc {
+        text-align: center;
+    }
+
+    .advertising-animated-hero .tab-pane .link {
+        justify-content: center;
+    }
+
     /************* Youtube Ads Page *************/
     .advertising {
         margin-top: 70px;
