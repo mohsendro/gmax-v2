@@ -263,7 +263,7 @@
     }
 
     .advertising-animated-hero .tab-pane .content {
-        padding: 10% 1%;
+        padding: 10% 1% 1%;
     }
 
     .advertising-animated-hero .tab-pane .title {
@@ -276,6 +276,29 @@
 
     .advertising-animated-hero .tab-pane .link {
         justify-content: center;
+    }
+
+    .cta-animated-hero .container-cta {
+        flex-direction: column;
+    }
+
+    .cta-animated-hero .container-content {
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .cta-animated-hero .title {
+        text-align: center;
+    }
+
+    .cta-animated-hero .desc {
+        text-align: center;
+    }
+
+    .goals-animated-hero {}
+
+    .goals-animated-hero::before {
+        border-radius: 0%;
     }
 
     /************* Youtube Ads Page *************/
@@ -406,7 +429,35 @@
 
 }
 
-@media (max-width: 991.98px) {}
+@media (max-width: 991.98px) {
+
+    /************* Google Ads New Page *************/
+    .stacked-animated-hero .content-column {
+        gap: 20px;
+    }
+
+    .stacked-animated-hero .stack-box {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 10px;
+    }
+
+    .stacked-animated-hero .stack-box .image {
+        width: 100%;
+    }
+
+    .stacked-animated-hero .stack-box .info {
+        width: 100%;
+    }
+
+    .stacked-animated-hero .stack-box .title {
+        text-align: center;
+    }
+
+    .stacked-animated-hero .stack-box .desc {
+        text-align: center;
+    }
+}
 
 @media (max-width: 767.98px) {}
 
