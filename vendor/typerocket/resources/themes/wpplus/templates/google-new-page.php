@@ -33,7 +33,7 @@
                                 <div class="title title1">افزایش فروش</div>
                                 <div class="image">
                                     <img 
-                                        src="https://lh3.googleusercontent.com/1dawnrQJ3IM0Sr6H7KMZVncHl60Pxl1KAvpGHEC9HeiC9YuJk2j0dlfaCCdGSbUFgWJA1MY7nMmW8Ud1CgDNSP2IOoUMN-CibvbBZmp9hZM3b-cqsCkV=s0-rw-v1"
+                                        src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/googleads1.png"
                                         width="auto" height="auto" alt="افزایش فروش"
                                     />
                                     <div class="shape shape1"></div>
@@ -44,7 +44,7 @@
                                 <div class="title title2">سبقت از رقبا </div>
                                 <div class="image">
                                     <img 
-                                        src="https://lh3.googleusercontent.com/6PDhYjkfhtTkjBOtkkIXZdgfHuuc7qWCb79Lxwz1oRn01I4d-mQCs4fBnYQQpjPFt_UMeoNgFd916D6inaGfqj5NNtMsGZQBiGg17DLs60Zmiy1fCEk=s0-rw-v1"
+                                        src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/googleads3.png"
                                         width="auto" height="auto" alt="سبقت از رقبا "
                                     />  
                                     <div class="shape shape2"></div>
@@ -55,10 +55,21 @@
                                 <div class="title title3">متمایز بودن برند</div>
                                 <div class="image">
                                     <img 
-                                        src="https://lh3.googleusercontent.com/-JIeW9QhOprw9JLp-hdhKHQXYXGmhlJ-OsNqVcpwVq9pdpkhaddREDuJZboyNnL7QBVIeoy2et7Zr27PBRi98Iy4u7_8FRjrI2MNeXZ839OISCVWczI=s0-rw-v1"
+                                        src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/googleads2.png"
                                         width="auto" height="auto" alt="متمایز بودن برند "
                                     />
                                     <div class="shape shape3"></div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="title title4">متمایز بودن برند</div>
+                                <div class="image">
+                                    <img 
+                                        src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/googleads4.png"
+                                        width="auto" height="auto" alt="متمایز بودن برند "
+                                    />
+                                    <div class="shape shape4"></div>
                                 </div>
                             </div>
                         </div>

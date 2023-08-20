@@ -55,7 +55,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-xl-4 column order-2">
-                    <img class="image" src="https://lh3.googleusercontent.com/TtBORzG9DZ1hwCF3Vpg2ztztv2fKxaJyEQPAG-ERxyy8S9RbdTdEPzbckJbM24n221vBHpSEwJqDcSMGQoGiR3bgLkLCQ_n-Gde9YGFHDlTlzUwjFYw=s0-rw-v1" alt="YouTube Ads">
+                    <img class="image" src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube1.webp" alt="YouTube Ads">
                 </div>
             </div>
         </div>
@@ -81,7 +81,7 @@
                             <div class="tab-pane fade show active" id="v-pills-one" role="tabpanel" tabindex="0">
                                 <div class="row">
                                     <div class="col-12 col-xl-6 order-2 order-xl-1">
-                                        <img src="https://lh3.googleusercontent.com/Jj_Jzf9lBjg8PikaEfuyCz5OQlbKTrQgz78Wsprq_sFYpu4T0xaRDIbzAPOoMQ24lYQFbrC45ZY0yo_YjgLjdTjyJ-Pb9SBPVHIhvEw2cwEBl1ijdvwa=w593-rw-v1" alt="در دید مخاطبین خود باشید" class="image">
+                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube4.webp" alt="در دید مخاطبین خود باشید" class="image">
                                     </div>
                                     <div class="col-12 col-xl-6 order-1 order-xl-2">
                                         <div class="content">
@@ -98,7 +98,7 @@
                             <div class="tab-pane fade" id="v-pills-two" role="tabpanel" tabindex="0">
                                 <div class="row">
                                     <div class="col-12 col-xl-6 order-2 order-xl-1">
-                                        <img src="https://lh3.googleusercontent.com/FenZVTUjBQej5Mh9QKXzToo94ySriPKQPXyM68yMtuFSc2GppLLb7cmmGDTaWBReBrVv2gLdefiPHlUFyKEsExjFLe9uZe7kJ1pTVCyK6ggarniaSkcH=w593-rw-v1" alt="مخاطبین خود را پیدا کنید" class="image">
+                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube2.webp" alt="مخاطبین خود را پیدا کنید" class="image">
                                     </div>
                                     <div class="col-12 col-xl-6 order-1 order-xl-2">
                                         <div class="content">
@@ -117,7 +117,7 @@
                             <div class="tab-pane fade" id="v-pills-three" role="tabpanel" tabindex="0">
                                 <div class="row">
                                     <div class="col-12 col-xl-6 order-2 order-xl-1">
-                                        <img src="https://lh3.googleusercontent.com/VsJhU3zRmTzDrn7vu62VRywazm0BLwE2YC427F-W9KQc2E1pyM6Cbm8XGH0-dxx1YPVxGqtzAM3ZCqaUUGXCRZDEiWJGTW7JuR5NoMxa1ZhNTkUqaQ=w593-rw-v1" alt="نتایج را ببینید" class="image">
+                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube3.webp" alt="نتایج را ببینید" class="image">
                                     </div>
                                     <div class="col-12 col-xl-6 order-1 order-xl-2">
                                         <div class="content">
@@ -154,7 +154,7 @@
                 </div>
 
                 <div class="col-12 col-xl-5 img-column column order-2">
-                    <img src="https://lh3.googleusercontent.com/GgkIP_yJf-fdL1oZ_GRJUW3GIHuovqLVBem0f1B_1En0msiKi3rpjD8ScAKVujpsPe_j6YrZVGxKmcFQWM5_dP8-1fc4DB3Ja9JZaExZT7M4Mx7Js-J3=s0-rw-v1" width="auto" height="auto">
+                    <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/team/youtube-cta.png" width="auto" height="auto">
                 </div>
             </div>
         </div>
@@ -224,19 +224,19 @@
 
                     <div class="pictures">
                         <picture class="picture pictureOne">
-                            <source srcset="https://lh3.googleusercontent.com/ZHh4YJtWcU9PeaqJGP_f8VL-sD1rIc9KEZt2tzK1QRifs61f-E8XyI9GKCf2yhLkAnkF1Ds5ynwrs1jqTGnw5In2egPp4TWzKGHWWX2LPkTl2V-kkE4=s0-rw-v1" media="(min-width:1200px)">
-                            <source srcset="https://lh3.googleusercontent.com/ZHh4YJtWcU9PeaqJGP_f8VL-sD1rIc9KEZt2tzK1QRifs61f-E8XyI9GKCf2yhLkAnkF1Ds5ynwrs1jqTGnw5In2egPp4TWzKGHWWX2LPkTl2V-kkE4=s0-rw-v1" media="(min-width:768px)">
-                            <img src="https://lh3.googleusercontent.com/ZHh4YJtWcU9PeaqJGP_f8VL-sD1rIc9KEZt2tzK1QRifs61f-E8XyI9GKCf2yhLkAnkF1Ds5ynwrs1jqTGnw5In2egPp4TWzKGHWWX2LPkTl2V-kkE4=s0-rw-v1" alt="کمپین تبلیغاتی ویدئویی خود را شروع کنید" width="auto" height="auto">
+                            <source srcset="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube5.webp" media="(min-width:1200px)">
+                            <source srcset="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube5.webp" media="(min-width:768px)">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube5.webp" alt="کمپین تبلیغاتی ویدئویی خود را شروع کنید" width="auto" height="auto">
                         </picture>
                         <picture class="picture pictureTwo" style="display: none;">
-                            <source srcset="https://lh3.googleusercontent.com/ydDGQkhwai2U2Hrw6D2w2q4Kxq7CTP9bxZatDrEdj3G5ebkhsexWjhe8jGz1MFWtvAWPLQ_zQPRw6OGuVMlHLex9XlH_F9T-4hjcCr3tPoQLUYCDvSY=s0-rw-v1" media="(min-width:1200px)">
-                            <source srcset="https://lh3.googleusercontent.com/ydDGQkhwai2U2Hrw6D2w2q4Kxq7CTP9bxZatDrEdj3G5ebkhsexWjhe8jGz1MFWtvAWPLQ_zQPRw6OGuVMlHLex9XlH_F9T-4hjcCr3tPoQLUYCDvSY=s0-rw-v1" media="(min-width:768px)">
-                            <img src="https://lh3.googleusercontent.com/ydDGQkhwai2U2Hrw6D2w2q4Kxq7CTP9bxZatDrEdj3G5ebkhsexWjhe8jGz1MFWtvAWPLQ_zQPRw6OGuVMlHLex9XlH_F9T-4hjcCr3tPoQLUYCDvSY=s0-rw-v1" alt="کمپین تبلیغاتی ویدئویی خود را شروع کنید" width="auto" height="auto">
+                            <source srcset="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube6.webp" media="(min-width:1200px)">
+                            <source srcset="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube6.webp" media="(min-width:768px)">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube6.webp" alt="کمپین تبلیغاتی ویدئویی خود را شروع کنید" width="auto" height="auto">
                         </picture>
                         <picture class="picture pictureThree" style="display: none;">
-                            <source srcset="https://lh3.googleusercontent.com/8-ssGeiKcU39eTmNbGmVEuPG7yKJXf3cxgVbgwyEplkR2OzNDWQrCryedH8buAkCWmkoLQgJmypF111LgglzBM2Omizbhu0yCkgFQF7aah81N6H9KmoC=s0-rw-v1" media="(min-width:1200px)">
-                            <source srcset="https://lh3.googleusercontent.com/8-ssGeiKcU39eTmNbGmVEuPG7yKJXf3cxgVbgwyEplkR2OzNDWQrCryedH8buAkCWmkoLQgJmypF111LgglzBM2Omizbhu0yCkgFQF7aah81N6H9KmoC=s0-rw-v1" media="(min-width:768px)">
-                            <img src="https://lh3.googleusercontent.com/8-ssGeiKcU39eTmNbGmVEuPG7yKJXf3cxgVbgwyEplkR2OzNDWQrCryedH8buAkCWmkoLQgJmypF111LgglzBM2Omizbhu0yCkgFQF7aah81N6H9KmoC=s0-rw-v1" alt="کمپین تبلیغاتی ویدئویی خود را شروع کنید" width="auto" height="auto">
+                            <source srcset="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube7.webp" media="(min-width:1200px)">
+                            <source srcset="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube7.webp" media="(min-width:768px)">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube7.webp" alt="کمپین تبلیغاتی ویدئویی خود را شروع کنید" width="auto" height="auto">
                         </picture>
                     </div>
                 </div>

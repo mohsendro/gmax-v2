@@ -361,6 +361,7 @@ const accordionImage = (index) => {
             pic.style.cssText = 'display:inline-block;';
         }
         
+        console.log(pictures.parentNode);
     }
 
 }
