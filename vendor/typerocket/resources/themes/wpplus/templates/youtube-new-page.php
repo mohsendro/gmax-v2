@@ -61,21 +61,184 @@
         </div>
     </section>
 
-
-
-
-
-
-    <section id="example-hero" class="container-fluid example-hero">
+    <section id="youtubeads-hero" class="container-fluid youtubeads-hero">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-xl-10 mx-auto heading-column column">
-                    <div class="heading-title"></div>
+                <div class="col-12 col-xl-10 mx-auto column">
+                    <div class="heading-title">به کمک یوتیوب ادز رشد کنید</div>
                 </div>
             </div>
 
             <div class="row">
-                <div class="col-12 col-xl-8 mx-auto content-column column">
+                <div class="col-12 col-xl-10 mx-auto column">
+                    <div class="tabs">
+                        <div class="nav nav-pills" role="tablist" aria-orientation="vertical">
+                            <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#v-pills-one" type="button" role="tab" aria-selected="true">در دید مخاطبین خود باشید</button>
+                            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#v-pills-two" type="button" role="tab" aria-selected="false">مخاطبین خود را پیدا کنید</button>
+                            <button class="nav-link" data-bs-toggle="pill" data-bs-target="#v-pills-three" type="button" role="tab" aria-selected="false">نتایج را ببینید</button>
+                        </div>
+                        <div class="tab-content">
+                            <div class="tab-pane fade show active" id="v-pills-one" role="tabpanel" tabindex="0">
+                                <div class="row">
+                                    <div class="col-12 col-xl-6 order-2 order-xl-1">
+                                        <img src="https://lh3.googleusercontent.com/Jj_Jzf9lBjg8PikaEfuyCz5OQlbKTrQgz78Wsprq_sFYpu4T0xaRDIbzAPOoMQ24lYQFbrC45ZY0yo_YjgLjdTjyJ-Pb9SBPVHIhvEw2cwEBl1ijdvwa=w593-rw-v1" alt="در دید مخاطبین خود باشید" class="image">
+                                    </div>
+                                    <div class="col-12 col-xl-6 order-1 order-xl-2">
+                                        <div class="content">
+                                            <div class="title">
+                                                در دید مخاطبین و مشتریان بالقوه ی خود باشید و مشتریان جدیدی پیدا کنید 
+                                            </div>
+                                            <div class="desc">
+                                                یوتیوب می تواند شما را در جلوی چشم مخاطبین و مشتر یان شما قرار دهد. 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-two" role="tabpanel" tabindex="0">
+                                <div class="row">
+                                    <div class="col-12 col-xl-6 order-2 order-xl-1">
+                                        <img src="https://lh3.googleusercontent.com/FenZVTUjBQej5Mh9QKXzToo94ySriPKQPXyM68yMtuFSc2GppLLb7cmmGDTaWBReBrVv2gLdefiPHlUFyKEsExjFLe9uZe7kJ1pTVCyK6ggarniaSkcH=w593-rw-v1" alt="مخاطبین خود را پیدا کنید" class="image">
+                                    </div>
+                                    <div class="col-12 col-xl-6 order-1 order-xl-2">
+                                        <div class="content">
+                                            <div class="title">
+                                                تنها هزینه ی تبلیغ موثر را پرداخت کنید 
+                                            </div>
+                                            <div class="desc">
+                                                به وسیله ی تبلیغ در یوتیوب می توانید بینندگان یوتیوب را به مخاطبین خود تبدیل نمایید. الزم نیست بودجه ی
+                                                زیادی را برای این مساله صرف نمایید! شما می توانید با بودجه ای مناسب، تنها در جلوی چشم مخاطبین
+                                                خاص خود باشید 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-three" role="tabpanel" tabindex="0">
+                                <div class="row">
+                                    <div class="col-12 col-xl-6 order-2 order-xl-1">
+                                        <img src="https://lh3.googleusercontent.com/VsJhU3zRmTzDrn7vu62VRywazm0BLwE2YC427F-W9KQc2E1pyM6Cbm8XGH0-dxx1YPVxGqtzAM3ZCqaUUGXCRZDEiWJGTW7JuR5NoMxa1ZhNTkUqaQ=w593-rw-v1" alt="نتایج را ببینید" class="image">
+                                    </div>
+                                    <div class="col-12 col-xl-6 order-1 order-xl-2">
+                                        <div class="content">
+                                            <div class="title">
+                                                در دید مخاطبین و مشتریان بالقوه ی خود باشید و مشتریان جدیدی پیدا کنید 
+                                            </div>
+                                            <div class="desc">
+                                                یوتیوب می تواند شما را در جلوی چشم مخاطبین و مشتر یان شما قرار دهد. 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="youtubecta-hero" class="container-fluid youtubecta-hero">
+        <div class="container">
+            <div class="row mx-auto">
+                <div class="col-12 col-xl-5 content-column column order-1">
+                    <div class="title">
+                        با کارشناسان حرفه ای ما تماس بگیرید و اولین کمپین تبلیغ در گوگل خود را شروع کنید
+                    </div>
+                    <ul class="list">
+                        <li>با استفاده از تجربه ی متخصصین ما، سریعتر از هر زمان دیگر در یوتیوب نمایش داشته باشید</li>
+                        <li>کارشناسان جیمکس، بهترین کمپین تبلیغاتی ممکن را با توجه به بودجه و نوع کسب و کار شما خواهندساخت</li>
+                        <li>با گزارشات منظم تیم متخصصین جیمکس، در جریان لحظه به لحظه ی کمپین تبلیغات در یوتیوب خود باشید</li>
+                    </ul>
+                    <a href="#" type="button" class="btn btn-outline-primary">تماس با ما</a>
+                </div>
+
+                <div class="col-12 col-xl-5 img-column column order-2">
+                    <img src="https://lh3.googleusercontent.com/GgkIP_yJf-fdL1oZ_GRJUW3GIHuovqLVBem0f1B_1En0msiKi3rpjD8ScAKVujpsPe_j6YrZVGxKmcFQWM5_dP8-1fc4DB3Ja9JZaExZT7M4Mx7Js-J3=s0-rw-v1" width="auto" height="auto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="youtubestep-hero" class="container-fluid youtubestep-hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-xl-10 mx-auto heading-column column">
+                    <div class="heading-title">
+                        چگونه در یوتیوب تبلیغ کنم؟ 
+                    </div>
+                    <p class="heading-desc">
+                        ویدئو تبلیغاتی بسازید، لینک ویدئو را به ما بدهید، شروع کمپین تبلیغاتی خود را به ما بسپارید! ما در هر قدم
+                        شما را از پیشرفت تبلیغ تان مطلع خواهیم کرد 
+                    </p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-xl-10 mx-auto content-column column">
+                    <div class="accordion" id="accordionYoutube">
+                        <div class="accordion-item">
+                            <div class="accordion-header" id="headingOne" onclick="accordionImage(0)">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    برای کسب و کار خود کانال بسازید 
+                                </button>
+                            </div>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionYoutube">
+                                <div class="accordion-body">
+                                    با ساخت یک کانال یوتیوب، حضور کسب و کار خود را در ای ن شبکه اجتماعی آغاز کنید. ساخت کانال در این شبکه
+                                    اجتماعی رایگان است! شما نه تنها می توانید با استفاده از ویدئو تبلیغاتی، کسب و کار خود را معرفی کنید، بلکه
+                                    می توانید با فعالیت منظم در این رسانه، مخاطبین جدیدی را با برند خود آشنا سازید 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header" id="headingTwo" onclick="accordionImage(1)">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    با یک ویدئو داستان خود را بگویید 
+                                </button>
+                            </div>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionYoutube">
+                                <div class="accordion-body">
+                                    شما می توانید با ساخت یک ویدئو تبلیغاتی، داستان برند خود را بگویید، محصول یا خدمات خود را معرفی کنید،
+                                    یا جشنواره و طرح های ویژه ی خو د را به کاربرانی که به خدمات شما نیاز دارند معرفی نمایید. ما تا رسیدن شما به
+                                    هدفتان، در تمامی مراحل این قدم در کنار شما هستیم.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <div class="accordion-header" id="headingThree" onclick="accordionImage(2)">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    کمپین تبلیغاتی ویدئویی خود را شروع کنید 
+                                </button>
+                            </div>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionYoutube">
+                                <div class="accordion-body">
+                                    شما می توانید به کمک جیمکس، کمپین تبلیغات در یوتیوب خود را به بهترین شکل شروع کنید. نگران بودجه ی
+                                    خود نباشید. با جیمکس تماس بگیرید تا با توجه به بودجه ی شما، بهترین کمپین تبلیغاتی را برای شما شروع
+                                    کنیم. کارشناسان و متخصصین جیمکس تا گرفتن بهترین نتیجه در کنار شما هستند. 
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" type="button" class="btn btn-outline-primary">تماس با ما</a>
+                    </div>
+
+                    <div class="pictures">
+                        <picture class="picture pictureOne">
+                            <source srcset="https://lh3.googleusercontent.com/ZHh4YJtWcU9PeaqJGP_f8VL-sD1rIc9KEZt2tzK1QRifs61f-E8XyI9GKCf2yhLkAnkF1Ds5ynwrs1jqTGnw5In2egPp4TWzKGHWWX2LPkTl2V-kkE4=s0-rw-v1" media="(min-width:1200px)">
+                            <source srcset="https://lh3.googleusercontent.com/ZHh4YJtWcU9PeaqJGP_f8VL-sD1rIc9KEZt2tzK1QRifs61f-E8XyI9GKCf2yhLkAnkF1Ds5ynwrs1jqTGnw5In2egPp4TWzKGHWWX2LPkTl2V-kkE4=s0-rw-v1" media="(min-width:768px)">
+                            <img src="https://lh3.googleusercontent.com/ZHh4YJtWcU9PeaqJGP_f8VL-sD1rIc9KEZt2tzK1QRifs61f-E8XyI9GKCf2yhLkAnkF1Ds5ynwrs1jqTGnw5In2egPp4TWzKGHWWX2LPkTl2V-kkE4=s0-rw-v1" alt="کمپین تبلیغاتی ویدئویی خود را شروع کنید" width="auto" height="auto">
+                        </picture>
+                        <picture class="picture pictureTwo" style="display: none;">
+                            <source srcset="https://lh3.googleusercontent.com/ydDGQkhwai2U2Hrw6D2w2q4Kxq7CTP9bxZatDrEdj3G5ebkhsexWjhe8jGz1MFWtvAWPLQ_zQPRw6OGuVMlHLex9XlH_F9T-4hjcCr3tPoQLUYCDvSY=s0-rw-v1" media="(min-width:1200px)">
+                            <source srcset="https://lh3.googleusercontent.com/ydDGQkhwai2U2Hrw6D2w2q4Kxq7CTP9bxZatDrEdj3G5ebkhsexWjhe8jGz1MFWtvAWPLQ_zQPRw6OGuVMlHLex9XlH_F9T-4hjcCr3tPoQLUYCDvSY=s0-rw-v1" media="(min-width:768px)">
+                            <img src="https://lh3.googleusercontent.com/ydDGQkhwai2U2Hrw6D2w2q4Kxq7CTP9bxZatDrEdj3G5ebkhsexWjhe8jGz1MFWtvAWPLQ_zQPRw6OGuVMlHLex9XlH_F9T-4hjcCr3tPoQLUYCDvSY=s0-rw-v1" alt="کمپین تبلیغاتی ویدئویی خود را شروع کنید" width="auto" height="auto">
+                        </picture>
+                        <picture class="picture pictureThree" style="display: none;">
+                            <source srcset="https://lh3.googleusercontent.com/8-ssGeiKcU39eTmNbGmVEuPG7yKJXf3cxgVbgwyEplkR2OzNDWQrCryedH8buAkCWmkoLQgJmypF111LgglzBM2Omizbhu0yCkgFQF7aah81N6H9KmoC=s0-rw-v1" media="(min-width:1200px)">
+                            <source srcset="https://lh3.googleusercontent.com/8-ssGeiKcU39eTmNbGmVEuPG7yKJXf3cxgVbgwyEplkR2OzNDWQrCryedH8buAkCWmkoLQgJmypF111LgglzBM2Omizbhu0yCkgFQF7aah81N6H9KmoC=s0-rw-v1" media="(min-width:768px)">
+                            <img src="https://lh3.googleusercontent.com/8-ssGeiKcU39eTmNbGmVEuPG7yKJXf3cxgVbgwyEplkR2OzNDWQrCryedH8buAkCWmkoLQgJmypF111LgglzBM2Omizbhu0yCkgFQF7aah81N6H9KmoC=s0-rw-v1" alt="کمپین تبلیغاتی ویدئویی خود را شروع کنید" width="auto" height="auto">
+                        </picture>
+                    </div>
                 </div>
             </div>
         </div>

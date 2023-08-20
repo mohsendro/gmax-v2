@@ -355,6 +355,30 @@
         margin: 0 auto;
     }
 
+    .youtubeads-hero .nav {
+        width: 100%;
+        min-width: auto;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+
+    .youtubeads-hero .tab-pane .content {
+        padding: 1% 1% 10%;
+    }
+
+    .youtubeads-hero .tab-pane .title {
+        text-align: center;
+    }
+
+    .youtubeads-hero .tab-pane .desc {
+        text-align: center;
+    }
+
+    .youtubecta-hero .img-column {
+        align-content: center;
+    }
+
     /************* Seo Page *************/
     .seoservice {
         margin-top: 70px;
@@ -493,6 +517,15 @@
 
     .stacked-animated-hero .stack-box .desc {
         text-align: center;
+    }
+
+    /************* Youtube Ads New Page *************/
+    .youtubestep-hero .accordion {
+        width: 100%;
+    }
+
+    .youtubestep-hero .pictures {
+        width: 100%;
     }
 }
 

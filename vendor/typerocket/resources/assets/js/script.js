@@ -344,3 +344,23 @@ form.addEventListener('keypress', function(e) {
     e.preventDefault();
   }
 });
+
+
+// change image accordion
+const accordionImage = (index) => {
+
+    index = index ? index : 0;
+    const pictures = document.querySelectorAll(".pictures picture");
+    
+    for (let item = 0; item < pictures.length; item++) {
+
+        const pic = pictures[item];
+        if( item != index ) {
+            pic.style.cssText = 'display:none;';
+        } else {
+            pic.style.cssText = 'display:inline-block;';
+        }
+        
+    }
+
+}
