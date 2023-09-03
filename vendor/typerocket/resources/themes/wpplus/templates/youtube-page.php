@@ -436,7 +436,6 @@
 		]
 		}
 	</script>
-
 </main>
 
 <?php get_footer(); ?>

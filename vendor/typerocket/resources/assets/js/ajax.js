@@ -124,7 +124,7 @@ function newsletterExport(event) {
             submitted_nonce: newsletter_ajax_localize_obj.the_nonce,
         },
         success: function (response) {
-            console.log(response);
+            // console.log(response);
             alert('خروجی اکسل دانلود شد');
         },
         error: function (response) {

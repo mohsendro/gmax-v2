@@ -10,7 +10,7 @@ function wpplus_enqueue_scripts() {
     wp_register_style( 'bootstrap.rtl.min', TYPEROCKET_DIR_URL . 'resources/assets/vendor/bootstrap/css/bootstrap.rtl.min.css', array(), '5.3.0', 'all' );
     // <!-- Menu Css -->
     wp_register_style( 'stellarnav.min', TYPEROCKET_DIR_URL . 'resources/assets/vendor/stellarnav/css/stellarnav.min.css', array(), '1.0.0', 'all' );
-    wp_register_style( 'header-footer', TYPEROCKET_DIR_URL . 'resources/assets/css/header-footer.min.css', array(), '1.0.0', 'all' );
+    wp_register_style( 'header-footer', TYPEROCKET_DIR_URL . 'resources/assets/css/header-footer.css', array(), '1.0.0', 'all' );
     // <!-- Icon Css -->
     wp_register_style( 'font-awesome.min', TYPEROCKET_DIR_URL . 'resources/assets/font/font-awesome/css/fontawesome.min.css', array(), '6.4.0', 'all' );
     wp_register_style( 'line-awesome.min', TYPEROCKET_DIR_URL . 'resources/assets/font/line-awesome/css/line-awesome.min.css', array(), '1.3.1', 'all' );
@@ -102,7 +102,7 @@ function wpplus_enqueue_scripts() {
     wp_enqueue_script( 'lg-vimeo-thumbnail.min' );
     wp_enqueue_script( 'lg-zoom.min' );
     wp_enqueue_script( 'toastr.min' );
-    wp_enqueue_script( 'auto-tabs.min' );
+    // wp_enqueue_script( 'auto-tabs.min' );
     wp_enqueue_script( 'script' );
     wp_enqueue_script( 'ajax-script' );
 

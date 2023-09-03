@@ -1,5 +1,3 @@
-// const { indexOf } = require("lodash");
-
 jQuery(document).ready(function($) {
 
     // menu script
@@ -32,25 +30,80 @@ jQuery(document).ready(function($) {
 
 
     // Tab Navs swicth
-    const tabChange = () => {
+    function tabChangeHandler() {
 
-        const parentNav = document.querySelectorAll(".advertising-animated-hero .nav button");
-        const firstNav = 0;
-        const lastNav = parentNav.length - 1;
-        
-        for (let num = 0; num < parentNav.length; num++) {
-
-            const element = parentNav[num];
-
-            if( element.classList.contains('active') ) {
-
-                const currentNav = element;
+        nav = document.querySelector(".nav-pills"); 
+        navLink = nav.querySelectorAll(".nav-link");
+        navCount = nav.querySelectorAll(".nav-link").length;
+    
+        content = document.querySelector(".tab-content"); 
+        contentPane = content.querySelectorAll(".tab-pane");
+    
+        for (let i = 0; i <= (navCount - 1); i++) {
+    
+            let el = navLink[i];
+            if ( i < (navCount - 1) ) { 
+    
+                if( el.classList.contains("active") ) {
+                    // button
+                    elNext = navLink[i + 1];
+                    navLink.forEach((elNav) => {
+                        elNav.classList.remove("active");
+                    });
+                    elNext.classList.add("active");
+    
+                    // content
+                    currentNav = elNext.getAttribute("data-bs-target");
+                    currentPane = document.getElementById(currentNav.slice(1));
+                    contentPane.forEach((elPane) => {
+                        elPane.classList.remove("show");
+                        elPane.classList.remove("active");
+                    });
+                    currentPane.classList.add("show");
+                    currentPane.classList.add("active");
+                    break;
+                }
+    
+            } else {
+    
+                if( el.classList.contains("active") ) {
+                    // button
+                    elFirst = navLink[0];
+                    navLink.forEach((elNav) => {
+                        elNav.classList.remove("active");
+                    });
+                    elFirst.classList.add("active");
+    
+                    // content
+                    currentNav = elFirst.getAttribute("data-bs-target");
+                    currentPane = document.getElementById(currentNav.slice(1));
+                    contentPane.forEach((elPane) => {
+                        elPane.classList.remove("show");
+                        elPane.classList.remove("active");
+                    });
+                    currentPane.classList.add("show");
+                    currentPane.classList.add("active");
+                    break;
+                }
     
             }
+            
         }
     
     }
-    // const tabCycle = setInterval( tabChange, 1000);
+    
+    nav = document.querySelector(".nav-pills"); 
+    navLink = nav.querySelectorAll(".nav-link");
+    
+    navLink.forEach((e) => {
+    
+        e.addEventListener("click", () => {
+            clearInterval(tabChangeHandler);
+        });
+    
+    });
+    
+    setInterval(tabChangeHandler, 3000);
 
 });
 
@@ -254,21 +307,21 @@ var swiper = new Swiper(".googleadsSwiper", {
     //     eventsTarged: ".swiper-slide",
     //     sensitivity: 5
     // },
-    // keyboard: {
-    //     enabled: true,
-    //     onlyInViewport: true
-    // },
+    keyboard: {
+        enabled: true,
+        onlyInViewport: true
+    },
     on: {
         init: function() {
-            swiperAnimation.init(this).animate();
+            // swiperAnimation.init(this).animate();
         },
         slideChange: () => {
-            const index_currentSlide = this.realIndex;
-            const currentSlide = this.slides[index_currentSlide]
-            const currentSlideTitle = currentSlide.getElementsByClassName("title")[0];
-            const currentSlideImage = currentSlide.getElementsByClassName("image")[0].querySelector("img");
-            currentSlideTitle.setAttribute("style", "animation: slide-bottom 500ms ease-in-out forwards;");
-            currentSlideImage.setAttribute("style", "animation: scale-up-center 500ms ease-in-out forwards");
+            // const index_currentSlide = this.realIndex;
+            // const currentSlide = this.slides[index_currentSlide]
+            // const currentSlideTitle = currentSlide.getElementsByClassName("title")[0];
+            // const currentSlideImage = currentSlide.getElementsByClassName("image")[0].querySelector("img");
+            // currentSlideTitle.setAttribute("style", "animation: slide-bottom 500ms ease-in-out forwards;");
+            // currentSlideImage.setAttribute("style", "animation: scale-up-center 500ms ease-in-out forwards");
             // console.log(swiper.activeIndex);
             // console.log(currentSlideImage);
         },
@@ -361,7 +414,24 @@ const accordionImage = (index) => {
             pic.style.cssText = 'display:inline-block;';
         }
         
-        console.log(pictures.parentNode);
+        // console.log(pictures.parentNode);
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+var swiper = new Swiper(".mySwiper", {
+    effect: "cards",
+    grabCursor: true,
+    });

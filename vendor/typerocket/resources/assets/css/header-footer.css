@@ -5,7 +5,7 @@
     top: 0;
     font-family: var(--main-font);
     background-color: #FFFFFF;
-    border-bottom: 5px solid var(--main-color);
+    /* border-bottom: 5px solid var(--main-color); */
     border-radius: 0;
     padding: 20px;
 	z-index: 99;
@@ -627,6 +627,7 @@
 .footer .quick-contact {
     width: 100%;
     height: auto;
+    min-height: 40px;
     display: none;
     flex-direction: row;
     flex-wrap: wrap;
@@ -637,11 +638,11 @@
     position: fixed;
     right: 0;
     bottom: 0;
-    font-size: 15px;
+    font-size: 17px;
     color: #fff;
-    background-color: #d32525;
+    background-color: var(--main-color);
     border-radius: 2px;
-    box-shadow: 0 0 0 0 #d32525;
+    box-shadow: 0 0 0 0 var(--main-color);
     padding: 10px;
     z-index: 98;
 }

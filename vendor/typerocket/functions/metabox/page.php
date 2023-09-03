@@ -19,7 +19,9 @@ if( class_exists( 'CSF' ) ) {
       'page_templates'     => [
             'templates/webdesign-page.php',
             'templates/google-page.php',
+            'templates/google-new-page.php',
             'templates/youtube-page.php',
+            'templates/youtube-new-page.php',
             'templates/studio-page.php',
       ],
     ) );
