@@ -304,27 +304,30 @@ var swiper = new Swiper(".googleadsSwiper", {
         disableOnInteraction: false,
     },
     // mousewheel: {
-    //     eventsTarged: ".swiper-slide",
-    //     sensitivity: 5
+        //     eventsTarged: ".swiper-slide",
+        //     sensitivity: 5
     // },
     keyboard: {
         enabled: true,
         onlyInViewport: true
     },
+    initialSlide: 0,
     on: {
-        init: function() {
+        init: () => {
             // swiperAnimation.init(this).animate();
         },
-        slideChange: () => {
-            // const index_currentSlide = this.realIndex;
-            // const currentSlide = this.slides[index_currentSlide]
-            // const currentSlideTitle = currentSlide.getElementsByClassName("title")[0];
-            // const currentSlideImage = currentSlide.getElementsByClassName("image")[0].querySelector("img");
-            // currentSlideTitle.setAttribute("style", "animation: slide-bottom 500ms ease-in-out forwards;");
-            // currentSlideImage.setAttribute("style", "animation: scale-up-center 500ms ease-in-out forwards");
+        slideChangeTransitionEnd: () => {
+            const index_currentSlide = this.realIndex;
+            const currentSlide = this.slides[index_currentSlide]
+            const currentSlideTitle = currentSlide.getElementsByClassName("title")[0];
+            const currentSlideImage = currentSlide.getElementsByClassName("image")[0].querySelector("img");
+            currentSlideTitle.setAttribute("style", "animation: slide-bottom 500ms ease-in-out forwards;");
+            currentSlideImage.setAttribute("style", "animation: scale-up-center 500ms ease-in-out forwards");
             // console.log(swiper.activeIndex);
             // console.log(currentSlideImage);
         },
+        // slideChange: () => {  
+        // },
     },
 });
 
@@ -430,8 +433,85 @@ const accordionImage = (index) => {
 
 
 
+const sliderNewSwiperCallbackBack = (swiper, action) => {
 
-var swiper = new Swiper(".mySwiper", {
-    effect: "cards",
-    grabCursor: true,
+    if( action == "init" ) {
+        var currentSlide = document.querySelector(".swiper-slide");
+    } else {
+        var currentSlide = swiper.visibleSlides[0];
+    }
+
+    let currentSlideAtt = currentSlide.getAttribute("data-back-color");
+    let backSlider = document.getElementById("slider-new");
+    backSlider.style.backgroundColor = currentSlideAtt;
+
+}
+
+const sliderNewSwiperCallbackHead = (swiper, action) => {
+
+    var currentDom = document.querySelectorAll(".content-column .head");
+
+    if( action == "init" ) {
+        var currentSlide = currentDom[0];
+    } else {
+        var currentSlide = currentDom[swiper.activeIndex];
+    }
+
+    currentDom.forEach( (e) => {
+        e.style.display = "none";
     });
+    currentSlide.style.display = "block";
+
+}
+
+var swiper = new Swiper(".sliderNewSwiper", {
+    // effect: "cards",
+    // grabCursor: true,
+    // cardsEffect: {
+        // perSlideOffset: 10, // Space between cards in px
+        // perSlideRotate: 1, // Rotation of cards in degrees
+        // rotate: 50,
+    // },
+    effect: "creative",
+    creativeEffect: {
+        limitProgress: 2,
+        prev: {
+            translate: ['1000%', 0, 0],
+            rotate: [0, 0, 0],
+        },
+        next: {
+            translate: [0, 0, 0],
+            rotate: [0, 0, 5],
+        },
+    },
+    navigation: {
+        nextEl: ".sliderNewSwiper-button-next",
+        prevEl: ".sliderNewSwiper-button-prev",
+    },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false
+    },
+    on: {
+        init: () => {
+            sliderNewSwiperCallbackBack(swiper, "init");
+            sliderNewSwiperCallbackHead(swiper, "init");
+            // swiperAnimation.init(this).animate();
+            // console.log(swiper.activeIndex);
+            // console.log(swiper.visibleSlides[0]);
+        },
+        slideChange: () => {
+            sliderNewSwiperCallbackBack(swiper, "change");
+            sliderNewSwiperCallbackHead(swiper, "change");
+        },
+        // slideChangeTransitionEnd: () => {  
+        // },
+        autoplayTimeLeft: (swiper, time, progress) => {
+            const progressCircle = document.querySelector(".autoplay-progress svg");
+            const progressContent = document.querySelector(".autoplay-progress span");
+            progressCircle.style.setProperty("--progress", 1 - progress);
+            progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+        }
+    },
+});
+

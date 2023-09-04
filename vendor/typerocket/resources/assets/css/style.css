@@ -359,6 +359,8 @@ section .row-fluid {
     --main-font: 'IranSans';
     --second-font: 'IranSansDN';
 
+    --progress: 0;
+
     /* google */
     --glue-grey-0: #fff;
     --glue-grey-25: #f1f1f1;

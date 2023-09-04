@@ -55,6 +55,8 @@ function wpplus_enqueue_scripts() {
 	wp_register_script( 'aos', TYPEROCKET_DIR_URL . 'resources/assets/vendor/aos/js/aos.min.js', array(), '1.2.0', true );
     // <!-- Swiper Js -->
 	wp_register_script( 'swiper-bundle.min', TYPEROCKET_DIR_URL . 'resources/assets/vendor/swiper/js/swiper-bundle.min.js', array(), '9.4.1', true );
+    // <!-- GSAP Js -->
+    wp_register_script( 'gsap.min', TYPEROCKET_DIR_URL . 'resources/assets/vendor/gsap-member/minified/gsap.min.js', array(), '3.12.2', true );
     // <!-- LightGallery Js -->
 	wp_register_script( 'lightgallery.min', TYPEROCKET_DIR_URL . 'resources/assets/vendor/lightgallery/lightgallery.min.js', array(), '2.7.2', true );
 	wp_register_script( 'lg-autoplay.min', TYPEROCKET_DIR_URL . 'resources/assets/vendor/lightgallery/plugins/autoplay/lg-autoplay.min.js', array(), '2.7.2', true );
@@ -87,6 +89,7 @@ function wpplus_enqueue_scripts() {
     wp_enqueue_script( 'lottie.min' );
     wp_enqueue_script( 'aos' );
     wp_enqueue_script( 'swiper-bundle.min' );
+    wp_enqueue_script( 'gsap.min' );
     wp_enqueue_script( 'lightgallery.min' );
     wp_enqueue_script( 'lg-autoplay.min' );
     // wp_enqueue_script( 'lg-comment.min' );
