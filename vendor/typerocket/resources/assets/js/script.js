@@ -604,14 +604,26 @@ if( growAvatars ) {
 
     setInterval( () => {
 
-        for (let i = 0; i < growAvatars.length; i++) {
+        for (let i = 0; i <= (growAvatars.length) - 1; i++) {
 
-            const element = growAvatars[i];
-        
-            if( element.classList == "active" ) {
-                // element.style.cssText = "display: none;"
-                console.log('asdasdasdasda');
+            var element = growAvatars[i]; console.log(element);
+            var nextEl;
+
+            if( element.classList.contains("active") ) { 
+
+                if( i != growAvatars.length ) {
+                    nextEl = i + 1;
+                } else {
+                    nextEl = 0;
+                }
+
+                // growAvatars.forEach( (e)=> {
+                //     e.classList.remove("active");
+                // });
             }
+
+            console.log(growAvatars[nextEl]);
+            growAvatars[nextEl].classList.add("active");
             
         }
 
