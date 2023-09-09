@@ -361,6 +361,11 @@ section .row-fluid {
 
     --progress: 0;
 
+    --google-blue: #4285F4;
+    --google-red: #EA4335;
+    --google-yellow: #FBBC05;
+    --google-green: #34A853;
+
     /* google */
     --glue-grey-0: #fff;
     --glue-grey-25: #f1f1f1;
@@ -2654,6 +2659,327 @@ a:hover {
 }
 
 
+/************* Index New Page *************/
+.slider-new {
+    min-height: calc(100vh + 5px);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: center;
+    align-items: baseline;
+    padding: 5%;
+    margin-top: -105px;
+}
+
+.slider-new .container {
+    position: relative;
+}
+
+.slider-new .row {}
+
+.slider-new .column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider-new .image-column {
+    /* align-content: center; */
+}
+
+.slider-new .content-column {}
+
+
+.slider-new .swiper {
+    width: 100%;
+    max-width: 550px;
+    height: auto;
+    padding: 50px;
+}
+
+.slider-new .swiper-slide {
+    background: transparent;
+}
+
+.slider-new .odd-slide {}
+
+.slider-new .even-slide {}
+
+.slider-new .slider-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    box-shadow: rgba(0, 0, 0, 0.5) 2px 5px 27px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.5) 2px 5px 27px;
+}
+
+.slider-new .head {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+    z-index: 1;
+}
+
+.slider-new .sup {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: justify;
+    color: var(--title-color);
+}
+
+.slider-new .text {
+    display: block;
+    width: 100%;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: right;
+    color: var(--title-color);
+}
+
+.slider-new .controller {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+
+.slider-new .buttons {}
+
+.slider-new .swiper-button-prev {
+    top: calc(50% + 10px);
+    left: 10px;
+}
+
+.slider-new .swiper-button-next {
+    top: calc(50% - 50px);
+    left: 10px;
+    right: auto;
+}
+
+.slider-new .swiper-button-prev:after, .slider-new .swiper-rtl .swiper-button-next:after,
+.slider-new .swiper-button-next:after, .slider-new .swiper-rtl .swiper-button-prev:after {
+    content: '';
+    width: 24px;
+    height: 24px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.slider-new .swiper-button-prev:after {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" style="transform:rotate(180deg)" class=""><path fill="%23191414" d="M9 18v-5l8 5V6l-8 5V6H7v12z"></path></svg>');
+}
+
+.slider-new .swiper-button-next:after {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" style="transform:rotate(undefineddeg)" class=""><path fill="%23191414" d="M9 18v-5l8 5V6l-8 5V6H7v12z"></path></svg>');
+}
+
+.slider-new .reset-slide {
+    position: absolute;
+    top: calc(50% + 50px);
+    left: 10px;
+    right: auto;
+    padding: 0;
+}
+
+.slider-new .reset-slide:active,
+.slider-new .reset-slide:focus-visible {
+    border: none;
+    box-shadow: none;
+}
+
+.slider-new .reset-slide svg {}
+
+.slider-new .autoplay-progress {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 20px;
+    /* bottom: -100px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.slider-new .autoplay-progress svg {
+    --progress: 0.5;
+    width: 100%;
+    max-width: 2px;
+    height: 100%;
+    max-height: 55px;
+    stroke-width: 4px;
+    /* stroke: var(--swiper-theme-color); */
+    fill: none;
+    stroke-dashoffset: calc(125.6 * (1 - var(--progress)));
+    stroke-dasharray: 125.6;
+    transform: rotate(-90deg);
+    background: #c9c9c9;
+}
+
+.slider-new .curren-silde {}
+
+.slider-new .total-slide {}
+
+.slider-new .autoplay-progress svg {}
+
+.slider-new .scroll-down {
+    width: auto;
+    position: absolute;
+    right: 20px;
+    /* bottom: -100px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.slider-new .scroll-down span {}
+
+.slider-new .scroll-down svg {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #00000014;
+    border-radius: 100%;
+    padding: 15px;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.slider-new .scroll-down path {
+    color: #000000;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.slider-new .scroll-down:hover svg {
+    background-color: #000000;
+}
+
+.slider-new .scroll-down:hover path {
+    color: #FFFFFF;
+}
+
+.grow-prfoessionally {
+    min-height: 100vh;
+    background-color: #dfdce3;
+    padding: 50px;
+    /* cursor: url("https://res.cloudinary.com/dvkugaw3b/image/upload/v1641562028/cursor_ad12rf.png"), auto; */
+}
+
+.grow-prfoessionally .container {}
+
+.grow-prfoessionally .row {}
+
+.grow-prfoessionally .column {}
+
+/* #cursor {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #e85d04;
+    position: absolute;
+    transition: 300ms linear;
+    z-index: 5;
+} */
+  
+#ball {
+    width: 60px;
+    height: 60px;
+    background: nome;
+    border: 1px solid grey;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -10px 0 0 -10px;
+    pointer-events: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /************* Google Ads New Page *************/
 .gads-animated-hero {
     margin-bottom: 200px;
@@ -3850,38 +4176,3 @@ span::after {
     max-width: 500px;
     border-radius: 8px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/************* Index New Page *************/

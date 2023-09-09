@@ -331,6 +331,137 @@ var swiper = new Swiper(".googleadsSwiper", {
     },
 });
 
+const sliderNewSwiperCallbackBack = (swiper, action) => {
+
+    if( action == "init" ) {
+        var currentSlide = document.querySelector(".swiper-slide");
+    } else {
+        var currentSlide = swiper.visibleSlides[0];
+    }
+
+    let currentSlideAtt = currentSlide.getAttribute("data-back-color");
+    let backSlider = document.getElementById("slider-new");
+    backSlider.style.backgroundColor = currentSlideAtt;
+
+}
+
+const sliderNewSwiperCallbackHead = (swiper, action) => {
+
+    var currentDom = document.querySelectorAll(".content-column .head");
+
+    if( action == "init" ) {
+        var currentSlide = currentDom[0];
+    } else {
+        var currentSlide = currentDom[swiper.activeIndex];
+    }
+
+    currentDom.forEach( (e) => {
+        e.style.display = "none";
+    });
+
+    gsap.fromTo( 
+        currentSlide,
+        { 
+            // y: -40,
+            opacity: 0,
+        },
+        { 
+            // y: 0,
+            opacity: 1,
+            duration: 2.2,
+        } 
+    );
+    currentSlide.style.display = "flex";
+
+}
+
+const sliderNewSwiperCallbackCurrentSlide = (swiper, action) => {
+
+    var progressCurrentSlide = document.querySelector(".autoplay-progress .curren-silde");
+    var currentSlide = 1;
+
+    if( action == "init" ) {
+        progressCurrentSlide.innerHTML = (swiper.activeIndex) + 1;
+        currentSlide = progressCurrentSlide;
+    } else {
+        progressCurrentSlide.innerHTML = (swiper.activeIndex) + 1;
+        currentSlide = progressCurrentSlide;
+    }
+
+}
+
+const sliderNewSwiperCallbackTotalSlide = (swiper) => {
+
+    var progressTotalSlide = document.querySelector(".autoplay-progress .total-slide");
+    var TotalSlide = document.querySelectorAll(".sliderNewSwiper .swiper-slide").length;
+    progressTotalSlide.innerHTML = TotalSlide;
+
+}
+
+var swiper = new Swiper(".sliderNewSwiper", {
+    // effect: "cards",
+    // grabCursor: true,
+    // cardsEffect: {
+        // perSlideOffset: 10, // Space between cards in px
+        // perSlideRotate: 1, // Rotation of cards in degrees
+        // rotate: 50,
+    // },
+    effect: "creative",
+    creativeEffect: {
+        limitProgress: 2,
+        prev: {
+            translate: ['1000%', 0, 0],
+            rotate: [0, 0, 0],
+        },
+        next: {
+            translate: [0, 0, 0],
+            rotate: [0, 0, 5],
+        },
+    },
+    navigation: {
+        nextEl: ".sliderNewSwiper-button-next",
+        prevEl: ".sliderNewSwiper-button-prev",
+    },
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false
+    },
+    on: {
+        init: () => {
+            sliderNewSwiperCallbackBack(swiper, "init");
+            sliderNewSwiperCallbackHead(swiper, "init");
+            sliderNewSwiperCallbackCurrentSlide(swiper, "init");
+            sliderNewSwiperCallbackTotalSlide();
+            // swiperAnimation.init(this).animate();
+            // console.log(swiper.activeIndex);
+            // console.log(swiper.visibleSlides[0]);
+        },
+        slideChange: () => {
+            sliderNewSwiperCallbackBack(swiper, "change");
+            sliderNewSwiperCallbackHead(swiper, "change");
+            sliderNewSwiperCallbackCurrentSlide(swiper, "change");
+            sliderNewSwiperCallbackTotalSlide();
+        },
+        // slideChangeTransitionEnd: () => {  
+        // },
+        autoplayTimeLeft: (swiper, time, progress) => {
+            const progressCircle = document.querySelector(".autoplay-progress svg");
+            // const progressContent = document.querySelector(".autoplay-progress span");
+            progressCircle.style.setProperty("--progress", 1 - progress);
+            // progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+        }
+    },
+});
+
+const sliderNewSwiperCallbackReset = () => {
+
+    document.querySelector(".reset-slide").addEventListener("click", (e) => {
+        swiper.slideTo(0);
+    });
+
+}
+sliderNewSwiperCallbackReset();
+
 
 // lightGallery Scripts
 lightGallery(document.querySelector("#our-team .gallery"), {
@@ -423,95 +554,44 @@ const accordionImage = (index) => {
 }
 
 
+// Prfoessionally Cursor
+var $ = document.querySelector.bind(document);
+var $on = document.addEventListener.bind(document);
 
-
-
-
-
-
-
-
-
-
-const sliderNewSwiperCallbackBack = (swiper, action) => {
-
-    if( action == "init" ) {
-        var currentSlide = document.querySelector(".swiper-slide");
-    } else {
-        var currentSlide = swiper.visibleSlides[0];
-    }
-
-    let currentSlideAtt = currentSlide.getAttribute("data-back-color");
-    let backSlider = document.getElementById("slider-new");
-    backSlider.style.backgroundColor = currentSlideAtt;
-
-}
-
-const sliderNewSwiperCallbackHead = (swiper, action) => {
-
-    var currentDom = document.querySelectorAll(".content-column .head");
-
-    if( action == "init" ) {
-        var currentSlide = currentDom[0];
-    } else {
-        var currentSlide = currentDom[swiper.activeIndex];
-    }
-
-    currentDom.forEach( (e) => {
-        e.style.display = "none";
-    });
-    currentSlide.style.display = "block";
-
-}
-
-var swiper = new Swiper(".sliderNewSwiper", {
-    // effect: "cards",
-    // grabCursor: true,
-    // cardsEffect: {
-        // perSlideOffset: 10, // Space between cards in px
-        // perSlideRotate: 1, // Rotation of cards in degrees
-        // rotate: 50,
-    // },
-    effect: "creative",
-    creativeEffect: {
-        limitProgress: 2,
-        prev: {
-            translate: ['1000%', 0, 0],
-            rotate: [0, 0, 0],
-        },
-        next: {
-            translate: [0, 0, 0],
-            rotate: [0, 0, 5],
-        },
-    },
-    navigation: {
-        nextEl: ".sliderNewSwiper-button-next",
-        prevEl: ".sliderNewSwiper-button-prev",
-    },
-    autoplay: {
-        delay: 2500,
-        disableOnInteraction: false
-    },
-    on: {
-        init: () => {
-            sliderNewSwiperCallbackBack(swiper, "init");
-            sliderNewSwiperCallbackHead(swiper, "init");
-            // swiperAnimation.init(this).animate();
-            // console.log(swiper.activeIndex);
-            // console.log(swiper.visibleSlides[0]);
-        },
-        slideChange: () => {
-            sliderNewSwiperCallbackBack(swiper, "change");
-            sliderNewSwiperCallbackHead(swiper, "change");
-        },
-        // slideChangeTransitionEnd: () => {  
-        // },
-        autoplayTimeLeft: (swiper, time, progress) => {
-            const progressCircle = document.querySelector(".autoplay-progress svg");
-            const progressContent = document.querySelector(".autoplay-progress span");
-            progressCircle.style.setProperty("--progress", 1 - progress);
-            progressContent.textContent = `${Math.ceil(time / 1000)}s`;
-        }
-    },
+var xmouse, ymouse;
+$on('mousemove', function (e) {
+    xmouse = e.clientX || e.pageX;
+    ymouse = e.clientY || e.pageY;
 });
 
+var ball = document.getElementById('ball');
+var x = void 0,
+    y = void 0,
+    dx = void 0,
+    dy = void 0,
+    tx = void 0,
+    ty = void 0,
+    key = -1;
+
+var followMouse = function followMouse() {
+
+    key = requestAnimationFrame(followMouse);
+    
+    if(!x || !y) {
+        x = xmouse;
+        y = ymouse; 
+    } else {
+        dx = (xmouse - x) * .125;
+        dy = (ymouse - y) * .125;
+        if(Math.abs(dx) + Math.abs(dy) < .1) {
+            x = xmouse;
+            y = ymouse;
+        } else {
+            x += dx;
+            y += dy;
+        }
+    }
+    ball.style.left = x + 'px';
+    ball.style.top = y + 'px';
+
+}
