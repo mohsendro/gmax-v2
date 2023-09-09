@@ -118,18 +118,41 @@
         </div>
     </section>
 
-
-
-
-    <section id="grow-prfoessionally" class="container-fluid grow-prfoessionally" onload="followMouse();">
+    <section id="grow-prfoessionally" class="container-fluid grow-prfoessionally" onmouseover="growCursor();">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-xl-6 content-column column">
-                    Image
+            <div class="row gap gx-5 gy-3">
+                <div class="col-12 col-xl-5 order-1 order-xl-2 image-column column">
+                    <div class="avatars active">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider8.webp">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider9.webp">
+                    </div>
+                    <div class="avatars">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider10.webp">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider11.webp">
+                    </div>
+                    <div class="avatars">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider12.webp">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider13.webp">
+                    </div>
                 </div>
-
-                <div class="col-12 col-xl-6 image-column column">
-                    Content
+                <div class="col-12 col-xl-7 order-2 order-xl-1 content-column column">
+                    <div class="title">
+                        <span>در کنار</span>
+                        <!-- Component Circle Shape Start -->
+                        <div class="circle-shape">
+                            <span class="circle circle-1"></span>
+                            <span class="circle circle-2"></span>
+                            <span class="arrow arrow-left"><i class="las la-long-arrow-alt-left"></i></span>
+                        </div>
+                        <!-- Component Circle Shape End -->
+                        <span>بزرگترین یوتیوبرهای ایران باشید</span>
+                    </div>
+                    <p class="desc">
+                        بهترین یوتیوبرهای ایران نقد کردن درآمد یوتیوب خود را به جیمکس سپرده اند. جای شما در کنار بهترین های ایران خالی است. درآمد یوتیوب خود را در کمترین زمان، با بهترین تعرفه نقد کنید.
+                    </p>
+                    <button class="btn">
+                        <a href="#">شروع کنید</a>
+                    </button>
                 </div>
             </div>
         </div>

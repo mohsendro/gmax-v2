@@ -555,43 +555,66 @@ const accordionImage = (index) => {
 
 
 // Prfoessionally Cursor
-var $ = document.querySelector.bind(document);
-var $on = document.addEventListener.bind(document);
+const growCursor = (event) => {
 
-var xmouse, ymouse;
-$on('mousemove', function (e) {
-    xmouse = e.clientX || e.pageX;
-    ymouse = e.clientY || e.pageY;
-});
+    let growContainer = document.querySelector(".grow-prfoessionally");
+        cursor = document.createElement("div"),
+        follow = document.createElement("div");
 
-var ball = document.getElementById('ball');
-var x = void 0,
-    y = void 0,
-    dx = void 0,
-    dy = void 0,
-    tx = void 0,
-    ty = void 0,
-    key = -1;
+    cursor.classList.add("cursor");
+    follow.classList.add("follow");
 
-var followMouse = function followMouse() {
+    growContainer.appendChild(cursor);
+    growContainer.appendChild(follow);
 
-    key = requestAnimationFrame(followMouse);
-    
-    if(!x || !y) {
-        x = xmouse;
-        y = ymouse; 
-    } else {
-        dx = (xmouse - x) * .125;
-        dy = (ymouse - y) * .125;
-        if(Math.abs(dx) + Math.abs(dy) < .1) {
-            x = xmouse;
-            y = ymouse;
-        } else {
-            x += dx;
-            y += dy;
-        }
+    growContainer.style.cursor = "none";
+
+    function move(obj, e) {
+
+        obj.style = "";
+        obj.style.left = (e.clientX - 20) + "px";
+        obj.style.top = (e.clientY - 20) + "px";
+
+        // var x = e.clientX * 100 / window.innerWidth + "%";
+        // var y = e.clientY * 100 / window.innerHeight + "%";
+        // obj.style.left = e.clientX * 100 / window.innerWidth + "%";
+        // obj.style.top = e.clientY * 100 / window.innerHeight + "%";
     }
-    ball.style.left = x + 'px';
-    ball.style.top = y + 'px';
+
+    growContainer.addEventListener("mousemove", function(event) {
+        let e = event,
+            t = e.target,
+            f = follow,
+            c = cursor;
+            move(c, e);
+            move(f, e);
+    });
+
+    growContainer.addEventListener("mouseout", function(event) {
+        growContainer.removeChild(cursor);
+        growContainer.removeChild(follow);
+    });
+
+}
+
+
+// Avatars Show
+var growAvatars = document.querySelectorAll(".avatars");
+if( growAvatars ) {
+
+    setInterval( () => {
+
+        for (let i = 0; i < growAvatars.length; i++) {
+
+            const element = growAvatars[i];
+        
+            if( element.classList == "active" ) {
+                // element.style.cssText = "display: none;"
+                console.log('asdasdasdasda');
+            }
+            
+        }
+
+    }, 1000);
 
 }
