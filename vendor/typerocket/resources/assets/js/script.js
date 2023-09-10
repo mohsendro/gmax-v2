@@ -554,6 +554,19 @@ const accordionImage = (index) => {
 }
 
 
+// Prfoessionally Scroll
+const growSectionScroll = (e) => {
+
+    element = document.getElementById("grow-prfoessionally");
+    element.scrollIntoView(
+        { 
+            behavior: "smooth",
+        }
+    );
+
+}
+
+
 // Prfoessionally Cursor
 const growCursor = (event) => {
 
@@ -567,7 +580,7 @@ const growCursor = (event) => {
     growContainer.appendChild(cursor);
     growContainer.appendChild(follow);
 
-    growContainer.style.cursor = "none";
+    // growContainer.style.cursor = "none";
 
     function move(obj, e) {
 
@@ -600,33 +613,52 @@ const growCursor = (event) => {
 
 // Avatars Show
 var growAvatars = document.querySelectorAll(".avatars");
+
+const growAvatarsCallBack = () => {
+
+    gsap.fromTo( 
+        growAvatars,
+        { 
+            opacity: 0,
+        },
+        { 
+            opacity: 1,
+            duration: 2.5,
+        } 
+    );
+    
+}
+
 if( growAvatars ) {
 
+    var nextEl;
     setInterval( () => {
 
-        for (let i = 0; i <= (growAvatars.length) - 1; i++) {
+        for (let i = 0; i < growAvatars.length; i++) {
 
-            var element = growAvatars[i]; console.log(element);
-            var nextEl;
+            var element = growAvatars[i];
 
-            if( element.classList.contains("active") ) { 
+            if( element.classList.contains("active") ) {
 
-                if( i != growAvatars.length ) {
-                    nextEl = i + 1;
-                } else {
+                if( i == (growAvatars.length) - 1 ) {
                     nextEl = 0;
+                    
+                } else {
+                    nextEl = i;
+                    nextEl++;
                 }
 
-                // growAvatars.forEach( (e)=> {
-                //     e.classList.remove("active");
-                // });
             }
-
-            console.log(growAvatars[nextEl]);
-            growAvatars[nextEl].classList.add("active");
-            
+           
         }
 
-    }, 1000);
+        growAvatars.forEach( (e)=> {
+            e.classList.remove("active");
+        });
+
+        growAvatars[nextEl].classList.add("active");
+        growAvatarsCallBack();
+
+    }, 3000);
 
 }

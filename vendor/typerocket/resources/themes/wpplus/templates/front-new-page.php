@@ -107,7 +107,7 @@
                         <span class="curren-silde"></span>
                     </div>
 
-                    <div class="scroll-down">
+                    <div class="scroll-down" onclick="growSectionScroll();">
                         <span>اسکرول کنید</span>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="" fill="none">
                             <path stroke="currentColor" stroke-width="1.4" d="M12 3v17M19 13l-7 7-7-7"></path>
@@ -121,7 +121,7 @@
     <section id="grow-prfoessionally" class="container-fluid grow-prfoessionally" onmouseover="growCursor();">
         <div class="container">
             <div class="row gap gx-5 gy-3">
-                <div class="col-12 col-xl-5 order-1 order-xl-2 image-column column">
+                <div class="col-12 col-xl-5 order-2 image-column column">
                     <div class="avatars active">
                         <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider8.webp">
                         <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider9.webp">
@@ -135,7 +135,7 @@
                         <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider13.webp">
                     </div>
                 </div>
-                <div class="col-12 col-xl-7 order-2 order-xl-1 content-column column">
+                <div class="col-12 col-xl-7 order-1 content-column column">
                     <div class="title">
                         <span>در کنار</span>
                         <!-- Component Circle Shape Start -->

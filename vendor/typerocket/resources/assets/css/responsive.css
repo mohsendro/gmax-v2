@@ -170,6 +170,34 @@
         left: 90px;
     }
 
+    .slider-new .autoplay-progress {
+        position: relative;
+    }
+
+    .grow-prfoessionally .row {  
+        min-height: 365px;
+        gap: 30px;
+        background-size: auto 100%;
+        background-position: top left
+    }
+
+    .grow-prfoessionally .image-column {
+        align-content: flex-start;
+    }
+
+    .grow-prfoessionally .title {
+        width: 100%;
+    }
+
+    .grow-prfoessionally .desc {
+        width: 100%;
+    }
+
+    .grow-prfoessionally .avatars {
+        left: auto;
+        flex-wrap: wrap;
+    }
+
     /************* Google Ads Page *************/
     .hero .content-column {
         gap: 20px;
