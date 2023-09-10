@@ -3026,8 +3026,70 @@ a:hover {
 	border-radius: 100%;
 }
 
+.spotlight-new {
+    position: relative;
+    min-height: 400px;
+    background-color: var(--glue-grey-900);
+    padding: 5rem;
+}
 
+.spotlight-new .container {}
 
+.spotlight-new .row {}
+
+.spotlight-new .column {}
+
+.spotlight-new .head {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family: var(--main-font);
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: right;
+    color: var(--glue-grey-0)
+}
+
+.spotlight-new .head span {}
+
+.spotlight-new .shape {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.spotlight-new .shape svg {
+    fill: red;
+}
+
+.spotlight-new .shape g {
+    stroke: var(--glue-yellow-700);
+}
+
+.spotlight-new .shape path {
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+
+.spotlight-new .shape .doodle-shape {}
+
+.spotlight-new .shape .arrow-shape {
+    transform: rotateY(180deg) rotateZ(30deg);
+}
+
+.spotlight-new .head .form {}
 
 
 

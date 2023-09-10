@@ -662,3 +662,35 @@ if( growAvatars ) {
     }, 3000);
 
 }
+
+
+// Spotlight GSAP
+const spotlightAnim = (e) => {
+
+    // gsap.registerPlugin(DrawSVGPlugin, MotionPathPlugin);
+
+    // gsap.fromTo(
+    //     ".doodle-shape path",
+    //     {
+    //         drawSVG: "0%",
+    //         stroke: "blue",
+    //     },
+    //     {
+    //         drawSVG: "100% 100%",
+    //         duration: 2,
+    //         yoyo: true,
+    //         repeat: -1,
+    //         ease: "power2.inOut"
+    //     }
+    // );
+
+    var doodleShape1 = document.querySelector(".doodle-shape-1");
+    // var doodleShape1 = document.querySelector(".doodle-shape-1").getAttribute("d");
+    // console.log(doodleShape1);
+
+    setInterval( () => {
+        doodleShape1.setAttribute("d", "M105 10C28-9-29 40 34 56c62 16 91-29 66-29");
+    }, 2000);
+
+}
+spotlightAnim();
