@@ -168,13 +168,13 @@
                     </div>
 
                     <div class="shape">
-                        <svg class="doodle-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 68" width="155px" height="auto">
+                        <svg class="doodle-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 68" width="110px" height="auto">
                             <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
                                 <path class="doodle-shape-1" d="0"></path>
                                 <path class="doodle-shape-2" d="M109 16C82-20-56 21 30 55s105-27 75-45"></path>
                             </g>
                         </svg>
-                        <svg class="arrow-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196 48" width="440px" height="auto">
+                        <svg class="arrow-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196 48" width="240px" height="auto">
                             <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4">
                                 <path d="M154 21c6-2 13-4 23 0-13-5-16-8-18-15"></path>
                                 <path d="M14 28c29-22 101-5 104 9 1 7-18 7 0-12s53-6 53-6"></path>

@@ -3065,6 +3065,7 @@ a:hover {
     align-content: center;
     justify-content: flex-start;
     align-items: center;
+    position: relative;
 }
 
 .spotlight-new .shape svg {
@@ -3083,9 +3084,16 @@ a:hover {
     transition: all 500ms ease-in-out;
 }
 
-.spotlight-new .shape .doodle-shape {}
+.spotlight-new .shape .doodle-shape {
+    position: relative;
+    top: -45px;
+    left: -50px;
+}
 
 .spotlight-new .shape .arrow-shape {
+    position: relative;
+    top: -45px;
+    left: -50px;
     transform: rotateY(180deg) rotateZ(30deg);
 }
 
