@@ -669,28 +669,91 @@ const spotlightAnim = (e) => {
 
     // gsap.registerPlugin(DrawSVGPlugin, MotionPathPlugin);
 
-    // gsap.fromTo(
-    //     ".doodle-shape path",
-    //     {
-    //         drawSVG: "0%",
-    //         stroke: "blue",
-    //     },
-    //     {
-    //         drawSVG: "100% 100%",
-    //         duration: 2,
-    //         yoyo: true,
-    //         repeat: -1,
-    //         ease: "power2.inOut"
-    //     }
-    // );
+    gsap.fromTo(
+        ".doodle-shape",
+        {
+            drawSVG: 0,
+        },
+        {
+            // drawSVG: "100% 100%",
+            opacity: 1,
+            duration: 2,
+            ease: "power2.inOut",
+        }
+    );
 
-    var doodleShape1 = document.querySelector(".doodle-shape-1");
+    gsap.fromTo(
+        ".arrow-shape",
+        {
+            scale: 0,
+            delay: 1,
+        },
+        {
+            scale: 1,
+            rotationX: 180,
+            rotation: 150,
+            delay: 1,
+            duration: 2,
+            ease: "power2.inOut",
+        }
+
+    );
+
+    // var doodleShape1 = document.querySelector(".doodle-shape-1");
     // var doodleShape1 = document.querySelector(".doodle-shape-1").getAttribute("d");
-    // console.log(doodleShape1);
 
-    setInterval( () => {
-        doodleShape1.setAttribute("d", "M105 10C28-9-29 40 34 56c62 16 91-29 66-29");
-    }, 2000);
+    // setInterval( () => {
+    //     doodleShape1.setAttribute("d", "M105 10C28-9-29 40 34 56c62 16 91-29 66-29");
+    // }, 2000);
 
 }
 spotlightAnim();
+
+const parallaxScroll = () => {
+    
+    gsap.registerPlugin(ScrollTrigger);
+
+    const tl = gsap.timeline({
+        duration: 0,
+        ease: "none",
+        scrollTrigger: {
+          trigger: ".parallax-new .content-column",
+          start: "+25%",
+          end: "bottom",
+        }
+    });
+
+    tl.to(".parallax-new .image-column .ads", 
+        {
+            display: "none",
+        }
+    );
+    tl.to(".parallax-new .image-column .web", 
+        {
+            display: "inline-block",
+        }
+    );
+
+    // const tl2 = gsap.timeline({
+    //     duration: 0,
+    //     ease: "none",
+    //     scrollTrigger: {
+    //       trigger: ".parallax-new .content-column",
+    //       start: "top",
+    //       end: "25%",
+    //     }
+    // });
+
+    // tl2.to(".parallax-new .image-column .web", 
+    //     {
+    //         display: "none",
+    //     }
+    // );
+    // tl2.to(".parallax-new .image-column .ads", 
+    //     {
+    //         display: "inline-block",
+    //     }
+    // );
+
+}
+parallaxScroll();

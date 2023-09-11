@@ -198,6 +198,27 @@
         flex-wrap: wrap;
     }
 
+    .spotlight-new .head {
+        font-size: 20px;
+        align-content: center;
+        text-align: center;
+    }
+
+    .spotlight-new .shape {
+        margin-top: 20px;
+    }
+
+    .spotlight-new .shape .doodle-shape {
+        display: none;
+    }
+
+    .spotlight-new .shape .arrow-shape {
+        width: auto;
+        max-width: 240px;
+        position: unset;
+        top: 0;
+    }
+
     /************* Google Ads Page *************/
     .hero .content-column {
         gap: 20px;

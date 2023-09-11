@@ -2907,7 +2907,7 @@ a:hover {
 
 .grow-prfoessionally .row {
     min-height: 730px;
-    background-image: url(../img/grow-back.png);
+    background-image: url(../img/grow-back3.png);
     background-size: 320px 100%;
     background-position: calc(0% + 90px) center;
     background-repeat: no-repeat;
@@ -3088,35 +3088,242 @@ a:hover {
     position: relative;
     top: -45px;
     left: -50px;
+    opacity: 0;
 }
 
 .spotlight-new .shape .arrow-shape {
     position: relative;
-    top: -45px;
-    left: -50px;
-    transform: rotateY(180deg) rotateZ(30deg);
+    top: -20px;
+    left: -200px;
+    transform: rotate(150deg) rotateX(180deg) scale(0);
 }
 
-.spotlight-new .head .form {}
+.spotlight-new .form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-end;
+    align-items: flex-start;
+    margin-top: 50px;
+}
 
+.spotlight-new .form form {
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-end;
+    align-items: stretch;
+    border-bottom: 1px solid var(--glue-grey-25);
+}
 
+.spotlight-new .form input {
+    width: calc(100% - 50px);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: var(--glue-grey-25);
+    text-align: right;
+    border: transparent;
+    background: transparent;
+    transition: 0.3s ease;
+    padding: 10px;
+}
 
+.spotlight-new .form input::placeholder {
+    color: var(--glue-grey-25);
+}
 
+.spotlight-new .form button {
+    width: 50px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    color: var(--glue-grey-25);
+    text-align: center;
+    border: transparent;
+    background: transparent;
+}
 
+.parallax-new {}
 
+.parallax-new .container-fluid {}
 
+.parallax-new .row {}
 
+.parallax-new .column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: stretch;
+    position: relative;
+}
 
+.parallax-new .content-column {}
 
+.parallax-new .image-column {}
 
+.parallax-new .content-column .ads,
+.parallax-new .content-column .web {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 50px;
+}
 
+.parallax-new .content-column .ads {
+    background-color: var(--google-red);
+}
 
+.parallax-new .content-column .web {
+    background-color: var(--google-yellow);
+}
 
+.parallax-new .content-column .title {
+    display: block;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 40px;
+    font-family: var(--main-font);
+    text-align: center;
+    color: var(--title-color);
+}
 
+.parallax-new .content-column .link {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
 
+.parallax-new .content-column a {
+    width: calc(50% - 20px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
 
+.parallax-new .content-column svg {
+    margin-bottom: 20px;
+}
 
+.parallax-new .content-column .sup {
+    width: 100%;
+    font-family: var(--main-font);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    color: var(--title-color);
+}
 
+.parallax-new .content-column .sub {
+    width: 100%;
+    font-family: var(--main-font);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    color: var(--bs-gray-800);
+}
+
+.parallax-new .content-column .logos {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0px, -60px);
+    z-index: 2;
+}
+
+.parallax-new .content-column .logos a {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.parallax-new .content-column .logos a:first-child {
+    /* background-color: var(--google-green); */
+}
+
+.parallax-new .content-column .logos a:last-child {
+    /* background-color: var(--google-blue); */
+}
+
+.parallax-new .content-column .logos img {
+    width: auto;
+    max-width: 100%;
+    height: auto;    
+}
+
+.parallax-new .image-column .sticky-top {}
+
+.parallax-new .image-column .ads,
+.parallax-new .image-column .web {
+    position: relative;
+}
+
+.parallax-new .image-column .ads {
+    z-index: 1;
+}
+
+.parallax-new .image-column .web {
+    display: none;
+    z-index: 2;
+}
+
+.parallax-new .image-column img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    object-position: top;
+    /* position: absolute; */
+}
+
+.parallax-new .image-column img:first-child {
+    /* height: 50vh;
+    top: 0;
+    left: 0; */
+}
+
+.parallax-new .image-column img:last-child {
+    /* height: 50vh;
+    bottom: 0;
+    left: 0; */
+}
 
 
 
