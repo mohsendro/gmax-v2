@@ -2697,7 +2697,7 @@ a:hover {
 
 .slider-new .swiper {
     width: 100%;
-    max-width: 550px;
+    /* max-width: 550px; */
     height: auto;
     padding: 50px;
 }

@@ -146,6 +146,10 @@
         align-items: flex-start;
     }
 
+    .slider-new .swiper {
+        max-width: 550px;
+    }
+
     .slider-new .swiper-button-prev {
         position: relative;
     }
