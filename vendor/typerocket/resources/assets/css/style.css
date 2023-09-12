@@ -3325,21 +3325,49 @@ a:hover {
     left: 0; */
 }
 
+.blog-new {
+    margin-top: 100px;
+}
 
+.blog-new .container {}
 
+.blog-new .row {}
 
+.blog-new .column {}
 
+.blog-new .heading-column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 50px;
+}
 
+.blog-new .heading-title {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 40px;
+    font-family: var(--main-font);
+    text-align: center;
+    color: var(--title-color);
+    margin-bottom: 15px;
+}
 
+.blog-new .heading-link {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 25px;
+    color: var(--desc-color);
+    text-align: right;
+}
 
-
-
-
-
-
-
-
-
+.blog-new .heading-link i {
+    vertical-align: text-bottom;
+}
 
 
 /************* Google Ads New Page *************/

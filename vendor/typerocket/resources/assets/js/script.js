@@ -249,6 +249,48 @@ var swiper = new Swiper(".blogSwiper", {
     },
 });
 
+var swiper = new Swiper(".blogNewSwiper", {
+    slidesPerView: "auto",
+    spaceBetween: 100,
+    slidesPerGroup: 1,
+    centeredSlides: true,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    // pagination: {
+    //     el: ".blog-swiper-pagination",
+    //     clickable: true,
+    // },
+    // navigation: {
+    //     nextEl: ".blogswiper-button-next",
+    //     prevEl: ".blogswiper-button-prev",
+    // },
+    // autoplay: {
+    //     delay: 5000,
+    //     disableOnInteraction: false,
+    // },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+        },
+        576: {
+            slidesPerView: 1,
+        },
+        768: {
+            slidesPerView: 2,
+        },
+        992: {
+            slidesPerView: 2,
+
+        },
+        1200: {
+            slidesPerView: 3,
+        },
+        1400: {
+            slidesPerView: 3,
+        },
+    },
+});
+
 var swiper = new Swiper(".ourteamSwiper", {
     slidesPerView: 1,
     spaceBetween: 15,

@@ -518,9 +518,196 @@
         </div>
     </section>
 
+    <?php // if( $posts ): ?>
+        <section id="blog-new" class="container-fluid blog-new">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-xl-10 mx-auto heading-column column">
+                        <div class="heading-title">آخرین اخبار و بلاگ</div>
+                        <a class="heading-link" href="<?php echo get_home_url() . '/blog/'; ?>">مشاهده بیشتر <i class="las la-long-arrow-alt-left"></i></a>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 mx-auto blog-column column">
+                        <!-- Swiper -->
+                        <div class="swiper blogNewSwiper">
+                            <div class="swiper-wrapper">
+                                <?php foreach( $posts as $post ): ?>
+                                    <div class="swiper-slide">
+                                        <!-- Component Blog New Card Start -->
+                                        <div class="blog-new-card">
+                                            <div class="content-top">
+                                                <a href="#" class="title line-clamp-2">نرخ تبدیل گوگل ادز – شیوه بهینه سازی آن با رویکرد داده...</a>
+                                                <div class="details">
+                                                    <div class="date">23 مرداد 1403</div>
+                                                    <div class="category">دسته بندی</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="info">
+                                                <a href="#" class="arrow">
+                                                    <i class="las la-arrow-up"></i>
+                                                </a>
+                                                <a href="#" class="thumbnail">
+                                                    <img src="https://gmaxads.com/wp-content/mu-plugins/vendor/typerocket/resources/assets/img/monetization-studio.jpg" alt="">
+                                                </a>
+                                            </div>
+
+                                            <div class="content-bottom">
+                                                <div class="category">دسته بندی</div>
+                                                <a href="#" class="title line-clamp-2">نرخ تبدیل گوگل ادز – شیوه بهینه سازی آن با رویکرد داده...</a>
+                                            </div>
+                                        </div>
+                                        <!-- Component Blog New Card Start -->
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <!-- Component Blog New Card Start -->
+                                        <div class="blog-new-card">
+                                            <div class="content-top">
+                                                <a href="#" class="title line-clamp-2">نرخ تبدیل گوگل ادز – شیوه بهینه سازی آن با رویکرد داده...</a>
+                                                <div class="details">
+                                                    <div class="date">23 مرداد 1403</div>
+                                                    <div class="category">دسته بندی</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="info">
+                                                <a href="#" class="arrow">
+                                                    <i class="las la-arrow-up"></i>
+                                                </a>
+                                                <a href="#" class="thumbnail">
+                                                    <img src="https://gmaxads.com/wp-content/mu-plugins/vendor/typerocket/resources/assets/img/monetization-studio.jpg" alt="">
+                                                </a>
+                                            </div>
+
+                                            <div class="content-bottom">
+                                                <div class="category">دسته بندی</div>
+                                                <a href="#" class="title line-clamp-2">نرخ تبدیل گوگل ادز – شیوه بهینه سازی آن با رویکرد داده...</a>
+                                            </div>
+                                        </div>
+                                        <!-- Component Blog New Card Start -->
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <!-- Component Blog New Card Start -->
+                                        <div class="blog-new-card">
+                                            <div class="content-top">
+                                                <a href="#" class="title line-clamp-2">نرخ تبدیل گوگل ادز – شیوه بهینه سازی آن با رویکرد داده...</a>
+                                                <div class="details">
+                                                    <div class="date">23 مرداد 1403</div>
+                                                    <div class="category">دسته بندی</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="info">
+                                                <a href="#" class="arrow">
+                                                    <i class="las la-arrow-up"></i>
+                                                </a>
+                                                <a href="#" class="thumbnail">
+                                                    <img src="https://gmaxads.com/wp-content/mu-plugins/vendor/typerocket/resources/assets/img/monetization-studio.jpg" alt="">
+                                                </a>
+                                            </div>
+
+                                            <div class="content-bottom">
+                                                <div class="category">دسته بندی</div>
+                                                <a href="#" class="title line-clamp-2">نرخ تبدیل گوگل ادز – شیوه بهینه سازی آن با رویکرد داده...</a>
+                                            </div>
+                                        </div>
+                                        <!-- Component Blog New Card Start -->
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <!-- Component Blog New Card Start -->
+                                        <div class="blog-new-card">
+                                            <div class="content-top">
+                                                <a href="#" class="title line-clamp-2">نرخ تبدیل گوگل ادز – شیوه بهینه سازی آن با رویکرد داده...</a>
+                                                <div class="details">
+                                                    <div class="date">23 مرداد 1403</div>
+                                                    <div class="category">دسته بندی</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="info">
+                                                <a href="#" class="arrow">
+                                                    <i class="las la-arrow-up"></i>
+                                                </a>
+                                                <a href="#" class="thumbnail">
+                                                    <img src="https://gmaxads.com/wp-content/mu-plugins/vendor/typerocket/resources/assets/img/monetization-studio.jpg" alt="">
+                                                </a>
+                                            </div>
+
+                                            <div class="content-bottom">
+                                                <div class="category">دسته بندی</div>
+                                                <a href="#" class="title line-clamp-2">نرخ تبدیل گوگل ادز – شیوه بهینه سازی آن با رویکرد داده...</a>
+                                            </div>
+                                        </div>
+                                        <!-- Component Blog New Card Start -->
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <!-- Component Blog New Card Start -->
+                                        <div class="blog-new-card">
+                                            <div class="content-top">
+                                                <a href="#" class="title line-clamp-2">نرخ تبدیل گوگل ادز – شیوه بهینه سازی آن با رویکرد داده...</a>
+                                                <div class="details">
+                                                    <div class="date">23 مرداد 1403</div>
+                                                    <div class="category">دسته بندی</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="info">
+                                                <a href="#" class="arrow">
+                                                    <i class="las la-arrow-up"></i>
+                                                </a>
+                                                <a href="#" class="thumbnail">
+                                                    <img src="https://gmaxads.com/wp-content/mu-plugins/vendor/typerocket/resources/assets/img/monetization-studio.jpg" alt="">
+                                                </a>
+                                            </div>
+
+                                            <div class="content-bottom">
+                                                <div class="category">دسته بندی</div>
+                                                <a href="#" class="title line-clamp-2">نرخ تبدیل گوگل ادز – شیوه بهینه سازی آن با رویکرد داده...</a>
+                                            </div>
+                                        </div>
+                                        <!-- Component Blog New Card Start -->
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <!-- Component Blog New Card Start -->
+                                        <div class="blog-new-card">
+                                            <div class="content-top">
+                                                <a href="#" class="title line-clamp-2">نرخ تبدیل گوگل ادز – شیوه بهینه سازی آن با رویکرد داده...</a>
+                                                <div class="details">
+                                                    <div class="date">23 مرداد 1403</div>
+                                                    <div class="category">دسته بندی</div>
+                                                </div>
+                                            </div>
+
+                                            <div class="info">
+                                                <a href="#" class="arrow">
+                                                    <i class="las la-arrow-up"></i>
+                                                </a>
+                                                <a href="#" class="thumbnail">
+                                                    <img src="https://gmaxads.com/wp-content/mu-plugins/vendor/typerocket/resources/assets/img/monetization-studio.jpg" alt="">
+                                                </a>
+                                            </div>
+
+                                            <div class="content-bottom">
+                                                <div class="category">دسته بندی</div>
+                                                <a href="#" class="title line-clamp-2">نرخ تبدیل گوگل ادز – شیوه بهینه سازی آن با رویکرد داده...</a>
+                                            </div>
+                                        </div>
+                                        <!-- Component Blog New Card Start -->
+                                    </div>
+                                <?php endforeach; ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <?php // endif; ?>
+
     <section id="faqs" class="container faqs">
         <div class="row">
-            <div class="col-12 column">
+            <div class="col-12 col-xl-10 mx-auto column">
                 <!-- Component FAQ Start -->
                 <div class="faq accordion" id="accordionExample">
                     <div class="accordion-item" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0" data-aos-easing="ease-in-sine">
@@ -579,7 +766,42 @@
             </div>
         </div>
     </section>
+
+    <script type="application/ld+json">
+		{
+			"@context": "https://schema.org",
+			"@type": "FAQPage",
+			"mainEntity": [{
+				"@type": "Question",
+				"name": "تبلیغات در گوگل چگونه به وب سایت ما کمک می کند؟",
+				"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "تبلیغات در گوگل، که به آن Google Ads هم گفته می شود، یکی از قدرتمندترین راه‌ها برای تبلیغ محصولات و خدمات شما در اینترنت است. این سرویس به شما اجازه می‌دهد تا تبلیغات خود را در صفحات نتایج جستجوی گوگل، وب‌سایت‌های همکار گوگل (شبکه تبلیغاتی گوگل) و حتی در برنامه‌های موبایلی که تبلیغات گوگل دارند، نمایش دهید. متخصصان جیمکس متشکل از کارشناسان تبلیغات آنلاین و بهینه‌سازی جستجو، که با تجربه و تخصص خود در زمینه گوگل ادز، می‌توانند بهترین راهکارها را برای تبلیغات شما ارائه دهند."
+				}
+			},{
+				"@type": "Question",
+				"name": "درآمد خود را از یوتیوب چگونه نقد کنیم؟",
+				"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "کسب درآمد از یوتیوب، یکی از روش‌های جذاب و پرطرفدار برای کسب درآمد از طریق ایجاد ویدیوهای خود است. با ایجاد یک کانال یوتیوب و ارائه محتوای جذاب و مفید، می‌توانید به طور قابل توجهی درآمد کسب کنید. یوتیوب امکانات و ابزارهایی را برای تبلیغ و کسب درآمد از ویدیوها فراهم کرده است. متخصصان جیمکس با تکیه بر تجربه و تخصص، شناخت مشتریان هدف و تحقیق درباره روند و موضوعات مورد علاقه جامعه یوتیوب، می‌توانید یک کسب و کار موفق برای شما در این پلتفرم رقم زده و از تبدیل هوادارانتان به منابع درآمدی استفاده نماید."
+				}
+			},{
+				"@type": "Question",
+				"name": "چرا باید سایت داشته باشیم؟",
+				"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "طراحی سایت یکی از اساسی‌ترین راه‌ها برای ایجاد حضور آنلاین قوی و جذاب برای کسب و کار شماست. با طراحی یک وبسایت حرفه‌ای و سازگار با نیازهای شما و مشتریانتان، می‌توانید به صورت مداوم بازدیدکنندگان جدید جذب کنید و بازدیدکنندگان فعلی را به مشتریان وفادار تبدیل کنید. با طراحی سایت حرفه‌ای، می‌توانید به طرفداران و مشتریانتان یک تجربه کاربری بی‌نظیر ارائه دهید و باعث اعتماد بیشتر آن‌ها به کسب و کار شما شوید. اضافه‌کردن امکاناتی مانند فرم تماس، فروش آنلاین، نمونه‌کارها و بازخوردها، بخش‌های اخبار و بلاگ و اینتگراسیون با شبکه‌های اجتماعی نیز می‌تواند به ارتقای تجربه کاربری و افزایش نرخ تبدیل شما کمک کند."
+				}
+			},{
+				"@type": "Question",
+				"name": "سئو چگونه به سایت شما کمک می کند؟",
+				"acceptedAnswer": {
+				"@type": "Answer",
+				"text": "سئو پروسه بهبود دیدن شدن و رنک وب سایت شما در صفحه نتایج گوگل است. جیمکس به کمک استراتژی و تکنیک های مختلف، وب سایت شما را به استانداردهای گوگل نزدیک می کند. همین مسئله باعث می شود که وب سایت شما در گوگل و دیگر موتورهای جستجو بیشتر دیده شده و مشتریان بالقوه خود را جذب نماید."
+				}
+			}]
+		}
+	</script>
 </main>
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script> -->
 
 <?php get_footer(); ?>
