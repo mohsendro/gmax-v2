@@ -676,6 +676,11 @@
         width: 100%;
     }
 
+    /************* Monetization New Page *************/
+    .monetization-new-hero .title {
+        font-size: 30px;
+    }
+
     .youtubestep-hero .pictures {
         width: 100%;
     }
@@ -684,6 +689,7 @@
 	.blog-single .top-content img {
 		margin-bottom: 40px;
 	}
+
 }
 
 @media (max-width: 767.98px) {
@@ -737,6 +743,11 @@
 
     .feachers .column {
         max-width: 100%;
+    }
+
+    /************* Monetization New Page *************/
+    .monetization-new-hero .title {
+        font-size: 25px;
     }
 
 }

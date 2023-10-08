@@ -37,35 +37,36 @@
                             <a href="tel:02191095659" type="button" class="btn btn-outline-primary">تماس با ما</a>
                         </div>
                     </div>
-
-                    <div class="shape-group">
-                        <div class="shape-right">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="shape-group">
+                <div class="shape-right">
+                    <div class="shape">
+                        <div class="shape">
                             <div class="shape">
                                 <div class="shape">
                                     <div class="shape">
-                                        <div class="shape">
-                                            <div class="shape">
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="shape-left">
-                            <div class="shape">
-                                <div class="shape">
-                                    <div class="shape">
-                                        <div class="shape">
-                                            <div class="shape">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="shape-circle"></div>
                     </div>
                 </div>
+                <div class="shape-left">
+                    <div class="shape">
+                        <div class="shape">
+                            <div class="shape">
+                                <div class="shape">
+                                    <div class="shape">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="shape-circle"></div>
             </div>
         </div>
     </section>

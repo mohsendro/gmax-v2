@@ -4628,7 +4628,7 @@ span::after {
     background: linear-gradient(75deg, rgba(196,48,43,1) 0%, rgba(178,34,34,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c4302b",endColorstr="#b22222",GradientType=1);
     overflow: hidden;
-    padding: 6%;
+    padding: 6% 6% 150px;
     margin-top: -105px;
 }
 
@@ -4668,7 +4668,9 @@ span::after {
     color: var(--glue-grey-0);
 }
 
-.monetization-new-hero .title span {}
+.monetization-new-hero .title span {
+    text-align: center;
+}
 
 .monetization-new-hero .title .stroke {
     color: transparent;
@@ -4718,7 +4720,7 @@ span::after {
     height: 700px;
     position: absolute;
     bottom: -50vh;
-    right: -15vw;
+    right: -180px;
 }
 
 .monetization-new-hero .shape-group .shape-right .shape {
@@ -4754,7 +4756,7 @@ span::after {
     height: 500px;
     position: absolute;
     top: -85vh;
-    left: -13vw;
+    left: -180px;
 }
 
 .monetization-new-hero .shape-group .shape-left .shape {
@@ -4792,8 +4794,8 @@ span::after {
     border: 70px solid #ffffff20;
     border-radius: 50%;
     position: absolute;
-    left: -15vw;
-    bottom: -50vh;
+    left: -175px;
+    bottom: -350px;
 }
 
 .monetization-new-image {}
@@ -4808,7 +4810,7 @@ span::after {
     width: 100%;
     height: auto;
     max-width: 992px;
-    margin: calc(-25vh) auto;
+    margin: -150px auto;
     position: relative;
     z-index: 1;
 }
