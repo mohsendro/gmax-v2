@@ -4613,17 +4613,213 @@ span::after {
 
 
 /************* Monetization New Page *************/
-.monetization-new-hero {}
+.monetization-new-hero {
+    min-height: calc(100vh + 5px);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background: rgb(196,48,43);
+    background: -moz-linear-gradient(75deg, rgba(196,48,43,1) 0%, rgba(178,34,34,1) 100%);
+    background: -webkit-linear-gradient(75deg, rgba(196,48,43,1) 0%, rgba(178,34,34,1) 100%);
+    background: linear-gradient(75deg, rgba(196,48,43,1) 0%, rgba(178,34,34,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c4302b",endColorstr="#b22222",GradientType=1);
+    overflow: hidden;
+    padding: 6%;
+    margin-top: -105px;
+}
 
 .monetization-new-hero .container {}
 
 .monetization-new-hero .row {}
 
-.monetization-new-hero .column {}
+.monetization-new-hero .column {
+    position: relative;
+}
 
-.monetization-new-hero .contetnt {}
-.monetization-new-hero .title {}
+.monetization-new-hero .content {
+    width: 100%;
+    max-width: 992px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.monetization-new-hero .title {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: right;
+    color: var(--glue-grey-0);
+}
+
 .monetization-new-hero .title span {}
-.monetization-new-hero .desc {}
-.monetization-new-hero .btn-links {}
-.monetization-new-hero .btn-links a {}
+
+.monetization-new-hero .title .stroke {
+    color: transparent;
+    -webkit-text-stroke: 1px var(--glue-grey-0);
+}
+
+.monetization-new-hero .desc {
+    width: 80%;
+    display: block;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 35px;
+    text-align: center;
+    color: var(--glue-grey-25);
+}
+
+.monetization-new-hero .btn-links {
+    display: flex;
+    gap: 20px;
+}
+
+.monetization-new-hero .btn-links .btn {
+    padding: 10px 30px;
+}
+
+.monetization-new-hero .btn-links .btn-primary {
+    color: rgb(196,48,43);
+    background-color: var(--glue-grey-0);
+    border-color: var(--glue-grey-0);
+}
+
+.monetization-new-hero .btn-links .btn-outline-primary {
+    color: var(--glue-grey-0);
+    border-color: var(--glue-grey-0);
+}
+
+.monetization-new-hero .btn-links .btn-outline-primary:hover {
+    background-color: transparent;
+}
+
+.monetization-new-hero .shape-group {
+    position: relative;
+}
+
+.monetization-new-hero .shape-group .shape-right {
+    width: auto;
+    height: 700px;
+    position: absolute;
+    bottom: -50vh;
+    right: -15vw;
+}
+
+.monetization-new-hero .shape-group .shape-right .shape {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #ffffff20;
+    border-radius: 175px;
+    padding: 20px;
+}
+
+.monetization-new-hero .shape-group .shape-right > .shape {
+    max-width: 320px;
+}
+
+.monetization-new-hero .shape-group .shape-right > .shape > .shape {
+    max-width: 290px;
+}
+
+.monetization-new-hero .shape-group .shape-right > .shape > .shape > .shape {
+    max-width: 260px;
+}
+
+.monetization-new-hero .shape-group .shape-right > .shape > .shape > .shape > .shape {
+    max-width: 230px;
+}
+
+.monetization-new-hero .shape-group .shape-right > .shape > .shape > .shape > .shape > .shape {
+    width: 150px;
+}
+
+.monetization-new-hero .shape-group .shape-left {
+    width: auto;
+    height: 500px;
+    position: absolute;
+    top: -85vh;
+    left: -13vw;
+}
+
+.monetization-new-hero .shape-group .shape-left .shape {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #ffffff20;
+    border-radius: 175px;
+    padding: 15px;
+}
+
+.monetization-new-hero .shape-group .shape-left > .shape {
+    max-width: 320px;
+}
+
+.monetization-new-hero .shape-group .shape-left > .shape > .shape {
+    max-width: 290px;
+}
+
+.monetization-new-hero .shape-group .shape-left > .shape > .shape > .shape {
+    max-width: 260px;
+}
+
+.monetization-new-hero .shape-group .shape-left > .shape > .shape > .shape > .shape {
+    max-width: 230px;
+}
+
+.monetization-new-hero .shape-group .shape-left > .shape > .shape > .shape > .shape > .shape {
+    width: 150px;
+}
+
+.monetization-new-hero .shape-group .shape-circle {
+    width: 100%;
+    max-width: 350px;
+    height: 350px;
+    border: 70px solid #ffffff20;
+    border-radius: 50%;
+    position: absolute;
+    left: -15vw;
+    bottom: -50vh;
+}
+
+.monetization-new-image {}
+
+.monetization-new-image .container {}
+
+.monetization-new-image .row {}
+
+.monetization-new-image .column {}
+
+.monetization-new-image .image {
+    width: 100%;
+    height: auto;
+    max-width: 992px;
+    margin: calc(-25vh) auto;
+    position: relative;
+    z-index: 1;
+}
+
+.monetization-new-image .image img {
+    width: 100%;
+    height: auto;
+    border-radius: 25px;
+    background-image: radial-gradient(circle at 100% 100%, transparent 20px, #c4302b 20px, #c4302b 25px, transparent 25px), linear-gradient(to right, #c4302b, #fafafa), radial-gradient(circle at 0% 100%, transparent 20px, #fafafa 20px, #fafafa 25px, transparent 25px), linear-gradient(to bottom, #fafafa, #ffffff), radial-gradient(circle at 0% 0%, transparent 20px, #ffffff 20px, #ffffff 25px, transparent 25px), linear-gradient(to left, #ffffff, #c4302b), radial-gradient(circle at 100% 0%, transparent 20px, #c4302b 20px, #c4302b 25px, transparent 25px), linear-gradient(to top, #c4302b, #c4302b);
+    background-size: 25px 25px, calc(100% - 50px) 5px, 25px 25px, 5px calc(100% - 50px);
+    background-position: top left,top center,top right,center right, bottom right,bottom center,bottom left,center left;
+    background-repeat: no-repeat;
+    padding: 4px;
+}

@@ -26,22 +26,56 @@
                 <div class="col-12 column">
                     <div class="content">
                         <div class="title">
-                            <span>کسب درآمد از یوتیوب</span>
-                            <span>نقد کردن درآمد یوتیوب با بهترین نرخ، در کمترین زمان</span>
+                            <span>کسب درآمد از <span class="stroke">یوتیوب</span></span>
+                            <span>نقد کردن درآمد <span class="stroke">یوتیوب</span> با بهترین نرخ، در کمترین زمان</span>
                         </div>
-
                         <div class="desc">
                             جیمکس پکیج کاملی از خدمات و سرویس های کسب درآمد از یوتیوب را به شما ارائه می دهد از خدمات سئو یوتیوب، تا استودیو، ادیت و نقد کردن درآمد شما در جیمکس فراهم شده است
                         </div>
-
                         <div class="btn-links">
-                            <a href="https://panel.gmaxads.com/index.php?rp=/login" target="_blank" type="button" class="btn btn-primary">شروع کنید</a>
+                            <a href="https://panel.gmaxads.com/index.php?rp=/login" target="_blank" type="button" class="btn btn-primary">ثبت نام</a>
                             <a href="tel:02191095659" type="button" class="btn btn-outline-primary">تماس با ما</a>
                         </div>
                     </div>
 
+                    <div class="shape-group">
+                        <div class="shape-right">
+                            <div class="shape">
+                                <div class="shape">
+                                    <div class="shape">
+                                        <div class="shape">
+                                            <div class="shape">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shape-left">
+                            <div class="shape">
+                                <div class="shape">
+                                    <div class="shape">
+                                        <div class="shape">
+                                            <div class="shape">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="shape-circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="monetization-new-image" class="container-fluid monetization-new-image">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 column">
                     <div class="image">
-                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/team/optimize/DSC00278.webp" alt="">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube7.webp" alt="کسب درآمد از یوتیوب" width="100%" height="auto">
                     </div>
                 </div>
             </div>
