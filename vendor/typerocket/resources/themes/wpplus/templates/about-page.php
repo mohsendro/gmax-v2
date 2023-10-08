@@ -140,14 +140,11 @@
                         <a class="swiper-slide" href="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/team/DSC00278.webp">
                             <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/team/DSC00278.webp" />
                         </a>
-                        <a class="swiper-slide" href="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/team/DSC00328.webp">
-                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/team/DSC00328.webp" />
-                        </a>
                         <a class="swiper-slide" href="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/team/DSC00376.webp">
                             <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/team/DSC00376.webp" />
                         </a>
-                        <a class="swiper-slide" href="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/team/DSC00400.webp">
-                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/team/DSC00400.webp" />
+                        <a class="swiper-slide" href="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/team/DSC00418.webp">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/team/DSC00418.webp" />
                         </a>
                         <a class="swiper-slide" href="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/team/DSC00445.webp">
                             <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/team/DSC00445.webp" />

@@ -35,7 +35,7 @@ function wpplus_enqueue_scripts() {
     wp_enqueue_style( 'line-awesome.min' );
     wp_enqueue_style( 'aos' );
     wp_enqueue_style( 'swiper-bundle.min' );
-    wp_enqueue_style( 'lightgallery-bundle.min' );
+    // wp_enqueue_style( 'lightgallery-bundle.min' );
     wp_enqueue_style( 'toastr.min' );
     wp_enqueue_style( 'style' );
     wp_enqueue_style( 'responsive' );
@@ -92,20 +92,20 @@ function wpplus_enqueue_scripts() {
     wp_enqueue_script( 'swiper-bundle.min' );
     wp_enqueue_script( 'gsap.min' );
     wp_enqueue_script( 'gsap-scroll-trigger.min' );
-    wp_enqueue_script( 'lightgallery.min' );
-    wp_enqueue_script( 'lg-autoplay.min' );
-    // wp_enqueue_script( 'lg-comment.min' );
-    wp_enqueue_script( 'lg-fullscreen.min' );
-    // wp_enqueue_script( 'lg-hash.min' );
-    wp_enqueue_script( 'lg-medium-zoom.min' );
-    wp_enqueue_script( 'lg-pager.min' );
-    wp_enqueue_script( 'lg-relative-caption.min' );
-    wp_enqueue_script( 'lg-rotate.min' );
-    // wp_enqueue_script( 'lg-share.min' );
-    wp_enqueue_script( 'lg-thumbnail.min' );
-    wp_enqueue_script( 'lg-video.min' );
-    wp_enqueue_script( 'lg-vimeo-thumbnail.min' );
-    wp_enqueue_script( 'lg-zoom.min' );
+    // wp_enqueue_script( 'lightgallery.min' );
+    // wp_enqueue_script( 'lg-autoplay.min' );
+    // // wp_enqueue_script( 'lg-comment.min' );
+    // wp_enqueue_script( 'lg-fullscreen.min' );
+    // // wp_enqueue_script( 'lg-hash.min' );
+    // wp_enqueue_script( 'lg-medium-zoom.min' );
+    // wp_enqueue_script( 'lg-pager.min' );
+    // wp_enqueue_script( 'lg-relative-caption.min' );
+    // wp_enqueue_script( 'lg-rotate.min' );
+    // // wp_enqueue_script( 'lg-share.min' );
+    // wp_enqueue_script( 'lg-thumbnail.min' );
+    // wp_enqueue_script( 'lg-video.min' );
+    // wp_enqueue_script( 'lg-vimeo-thumbnail.min' );
+    // wp_enqueue_script( 'lg-zoom.min' );
     wp_enqueue_script( 'toastr.min' );
     // wp_enqueue_script( 'auto-tabs.min' );
     wp_enqueue_script( 'script' );
@@ -121,6 +121,15 @@ function wpplus_enqueue_scripts() {
 
 }
 add_action( 'wp_enqueue_scripts', 'wpplus_enqueue_scripts' );
+
+
+function wpplus_footer_enqueue_scripts() {
+
+	wp_enqueue_style( 'font-awesome.min' );
+    wp_enqueue_style( 'line-awesome.min' );
+
+}
+// add_action( 'get_footer', 'wpplus_footer_enqueue_scripts' );
 
 
 function wpplus_admin_enqueue_scripts() {

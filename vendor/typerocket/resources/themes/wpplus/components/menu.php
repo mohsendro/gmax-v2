@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-6 col-sm-1 col-xl-1 col-xl-1 logo-column column order-2 order-xl-1">
                 <a href="<?php echo get_home_url(); ?>" class="logo">
-                    <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/global/logo2.png" alt="logo" width="auto" height="auto">
+                    <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/global/logo3.png" alt="logo" width="auto" height="auto">
                 </a>
             </div>
 

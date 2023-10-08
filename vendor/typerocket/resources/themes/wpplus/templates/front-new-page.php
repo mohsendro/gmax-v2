@@ -38,22 +38,22 @@
                     <div class="swiper sliderNewSwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide odd-slide" data-back-color="#a4c9d8">
-                                <img class="slider-img" src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider8.webp" alt="تبلیغ در گوگل" width="auto" height="auto" />
+                                <img class="slider-img" src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider8-800px.webp" alt="تبلیغ در گوگل" width="auto" height="auto" />
                             </div>
                             <div class="swiper-slide even-slide" data-back-color="#75beeb">
-                                <img sclass="slider-img" src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider9.webp" alt="تبلیغ در یوتیوب" width="auto" height="auto" />
+                                <img sclass="slider-img" src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider9-800px.webp" alt="تبلیغ در یوتیوب" width="auto" height="auto" />
                             </div>
                             <div class="swiper-slide odd-slide" data-back-color="#ffbc4b">
-                                <img class="slider-img" src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider10.webp" alt="طراحی وب سایت" width="auto" height="auto" />
+                                <img class="slider-img" src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider10-800px.webp" alt="طراحی وب سایت" width="auto" height="auto" />
                             </div>
                             <div class="swiper-slide even-slide" data-back-color="#e3e1df">
-                                <img sclass="slider-img" src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider11.webp" alt="سئو" width="auto" height="auto" />
+                                <img sclass="slider-img" src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider11-800px.webp" alt="سئو" width="auto" height="auto" />
                             </div>
                             <div class="swiper-slide odd-slide" data-back-color="#ffbc4b">
-                                <img class="slider-img" src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider12.webp" alt="نقد کردن درآمد یوتیوب" width="auto" height="auto" />
+                                <img class="slider-img" src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider12-800px.webp" alt="نقد کردن درآمد یوتیوب" width="auto" height="auto" />
                             </div>
                             <div class="swiper-slide even-slide" data-back-color="#ffd0d5">
-                                <img sclass="slider-img" src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider13.webp" alt="سئو یوتیوب" width="auto" height="auto" />
+                                <img sclass="slider-img" src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider13-800px.webp" alt="سئو یوتیوب" width="auto" height="auto" />
                             </div>
                         </div>
                     </div>
@@ -118,6 +118,39 @@
         </div>
     </section>
 
+	<section id="customer" class="container-fluid customer">
+        <div class="row">
+            <div class="col-12 column">
+                <div class="scroll-container">
+                    <div class="scroll-parent">
+                        <div class="scroll-element primary">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/customer1.jpg">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/customer2.jpg">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/customer3.jpg">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/customer4.jpg">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/customer5.jpg">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/customer6.jpg">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/customer7.jpg">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/customer8.jpg">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/customer9.jpg">                        
+                        </div>
+                        <div class="scroll-element secondary">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/customer1.jpg">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/customer2.jpg">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/customer3.jpg">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/customer4.jpg">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/customer5.jpg">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/customer6.jpg">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/customer7.jpg">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/customer8.jpg">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/customer9.jpg"> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="service" class="container service">
         <div class="row">
             <div class="col-12 column">
@@ -128,17 +161,17 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-12 col-xl-2 d-none d-xl-block">
+            <div class="col-12 col-xl-2 d-none">
                 <a href="https://www.google.com/partners/agency?id=5847789388" target="_blank" class="slogan" rel="nofollow">جیمکس ادز، پارتنر رسمی گوگل در ایران</a>
             </div>
-            <div class="col-12 col-xl-10">
+            <div class="col-12">
                 <!-- Swiper -->
                 <div class="swiper infoBoxSwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <!-- Component Info Box Card Start -->
                             <div class="info-box">
-                                <div class="info-img">
+                                <a href="<?php echo get_home_url(); ?>/googleads/" class="info-img">
                                     <svg width="auto" height="auto" viewBox="0 0 48 48" id="b" xmlns="http://www.w3.org/2000/svg">
                                         <defs>
                                             <style>
@@ -155,24 +188,18 @@
                                         <path class="c" d="m5.2364,14.3641c-1.4659,2.8927-2.3064,6.1568-2.3064,9.6359s.8405,6.7432,2.3064,9.6359l5.5705-4.3391s1.5832-1.2118,1.5832-1.2118c-.43-1.29-.6841-2.6582-.6841-4.085s.2541-2.795.6841-4.085" />
                                         <path class="c" d="m24.43,11.0609c3.1664,0,5.9809,1.0945,8.2286,3.2055l6.1568-6.1568c-3.7332-3.4791-8.5805-5.6095-14.3855-5.6095-8.4045,0-15.6559,4.8277-19.1936,11.8641l7.1536,5.5509c1.7005-5.0818,6.45-8.8541,12.04-8.8541Z" />
                                     </svg>
-                                </div>
-                                <div class="info-title">تبلیغ در گوگل</div>
+                                </a>
+                                <a href="<?php echo get_home_url(); ?>/googleads/" class="info-title">تبلیغ در گوگل</a>
                                 <div class="info-desc">
                                     دسترسی پذیری به مشتری تنها یک راه ۱۰۰٪ مطمئن دارد. ما این سرویس را برای شما فراهم می کنیم
                                 </div>
-                                <a href="https://gmaxads.com/googleads/" class="info-more">
-                                    <button type="button" class="btn">
-                                        <span>مشاهده بیشتر</span>
-                                        <i class="las la-paperclip"></i>
-                                    </button>
-                                </a>
                             </div>
                             <!-- Component Info Box Card End -->
                         </div>
                         <div class="swiper-slide">
                             <!-- Component Info Box Card Start -->
                             <div class="info-box">
-                                <div class="info-img">
+                                <a href="<?php echo get_home_url(); ?>/monetization/" class="info-img">
                                     <svg width="auto" height="auto" viewBox="0 0 48 48" id="a" xmlns="http://www.w3.org/2000/svg">
                                         <defs>
                                             <style>
@@ -190,24 +217,18 @@
                                         </g>
                                         <polygon class="b" points="29.8597 22 20.1403 16.404 20.1403 27.596 29.8597 22" />
                                     </svg>
-                                </div>
-                                <div class="info-title">کسب درآمد از یوتیوب</div>
+                                </a>
+                                <a href="<?php echo get_home_url(); ?>/monetization/" class="info-title">کسب درآمد از یوتیوب</a>
                                 <div class="info-desc">
                                     دسترسی پذیری به مشتری تنها یک راه ۱۰۰٪ مطمئن دارد. ما این سرویس را برای شما فراهم می کنیم
                                 </div>
-                                <a href="https://gmaxads.com/googleads/" class="info-more">
-                                    <button type="button" class="btn">
-                                        <span>مشاهده بیشتر</span>
-                                        <i class="las la-paperclip"></i>
-                                    </button>
-                                </a>
                             </div>
                             <!-- Component Info Box Card End -->
                         </div>
                         <div class="swiper-slide">
                             <!-- Component Info Box Card Start -->
                             <div class="info-box">
-                                <div class="info-img">
+                                <a href="<?php echo get_home_url(); ?>/seo" class="info-img">
                                     <svg width="auto" height="auto" viewBox="0 0 1024 1024" fill="#000000" class="icon" version="1.1" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M361.478 1023.792c-14.336 0-28.666-5.466-39.576-16.368L16.574 702.098c-10.534-10.542-16.336-24.6-16.344-39.592 0-14.978 5.802-29.034 16.336-39.56L457.608 181.89c20.794-20.812 59.496-31.666 88.068-24.598l206.468 50.624c24.582 6.038 49.352 27.824 60.192 52.968a8.006 8.006 0 0 1-4.156 10.51c-4.058 1.742-8.776-0.102-10.526-4.17-8.714-20.194-29.924-39.014-49.32-43.776L541.866 172.824c-22.858-5.646-56.288 3.702-72.952 20.374L27.874 634.254c-7.512 7.496-11.652 17.538-11.652 28.252 0 10.728 4.146 20.756 11.66 28.284l305.33 305.328c15.586 15.588 40.958 15.588 56.544 0l441.008-441.046c16.682-16.68 26.02-50.078 20.396-72.952l-37.326-152.234a7.992 7.992 0 0 1 5.842-9.676 8.008 8.008 0 0 1 9.684 5.864l37.326 152.228c7.028 28.564-3.78 67.258-24.614 88.076L401.062 1007.426c-10.908 10.9-25.254 16.366-39.584 16.366z" fill="" />
                                         <path d="M663.902 423.99c-16.368 0-32.766-6.232-45.228-18.704-24.958-24.95-24.958-65.54-0.032-90.474 21.99-21.942 56.38-25.012 81.776-7.278a66.824 66.824 0 0 1 8.714 7.222 8.022 8.022 0 0 1 0.094 11.308 7.98 7.98 0 0 1-11.308 0.11 50.418 50.418 0 0 0-6.622-5.504c-19.086-13.322-44.856-11.002-61.348 5.458-18.678 18.694-18.678 49.134 0.032 67.852 18.71 18.708 49.166 18.708 67.876 0 5.654-5.678 9.84-12.69 12.09-20.264 1.248-4.224 5.746-6.654 9.932-5.396a8.02 8.02 0 0 1 5.404 9.94c-2.998 10.106-8.558 19.446-16.086 27.012-12.494 12.478-28.896 18.718-45.294 18.718z" fill="" />
@@ -218,24 +239,18 @@
                                         <path d="M663.902 368.054a8 8 0 0 1-7.808-6.31 7.988 7.988 0 0 1 6.124-9.502C944.026 291.558 1007.746 50.106 1007.746 8.204a8 8 0 0 1 7.996-7.996 7.98 7.98 0 0 1 7.996 7.996c0 43.91-66.032 296.77-358.148 359.672a7.81 7.81 0 0 1-1.688 0.178z" fill="" />
                                         <path d="M738.776 192.12a7.992 7.992 0 0 1-4.592-1.446c-3.592-2.53-4.498-7.52-1.938-11.134C835.918 31.38 989.786 0.208 1015.774 0.208c4.436 0 7.996 3.576 7.996 7.996s-3.56 7.996-7.996 7.996c-23.27 0-171.984 31.814-270.44 172.508a7.98 7.98 0 0 1-6.558 3.412z" fill="" />
                                     </svg>
-                                </div>
-                                <div class="info-title">سئو</div>
+                                </a>
+                                <a href="<?php echo get_home_url(); ?>/seo" class="info-title">سئو</a>
                                 <div class="info-desc">
                                     طراحی وب سایت شما توسط تیم حرفه ای جیمکس و با دیزاین مورد نظر شما انجام خواهد شد.
                                 </div>
-                                <a href="https://gmaxads.com/website-design" class="info-more">
-                                    <button type="button" class="btn">
-                                        <span>مشاهده بیشتر</span>
-                                        <i class="las la-paperclip"></i>
-                                    </button>
-                                </a>
                             </div>          
                             <!-- Component Info Box Card End -->
                         </div>
                         <div class="swiper-slide">
                             <!-- Component Info Box Card Start -->
                             <div class="info-box">
-                                <div class="info-img">
+                                <a href="<?php echo get_home_url(); ?>/website-design" class="info-img">
                                     <svg width="auto" height="auto" viewBox="0 0 48 48" id="b" xmlns="http://www.w3.org/2000/svg">
                                         <defs>
                                             <style>
@@ -251,24 +266,18 @@
                                         <path class="e" d="m20.4159,37.1091l7.2181-26.2181" />
                                         <polyline id="d" class="e" points="30.408 10.908 43.5 24 30.408 37.092" />
                                     </svg>
-                                </div>
-                                <div class="info-title">طراحی وب سایت</div>
+                                </a>
+                                <a href="<?php echo get_home_url(); ?>/website-design" class="info-title">طراحی وب سایت</a>
                                 <div class="info-desc">
                                     طراحی وب سایت شما توسط تیم حرفه ای جیمکس و با دیزاین مورد نظر شما انجام خواهد شد.
                                 </div>
-                                <a href="https://gmaxads.com/website-design" class="info-more">
-                                    <button type="button" class="btn">
-                                        <span>مشاهده بیشتر</span>
-                                        <i class="las la-paperclip"></i>
-                                    </button>
-                                </a>
                             </div>          
                             <!-- Component Info Box Card End -->
                         </div>
                         <div class="swiper-slide">
                             <!-- Component Info Box Card Start -->
                             <div class="info-box">
-                                <div class="info-img">
+                                <a href="<?php echo get_home_url(); ?>/youtubeads/" class="info-img">
                                     <svg height="auto" width="auto" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve">
                                         <path style="fill:#E21B1B;" d="M493.392,347.76H224.728c-10.256-0.032-18.568-8.344-18.6-18.6V182.84
                                             c0.032-10.256,8.344-18.568,18.6-18.6H493.4c10.256,0.032,18.568,8.344,18.6,18.6v146.328
@@ -308,24 +317,18 @@
                                                 c0.88-6.488-3.664-12.464-10.152-13.344c-0.424-0.056-0.848-0.096-1.28-0.104c-7.136,0.424-12.736,6.296-12.8,13.448H465.368z" />
                                         </g>
                                     </svg>
-                                </div>
-                                <div class="info-title">تبلیغ در یوتیوب</div>
+                                </a>
+                                <a href="<?php echo get_home_url(); ?>/youtubeads/" class="info-title">تبلیغ در یوتیوب</a>
                                 <div class="info-desc">
                                     در یوتیوب دیده شوید! امکان نمایش شما در یوتیوب، قبل از کانال هایی که دوست دارید وجود دارد!
                                 </div>
-                                <a href="https://gmaxads.com/youtubeads/" class="info-more">
-                                    <button type="button" class="btn">
-                                        <span>مشاهده بیشتر</span>
-                                        <i class="las la-paperclip"></i>
-                                    </button>
-                                </a>
                             </div>
                             <!-- Component Info Box Card End -->
                         </div>
                         <div class="swiper-slide">
                             <!-- Component Info Box Card Start -->
                             <div class="info-box">
-                                <div class="info-img">
+                                <a href="<?php echo get_home_url(); ?>/gmaxads-studio/" class="info-img">
                                     <svg height="auto" width="auto" version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
                                         <g>
                                             <path fill="#231F20" d="M32,48c7.732,0,14-6.268,14-14V14c0-7.732-6.268-14-14-14S18,6.268,18,14v20C18,41.732,24.268,48,32,48z
@@ -340,17 +343,11 @@
                                                 s0.999,0.447,1,0.998C52,43.315,45.621,51.121,37,53.345z" />
                                         </g>
                                     </svg>
-                                </div>
-                                <div class="info-title">استودیو یوتیوب</div>
+                                </a>
+                                <a href="<?php echo get_home_url(); ?>/gmaxads-studio/" class="info-title">استودیو یوتیوب</a>
                                 <div class="info-desc">
                                     استفاده از بروزترین تجهیزات و فضای مناسب ضبط ویدئو یوتیوب و پادکست. امکان استفاده رایگان
                                 </div>
-                                <a href="https://gmaxads.com/gmaxads-studio/" class="info-more">
-                                    <button type="button" class="btn">
-                                        <span>مشاهده بیشتر</span>
-                                        <i class="las la-paperclip"></i>
-                                    </button>
-                                </a>
                             </div>
                             <!-- Component Info Box Card End -->
                         </div>
@@ -366,16 +363,24 @@
             <div class="row gap gx-5 gy-3">
                 <div class="col-12 col-xl-5 order-2 image-column column">
                     <div class="avatars active">
-                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider8.webp">
-                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider9.webp">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar1.jpg" alt="اهورا نیازی">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar2.jpg" alt="صحرا real">
                     </div>
                     <div class="avatars">
-                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider10.webp">
-                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider11.webp">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar3.jpg" alt="نیکشاه">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar4.jpg" alt="امیر پارسا نشاط">
                     </div>
                     <div class="avatars">
-                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider12.webp">
-                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider13.webp">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar5.jpg" alt="جافکری">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar11.jpg" alt="smart risk">
+                    </div>
+                    <div class="avatars">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar7.jpg" alt="alta walk">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar8.jpg" alt="آلبوم">
+                    </div>
+					<div class="avatars">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar9.jpg" alt="alta walk">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar10.jpg" alt="آلبوم">
                     </div>
                 </div>
                 <div class="col-12 col-xl-7 order-1 content-column column">
@@ -393,8 +398,13 @@
                     <p class="desc">
                         بهترین یوتیوبرهای ایران نقد کردن درآمد یوتیوب خود را به جیمکس سپرده اند. جای شما در کنار بهترین های ایران خالی است. درآمد یوتیوب خود را در کمترین زمان، با بهترین تعرفه نقد کنید.
                     </p>
+                    <button class="btn d-none d-xl-block">
+                        <a href="<?php echo get_home_url(); ?>/contact-us">شروع کنید</a>
+                    </button>
+                </div>
+                <div class="col-12 d-block d-xl-none order-3 column">
                     <button class="btn">
-                        <a href="#">شروع کنید</a>
+                        <a href="<?php echo get_home_url(); ?>/contact-us">شروع کنید</a>
                     </button>
                 </div>
             </div>
@@ -458,10 +468,10 @@
                         </div>
                     </div>
                     <div class="logos">
-                        <a href="#">
+                        <a href="https://trustseal.enamad.ir/?id=293927&Code=Iggt5bZED7UE5UQ1MLkQ" target="_blank">
                             <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/enamad.png">
                         </a>
-                        <a href="#">
+                        <a href="https://www.google.com/partners/agency?id=5847789388" target="_blank">
                             <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/google-partner.png">
                         </a>
                     </div>
@@ -493,13 +503,13 @@
                     </div>
 
                     <div class="shape">
-                        <svg class="doodle-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 68" width="110px" height="auto">
+                        <svg class="doodle-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 68" width="110px" height="auto" data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="250" data-aos-easing="ease-in-sine">
                             <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
                                 <path class="doodle-shape-1" d="M105 10C28-9-29 40 34 56c62 16 91-29 66-29"></path>
                                 <path class="doodle-shape-2" d="M109 16C82-20-56 21 30 55s105-27 75-45"></path>
                             </g>
                         </svg>
-                        <svg class="arrow-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196 48" width="240px" height="auto">
+                        <svg class="arrow-shape" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 196 48" width="240px" height="auto" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="500" data-aos-easing="ease-in-sine">
                             <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4">
                                 <path d="M154 21c6-2 13-4 23 0-13-5-16-8-18-15"></path>
                                 <path d="M14 28c29-22 101-5 104 9 1 7-18 7 0-12s53-6 53-6"></path>
@@ -508,9 +518,9 @@
                     </div>
 
                     <div class="form">
-                        <form method="post" onsubmit="event.preventDefault();">
-                            <input type="text" name="info" id="info" placeholder="شماره تماس و یا ایمیل">
-                            <button type="button" onclick="newsletterAjaxJs()" onkeypress="return event.keyCode != 13;">ارسال</button>
+                        <form method="post" id="newsletter2">
+                            <input type="text" name="email" placeholder="شماره تماس و یا ایمیل" require>
+                            <button type="button" onclick="newsletterAjaxJs('newsletter2')" onkeypress="return event.keyCode != 13;">ارسال</button>
                         </form>
                     </div>
                 </div>
@@ -518,7 +528,7 @@
         </div>
     </section>
 
-    <?php // if( $posts ): ?>
+    <?php if( $posts ): ?>
         <section id="blog-new" class="container-fluid blog-new">
             <div class="container">
                 <div class="row">
@@ -536,164 +546,7 @@
                                 <?php foreach( $posts as $post ): ?>
                                     <div class="swiper-slide">
                                         <!-- Component Blog New Card Start -->
-                                        <div class="blog-new-card">
-                                            <div class="content-top">
-                                                <a href="#" class="title line-clamp-2">نرخ تبدیل گوگل ادز – شیوه بهینه سازی آن با رویکرد داده...</a>
-                                                <div class="details">
-                                                    <div class="date">23 مرداد 1403</div>
-                                                    <div class="category">دسته بندی</div>
-                                                </div>
-                                            </div>
-
-                                            <div class="info">
-                                                <a href="#" class="arrow">
-                                                    <i class="las la-arrow-up"></i>
-                                                </a>
-                                                <a href="#" class="thumbnail">
-                                                    <img src="https://gmaxads.com/wp-content/mu-plugins/vendor/typerocket/resources/assets/img/monetization-studio.jpg" alt="">
-                                                </a>
-                                            </div>
-
-                                            <div class="content-bottom">
-                                                <div class="category">دسته بندی</div>
-                                                <a href="#" class="title line-clamp-2">نرخ تبدیل گوگل ادز – شیوه بهینه سازی آن با رویکرد داده...</a>
-                                            </div>
-                                        </div>
-                                        <!-- Component Blog New Card Start -->
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <!-- Component Blog New Card Start -->
-                                        <div class="blog-new-card">
-                                            <div class="content-top">
-                                                <a href="#" class="title line-clamp-2">نرخ تبدیل گوگل ادز – شیوه بهینه سازی آن با رویکرد داده...</a>
-                                                <div class="details">
-                                                    <div class="date">23 مرداد 1403</div>
-                                                    <div class="category">دسته بندی</div>
-                                                </div>
-                                            </div>
-
-                                            <div class="info">
-                                                <a href="#" class="arrow">
-                                                    <i class="las la-arrow-up"></i>
-                                                </a>
-                                                <a href="#" class="thumbnail">
-                                                    <img src="https://gmaxads.com/wp-content/mu-plugins/vendor/typerocket/resources/assets/img/monetization-studio.jpg" alt="">
-                                                </a>
-                                            </div>
-
-                                            <div class="content-bottom">
-                                                <div class="category">دسته بندی</div>
-                                                <a href="#" class="title line-clamp-2">نرخ تبدیل گوگل ادز – شیوه بهینه سازی آن با رویکرد داده...</a>
-                                            </div>
-                                        </div>
-                                        <!-- Component Blog New Card Start -->
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <!-- Component Blog New Card Start -->
-                                        <div class="blog-new-card">
-                                            <div class="content-top">
-                                                <a href="#" class="title line-clamp-2">نرخ تبدیل گوگل ادز – شیوه بهینه سازی آن با رویکرد داده...</a>
-                                                <div class="details">
-                                                    <div class="date">23 مرداد 1403</div>
-                                                    <div class="category">دسته بندی</div>
-                                                </div>
-                                            </div>
-
-                                            <div class="info">
-                                                <a href="#" class="arrow">
-                                                    <i class="las la-arrow-up"></i>
-                                                </a>
-                                                <a href="#" class="thumbnail">
-                                                    <img src="https://gmaxads.com/wp-content/mu-plugins/vendor/typerocket/resources/assets/img/monetization-studio.jpg" alt="">
-                                                </a>
-                                            </div>
-
-                                            <div class="content-bottom">
-                                                <div class="category">دسته بندی</div>
-                                                <a href="#" class="title line-clamp-2">نرخ تبدیل گوگل ادز – شیوه بهینه سازی آن با رویکرد داده...</a>
-                                            </div>
-                                        </div>
-                                        <!-- Component Blog New Card Start -->
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <!-- Component Blog New Card Start -->
-                                        <div class="blog-new-card">
-                                            <div class="content-top">
-                                                <a href="#" class="title line-clamp-2">نرخ تبدیل گوگل ادز – شیوه بهینه سازی آن با رویکرد داده...</a>
-                                                <div class="details">
-                                                    <div class="date">23 مرداد 1403</div>
-                                                    <div class="category">دسته بندی</div>
-                                                </div>
-                                            </div>
-
-                                            <div class="info">
-                                                <a href="#" class="arrow">
-                                                    <i class="las la-arrow-up"></i>
-                                                </a>
-                                                <a href="#" class="thumbnail">
-                                                    <img src="https://gmaxads.com/wp-content/mu-plugins/vendor/typerocket/resources/assets/img/monetization-studio.jpg" alt="">
-                                                </a>
-                                            </div>
-
-                                            <div class="content-bottom">
-                                                <div class="category">دسته بندی</div>
-                                                <a href="#" class="title line-clamp-2">نرخ تبدیل گوگل ادز – شیوه بهینه سازی آن با رویکرد داده...</a>
-                                            </div>
-                                        </div>
-                                        <!-- Component Blog New Card Start -->
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <!-- Component Blog New Card Start -->
-                                        <div class="blog-new-card">
-                                            <div class="content-top">
-                                                <a href="#" class="title line-clamp-2">نرخ تبدیل گوگل ادز – شیوه بهینه سازی آن با رویکرد داده...</a>
-                                                <div class="details">
-                                                    <div class="date">23 مرداد 1403</div>
-                                                    <div class="category">دسته بندی</div>
-                                                </div>
-                                            </div>
-
-                                            <div class="info">
-                                                <a href="#" class="arrow">
-                                                    <i class="las la-arrow-up"></i>
-                                                </a>
-                                                <a href="#" class="thumbnail">
-                                                    <img src="https://gmaxads.com/wp-content/mu-plugins/vendor/typerocket/resources/assets/img/monetization-studio.jpg" alt="">
-                                                </a>
-                                            </div>
-
-                                            <div class="content-bottom">
-                                                <div class="category">دسته بندی</div>
-                                                <a href="#" class="title line-clamp-2">نرخ تبدیل گوگل ادز – شیوه بهینه سازی آن با رویکرد داده...</a>
-                                            </div>
-                                        </div>
-                                        <!-- Component Blog New Card Start -->
-                                    </div>
-                                    <div class="swiper-slide">
-                                        <!-- Component Blog New Card Start -->
-                                        <div class="blog-new-card">
-                                            <div class="content-top">
-                                                <a href="#" class="title line-clamp-2">نرخ تبدیل گوگل ادز – شیوه بهینه سازی آن با رویکرد داده...</a>
-                                                <div class="details">
-                                                    <div class="date">23 مرداد 1403</div>
-                                                    <div class="category">دسته بندی</div>
-                                                </div>
-                                            </div>
-
-                                            <div class="info">
-                                                <a href="#" class="arrow">
-                                                    <i class="las la-arrow-up"></i>
-                                                </a>
-                                                <a href="#" class="thumbnail">
-                                                    <img src="https://gmaxads.com/wp-content/mu-plugins/vendor/typerocket/resources/assets/img/monetization-studio.jpg" alt="">
-                                                </a>
-                                            </div>
-
-                                            <div class="content-bottom">
-                                                <div class="category">دسته بندی</div>
-                                                <a href="#" class="title line-clamp-2">نرخ تبدیل گوگل ادز – شیوه بهینه سازی آن با رویکرد داده...</a>
-                                            </div>
-                                        </div>
+                                        <?php require TYPEROCKET_DIR_PATH . '/resources/themes/wpplus/components/blog-card-index.php'; ?>
                                         <!-- Component Blog New Card Start -->
                                     </div>
                                 <?php endforeach; ?>
@@ -703,7 +556,7 @@
                 </div>
             </div>
         </section>
-    <?php // endif; ?>
+    <?php endif; ?>
 
     <section id="faqs" class="container faqs">
         <div class="row">

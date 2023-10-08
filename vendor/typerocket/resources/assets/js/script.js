@@ -28,83 +28,6 @@ jQuery(document).ready(function($) {
         // scrollbarFix: false // fixes horizontal scrollbar issue on very long navs
     });
 
-
-    // Tab Navs swicth
-    function tabChangeHandler() {
-
-        nav = document.querySelector(".nav-pills"); 
-        navLink = nav.querySelectorAll(".nav-link");
-        navCount = nav.querySelectorAll(".nav-link").length;
-    
-        content = document.querySelector(".tab-content"); 
-        contentPane = content.querySelectorAll(".tab-pane");
-    
-        for (let i = 0; i <= (navCount - 1); i++) {
-    
-            let el = navLink[i];
-            if ( i < (navCount - 1) ) { 
-    
-                if( el.classList.contains("active") ) {
-                    // button
-                    elNext = navLink[i + 1];
-                    navLink.forEach((elNav) => {
-                        elNav.classList.remove("active");
-                    });
-                    elNext.classList.add("active");
-    
-                    // content
-                    currentNav = elNext.getAttribute("data-bs-target");
-                    currentPane = document.getElementById(currentNav.slice(1));
-                    contentPane.forEach((elPane) => {
-                        elPane.classList.remove("show");
-                        elPane.classList.remove("active");
-                    });
-                    currentPane.classList.add("show");
-                    currentPane.classList.add("active");
-                    break;
-                }
-    
-            } else {
-    
-                if( el.classList.contains("active") ) {
-                    // button
-                    elFirst = navLink[0];
-                    navLink.forEach((elNav) => {
-                        elNav.classList.remove("active");
-                    });
-                    elFirst.classList.add("active");
-    
-                    // content
-                    currentNav = elFirst.getAttribute("data-bs-target");
-                    currentPane = document.getElementById(currentNav.slice(1));
-                    contentPane.forEach((elPane) => {
-                        elPane.classList.remove("show");
-                        elPane.classList.remove("active");
-                    });
-                    currentPane.classList.add("show");
-                    currentPane.classList.add("active");
-                    break;
-                }
-    
-            }
-            
-        }
-    
-    }
-    
-    nav = document.querySelector(".nav-pills"); 
-    navLink = nav.querySelectorAll(".nav-link");
-    
-    navLink.forEach((e) => {
-    
-        e.addEventListener("click", () => {
-            clearInterval(tabChangeHandler);
-        });
-    
-    });
-    
-    setInterval(tabChangeHandler, 3000);
-
 });
 
 
@@ -250,7 +173,7 @@ var swiper = new Swiper(".blogSwiper", {
 });
 
 var swiper = new Swiper(".blogNewSwiper", {
-    slidesPerView: "auto",
+    // slidesPerView: "auto",
     spaceBetween: 100,
     slidesPerGroup: 1,
     centeredSlides: true,
@@ -271,22 +194,28 @@ var swiper = new Swiper(".blogNewSwiper", {
     breakpoints: {
         0: {
             slidesPerView: 1,
+			spaceBetween: 10,
         },
         576: {
             slidesPerView: 1,
+			spaceBetween: 40,
         },
         768: {
             slidesPerView: 2,
+			spaceBetween: 40,
         },
         992: {
             slidesPerView: 2,
+			spaceBetween: 40,
 
         },
         1200: {
             slidesPerView: 3,
+			spaceBetween: 100,
         },
         1400: {
             slidesPerView: 3,
+			spaceBetween: 100,
         },
     },
 });
@@ -506,21 +435,21 @@ sliderNewSwiperCallbackReset();
 
 
 // lightGallery Scripts
-lightGallery(document.querySelector("#our-team .gallery"), {
-    plugins: [
-        lgZoom,
-        lgAutoplay,
-        // lgComment,
-        lgFullscreen,
-        // lgHash,
-        lgPager,
-        lgRotate,
-        // lgShare,
-        lgThumbnail,
-        lgVideo,
-        // lgMediumZoom,
-    ],
-});
+// lightGallery(document.querySelector("#our-team .gallery"), {
+//     plugins: [
+//         lgZoom,
+//         lgAutoplay,
+//         // lgComment,
+//         lgFullscreen,
+//         // lgHash,
+//         lgPager,
+//         lgRotate,
+//         // lgShare,
+//         lgThumbnail,
+//         lgVideo,
+//         // lgMediumZoom,
+//     ],
+// });
 
 
 // newsletter animation script
@@ -573,27 +502,6 @@ form.addEventListener('keypress', function(e) {
     e.preventDefault();
   }
 });
-
-
-// change image accordion
-const accordionImage = (index) => {
-
-    index = index ? index : 0;
-    const pictures = document.querySelectorAll(".pictures picture");
-    
-    for (let item = 0; item < pictures.length; item++) {
-
-        const pic = pictures[item];
-        if( item != index ) {
-            pic.style.cssText = 'display:none;';
-        } else {
-            pic.style.cssText = 'display:inline-block;';
-        }
-        
-        // console.log(pictures.parentNode);
-    }
-
-}
 
 
 // Prfoessionally Scroll
@@ -749,7 +657,7 @@ const spotlightAnim = (e) => {
     // }, 2000);
 
 }
-spotlightAnim();
+// spotlightAnim();
 
 const parallaxScroll = () => {
     
@@ -799,3 +707,100 @@ const parallaxScroll = () => {
 
 }
 parallaxScroll();
+
+
+// change image accordion
+const accordionImage = (index) => {
+
+    index = index ? index : 0;
+    const pictures = document.querySelectorAll(".pictures picture");
+    
+    for (let item = 0; item < pictures.length; item++) {
+
+        const pic = pictures[item];
+        if( item != index ) {
+            pic.style.cssText = 'display:none;';
+        } else {
+            pic.style.cssText = 'display:inline-block;';
+        }
+        
+        // console.log(pictures.parentNode);
+    }
+
+}
+
+
+// Tab Navs swicth
+function tabChangeHandler() {
+
+    nav = document.querySelector(".nav-pills"); 
+    navLink = nav.querySelectorAll(".nav-link");
+    navCount = nav.querySelectorAll(".nav-link").length;
+
+    content = document.querySelector(".tab-content"); 
+    contentPane = content.querySelectorAll(".tab-pane");
+
+    for (let i = 0; i <= (navCount - 1); i++) {
+
+        let el = navLink[i];
+        if ( i < (navCount - 1) ) { 
+
+            if( el.classList.contains("active") ) {
+                // button
+                elNext = navLink[i + 1];
+                navLink.forEach((elNav) => {
+                    elNav.classList.remove("active");
+                });
+                elNext.classList.add("active");
+
+                // content
+                currentNav = elNext.getAttribute("data-bs-target");
+                currentPane = document.getElementById(currentNav.slice(1));
+                contentPane.forEach((elPane) => {
+                    elPane.classList.remove("show");
+                    elPane.classList.remove("active");
+                });
+                currentPane.classList.add("show");
+                currentPane.classList.add("active");
+                break;
+            }
+
+        } else {
+
+            if( el.classList.contains("active") ) {
+                // button
+                elFirst = navLink[0];
+                navLink.forEach((elNav) => {
+                    elNav.classList.remove("active");
+                });
+                elFirst.classList.add("active");
+
+                // content
+                currentNav = elFirst.getAttribute("data-bs-target");
+                currentPane = document.getElementById(currentNav.slice(1));
+                contentPane.forEach((elPane) => {
+                    elPane.classList.remove("show");
+                    elPane.classList.remove("active");
+                });
+                currentPane.classList.add("show");
+                currentPane.classList.add("active");
+                break;
+            }
+
+        }
+        
+    }
+
+}
+
+nav = document.querySelector(".nav-pills"); 
+navLink = nav.querySelectorAll(".nav-link");
+
+navLink.forEach((e) => {
+
+    e.addEventListener("click", () => {
+        clearInterval(tabChangeHandler);
+    });
+
+});
+setInterval(tabChangeHandler, 3000);

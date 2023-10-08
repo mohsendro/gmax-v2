@@ -55,7 +55,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-xl-4 column order-2">
-                    <img class="image" src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube1.webp" alt="YouTube Ads">
+                    <img class="image" src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube1.webp" alt="تبلیغ در یوتیوب جیمکس">
                 </div>
             </div>
         </div>
@@ -125,7 +125,7 @@
                             <div class="tab-pane fade show active" id="v-pills-one" role="tabpanel" tabindex="0">
                                 <div class="row">
                                     <div class="col-12 col-xl-6 order-2 order-xl-1">
-                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube10.webp" alt="در دید مخاطبین خود باشید" class="image">
+                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/تبلیغات در یوتیوب.jpg" alt="تبلیغات در یوتیوب" class="image">
                                     </div>
                                     <div class="col-12 col-xl-6 order-1 order-xl-2">
                                         <div class="content">
@@ -142,7 +142,7 @@
                             <div class="tab-pane fade" id="v-pills-two" role="tabpanel" tabindex="0">
                                 <div class="row">
                                     <div class="col-12 col-xl-6 order-2 order-xl-1">
-                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube9.webp" alt="مخاطبین خود را پیدا کنید" class="image">
+                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/تبلیغات-در-یوتیوب2.jpg" alt="تبلیغ در youtube" class="image">
                                     </div>
                                     <div class="col-12 col-xl-6 order-1 order-xl-2">
                                         <div class="content">
@@ -161,7 +161,7 @@
                             <div class="tab-pane fade" id="v-pills-three" role="tabpanel" tabindex="0">
                                 <div class="row">
                                     <div class="col-12 col-xl-6 order-2 order-xl-1">
-                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube8.webp" alt="نتایج را ببینید" class="image">
+                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/تبلیغ-در-یوتیوب-جیمکس.jpg" alt="تبلیغ در یوتیوب" class="image">
                                     </div>
                                     <div class="col-12 col-xl-6 order-1 order-xl-2">
                                         <div class="content">
@@ -317,9 +317,9 @@
 
                     <div class="pictures">
                         <picture class="picture pictureOne">
-                            <source srcset="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube5.webp" media="(min-width:1200px)">
-                            <source srcset="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube5.webp" media="(min-width:768px)">
-                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube5.webp" alt="کمپین تبلیغاتی ویدئویی خود را شروع کنید" width="auto" height="auto">
+                            <source srcset="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/Youtube.jpg" media="(min-width:1200px)">
+                            <source srcset="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/Youtube.jpg" media="(min-width:768px)">
+                            <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/Youtube.jpg" alt="تبلیغات در youtube" width="auto" height="auto">
                         </picture>
                         <picture class="picture pictureTwo" style="display: none;">
                             <source srcset="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube6.webp" media="(min-width:1200px)">

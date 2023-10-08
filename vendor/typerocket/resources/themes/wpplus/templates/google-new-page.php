@@ -34,7 +34,7 @@
                                 <div class="image">
                                     <img 
                                         src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/googleads1.png"
-                                        width="auto" height="auto" alt="افزایش فروش"
+                                        width="auto" height="auto" alt="تبلیغ در یوتیوب جیمکس ادز"
                                     />
                                     <div class="shape shape1"></div>
                                 </div>                                
@@ -45,7 +45,7 @@
                                 <div class="image">
                                     <img 
                                         src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/googleads3.png"
-                                        width="auto" height="auto" alt="سبقت از رقبا "
+                                        width="auto" height="auto" alt="تبلیغات در یوتیوب جیمکس ادز"
                                     />  
                                     <div class="shape shape2"></div>
                                 </div>
@@ -56,7 +56,7 @@
                                 <div class="image">
                                     <img 
                                         src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/googleads2.png"
-                                        width="auto" height="auto" alt="متمایز بودن برند "
+                                        width="auto" height="auto" alt="تبلیغ در youtube جیمکس ادز"
                                     />
                                     <div class="shape shape3"></div>
                                 </div>
@@ -67,7 +67,7 @@
                                 <div class="image">
                                     <img 
                                         src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/googleads4.png"
-                                        width="auto" height="auto" alt="متمایز بودن برند "
+                                        width="auto" height="auto" alt="تبلیغات در youtube جیمکس ادز"
                                     />
                                     <div class="shape shape4"></div>
                                 </div>
@@ -172,7 +172,7 @@
                             <div class="tab-pane fade show active" id="v-pills-one" role="tabpanel" tabindex="0">
                                 <div class="row">
                                     <div class="col-12 col-xl-6 order-2">
-                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/googleads5.webp" alt="همه چیز با گوگل شروع می شود" class="image">
+                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/googleads5.webp" alt="تبلیغ در یوتیوب" class="image">
                                     </div>
                                     <div class="col-12 col-xl-6 order-1">
                                         <div class="content">
@@ -194,7 +194,7 @@
                             <div class="tab-pane fade" id="v-pills-two" role="tabpanel" tabindex="0">
                                 <div class="row">
                                     <div class="col-12 col-xl-6 order-2">
-                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/googleads6.webp" alt="در مقابل چشمان مشتریان باشید" class="image">
+                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/googleads6.webp" alt="تبلیغات در یوتیوب" class="image">
                                     </div>
                                     <div class="col-12 col-xl-6 order-1">
                                         <div class="content">
@@ -215,7 +215,7 @@
                             <div class="tab-pane fade" id="v-pills-three" role="tabpanel" tabindex="0">
                                 <div class="row">
                                     <div class="col-12 col-xl-6 order-2">
-                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/googleads7.webp" alt="با تبلیغات ویدئویی برند خود را قوی تر کنید" class="image">
+                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/googleads7.webp" alt="تبلیغ در youtube" class="image">
                                     </div>
                                     <div class="col-12 col-xl-6 order-1">
                                         <div class="content">
@@ -236,7 +236,7 @@
                             <div class="tab-pane fade" id="v-pills-four" role="tabpanel" tabindex="0">
                                 <div class="row">
                                     <div class="col-12 col-xl-6 order-2">
-                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/googleads8.webp" alt="اپلیکیشن خود را تبلیغ کنید" class="image">
+                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/googleads8.webp" alt="تبلیغات در youtube" class="image">
                                     </div>
                                     <div class="col-12 col-xl-6 order-1">
                                         <div class="content">

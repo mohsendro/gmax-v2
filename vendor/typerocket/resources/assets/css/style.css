@@ -62,6 +62,10 @@ input:-webkit-autofill:active {
     transition: background-color 9999s ease-in-out 0s;
 }
 
+figure {
+	max-width: 100%;
+}
+
 /* Bootstrap Config */
 @media (max-width: 575.98px) {
 
@@ -449,6 +453,7 @@ body {
     font-family: var(--main-font);
     font-size: 15px;
     font-weight: 400;
+	line-height: 2em;
     color: var(--title-color, #000000);
     background-color: #FFFFFF;
     /* overflow-x: hidden; */
@@ -573,7 +578,7 @@ a:hover {
     display: flex;
     align-items: center;
     overflow: hidden;
-    box-shadow: 0 1px 8px rgba(26,26,26,.12);
+    /* box-shadow: 0 1px 8px rgba(26,26,26,.12); */
 }
   
 .customer .scroll-parent {
@@ -1245,7 +1250,6 @@ a:hover {
     /* margin-bottom: 50px; */
     margin: 0;
 }
-
 
 .budget .desc {
     width: 90%;
@@ -2378,6 +2382,7 @@ a:hover {
     z-index: 2;
 }
 
+
 /************* Empty *************/
 .empty {}
 
@@ -2445,17 +2450,13 @@ a:hover {
 
 .blog-single .column {}
 
-.blog-single .excerpt-column {}
-
-.blog-single .thumbnail-column {}
-
 .blog-single .top-content .title {
     width: 100%;
     display: block;
     font-family: var(--main-font);
     font-size: 20px;
     font-weight: 500;
-    line-height: 30px;
+    line-height: 2.5em; /* 30px */
     text-align: right;
     color: var(--title-color);
     margin-bottom: 20px;
@@ -2545,6 +2546,7 @@ a:hover {
     width: 100%;
     height: auto;
     border-radius: 10px;
+	margin-bottom: 20px;
 }
 
 .blog-single .main-content .content {
@@ -2557,14 +2559,57 @@ a:hover {
     align-items: flex-start; */
     font-size: 16px;
     font-weight: 400;
-    line-height: 30px;
+    line-height: 2em; /* 30px */
     /* text-align: justify; */
     color: var(--title-color);
+}
+
+.blog-single .main-content .content .h1,
+.blog-single .main-content .content .h2,
+.blog-single .main-content .content .h3,
+.blog-single .main-content .content .h4,
+.blog-single .main-content .content .h5,
+.blog-single .main-content .content .h6,
+.blog-single .main-content .content h1,
+.blog-single .main-content .content h2,
+.blog-single .main-content .content h3,
+.blog-single .main-content .content h4,
+.blog-single .main-content .content h5,
+.blog-single .main-content .content h6,
+.blog-single .main-content .content p,
+.blog-single .main-content .content figure,
+.blog-single .main-content .content ol,
+.blog-single .main-content .content ul,
+.blog-single .main-content .content strong,
+.blog-single .main-content .content em,
+.blog-single .main-content .content abbr,
+.blog-single .main-content .content acronym,
+.blog-single .main-content .content address,
+.blog-single .main-content .content bdo,
+.blog-single .main-content .content blockquote,
+.blog-single .main-content .content cite,
+.blog-single .main-content .content q,
+.blog-single .main-content .content code,
+.blog-single .main-content .content ins,
+.blog-single .main-content .content del,
+.blog-single .main-content .content dfn,
+.blog-single .main-content .content kbd,
+.blog-single .main-content .content pre,
+.blog-single .main-content .content span,
+.blog-single .main-content .content var {
+	line-height: 2em;
+	margin-bottom: 25px;
+}
+
+.blog-single .main-content .content ol,
+.blog-single .main-content .content ul {
+	list-style-type: disc;
 }
 
 .blog-single .main-content .content img {
 	/* width: 100%; */
 	width: auto;
+	max-width: 100%;
 	height: auto;
 }
 
@@ -2669,7 +2714,7 @@ a:hover {
     align-content: stretch;
     justify-content: center;
     align-items: baseline;
-    padding: 5%;
+    padding: 6%;
     margin-top: -105px;
 }
 
@@ -2697,7 +2742,7 @@ a:hover {
 
 .slider-new .swiper {
     width: 100%;
-    /* max-width: 550px; */
+    max-width: 600px;
     height: auto;
     padding: 50px;
 }
@@ -2901,13 +2946,15 @@ a:hover {
 .grow-prfoessionally {
     position: relative;
     background-color: #FFFFFF;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .grow-prfoessionally .container {}
 
 .grow-prfoessionally .row {
     min-height: 730px;
-    background-image: url(../img/grow-back3.png);
+    /* background-image: url(../img/grow-back.png); */
     background-size: 320px 100%;
     background-position: calc(0% + 90px) center;
     background-repeat: no-repeat;
@@ -2961,7 +3008,7 @@ a:hover {
 }
 
 .grow-prfoessionally .btn {
-    background-color: #fd5b21;
+    background-color: var(--google-green); /* #fd5b21 */
     border-radius: 50px;
     -webkit-box-shadow: 0 3px 5px 1px rgba(0,0,0,0.13);
     box-shadow: 0 3px 5px 1px rgba(0,0,0,0.13);
@@ -2969,7 +3016,7 @@ a:hover {
 }
 
 .grow-prfoessionally .btn:hover {
-    background-color: var(--glue-yellow-900);
+    background-color: var(--glue-green-900);
 }
 
 .grow-prfoessionally .btn a {
@@ -2978,9 +3025,10 @@ a:hover {
 
 .grow-prfoessionally .avatars {
     position: relative;
-    left: 45px;
+    /* top: 3px; */
+    /* left: 45px; */
     display: none;
-    flex-direction: row;
+    flex-direction: column;  /* row */
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
@@ -2994,7 +3042,7 @@ a:hover {
 
 .grow-prfoessionally .avatars img {
     width: 100%;
-    max-width: 180px;
+    max-width: 250px; /* 180px */
     height: auto;
     object-fit: cover;
     border-radius: 50%;
@@ -3088,14 +3136,14 @@ a:hover {
     position: relative;
     top: -45px;
     left: -50px;
-    opacity: 0;
+    opacity: 1;
 }
 
 .spotlight-new .shape .arrow-shape {
     position: relative;
     top: -20px;
     left: -200px;
-    transform: rotate(150deg) rotateX(180deg) scale(0);
+    transform: rotate(150deg) rotateX(180deg) scale(1);
 }
 
 .spotlight-new .form {
@@ -4534,10 +4582,6 @@ span::after {
     box-shadow: none;
 }
 
-.accordion-button::after {
-    display: none;
-}
-
 .youtubestep-hero .accordion-body {
     padding: 10px 20px;
 }
@@ -4566,3 +4610,20 @@ span::after {
     max-width: 500px;
     border-radius: 8px;
 }
+
+
+/************* Monetization New Page *************/
+.monetization-new-hero {}
+
+.monetization-new-hero .container {}
+
+.monetization-new-hero .row {}
+
+.monetization-new-hero .column {}
+
+.monetization-new-hero .contetnt {}
+.monetization-new-hero .title {}
+.monetization-new-hero .title span {}
+.monetization-new-hero .desc {}
+.monetization-new-hero .btn-links {}
+.monetization-new-hero .btn-links a {}

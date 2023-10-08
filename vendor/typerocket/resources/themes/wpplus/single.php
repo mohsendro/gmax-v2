@@ -31,8 +31,14 @@
 
 <main id="main" class="main single">
     <section id="blog-single" class="container blog-single">
-        <div class="row top-content gap gx-5 gy-3">
-            <div class="col-12 col-xl-7 excerpt-column column">
+        <div class="row top-content">
+            <div class="col-12 col-xl-9 mx-auto column">
+				<?php if( has_post_thumbnail($post->ID) ): ?>
+                    <?php echo get_the_post_thumbnail( $post->ID, "gma_single_page_thumbnail", array( 'loading' => 'lazy' ) ); ?>
+                <?php else: ?>
+                    <img src="<?php echo TYPEROCKET_DIR_URL; ?>/resources/assets/img/global/placeholder.webp" class="thumbnail">
+                <?php endif; ?>
+
                 <h1 class="title"><?php echo $post->post_title; ?></h1>
                 <?php if($post->post_excerpt): ?>
                     <p class="expert"><?php echo $post->post_excerpt; ?></p>
@@ -46,13 +52,6 @@
                         <li><a href="http://www.linkedin.com/shareArticle?mini=true&url=<?php echo get_permalink($post->ID); ?>&title=" target="_blank"><i class="lab la-linkedin"></i></a></li>
                     </ul>
                 </div>
-            </div>
-            <div class="col-12 col-xl-5 thumbnail-column column">
-                <?php if( has_post_thumbnail($post->ID) ): ?>
-                    <?php echo get_the_post_thumbnail( $post->ID, 'full' ); ?>
-                <?php else: ?>
-                    <img src="<?php echo TYPEROCKET_DIR_URL; ?>/resources/assets/img/global/placeholder.webp" class="thumbnail">
-                <?php endif; ?>
             </div>
         </div>
 

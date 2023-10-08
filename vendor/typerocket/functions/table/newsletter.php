@@ -59,7 +59,7 @@ class Table_Newsletter_List_Table extends WP_List_Table {
           $columns = array(
                 // 'cb'     => '<input type="checkbox" />',
                 'ID'        => 'شناسه',
-                'email'     => 'ایمیل',
+                'email'     => 'ایمیل / شماره تماس',
           );
           return $columns;
 

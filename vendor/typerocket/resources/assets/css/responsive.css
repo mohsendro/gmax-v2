@@ -181,12 +181,14 @@
     .grow-prfoessionally .row {  
         min-height: 365px;
         gap: 30px;
-        background-size: auto 100%;
-        background-position: top left
+        background-size: 100% 340px;
+        background-position: bottom center;
+        /* background-image: url(../img/grow-back-rotate.png); */
+        background-image: none;
     }
 
     .grow-prfoessionally .image-column {
-        align-content: flex-start;
+        align-content: center;
     }
 
     .grow-prfoessionally .title {
@@ -198,8 +200,10 @@
     }
 
     .grow-prfoessionally .avatars {
+        /* top: -25px; */
         left: auto;
         flex-wrap: wrap;
+		flex-direction: row;
     }
 
     .spotlight-new .head {
@@ -616,6 +620,30 @@
         font-size: 30px;
     }
 
+    .parallax-new .content-column .ads,
+    .parallax-new .content-column .web {
+        min-height: auto;
+        gap: 50px;
+        padding: 80px 10px;
+    }
+
+    .parallax-new .content-column a {
+        width: calc(100% - 20px);
+    }
+
+    .parallax-new .content-column .logos {
+        transform: translate(0px, 30px);
+    }
+
+    .parallax-new .content-column .logos a {
+        width: 100px;
+        height: 100px;
+    }
+
+    .parallax-new .image-column img {
+        height: auto;
+    }
+
     /************* Google Ads New Page *************/
     .stacked-animated-hero .content-column {
         gap: 20px;
@@ -651,9 +679,21 @@
     .youtubestep-hero .pictures {
         width: 100%;
     }
+
+	/************* Blog Single *************/
+	.blog-single .top-content img {
+		margin-bottom: 40px;
+	}
 }
 
-@media (max-width: 767.98px) {}
+@media (max-width: 767.98px) {
+
+    /************* Index New Page *************/
+    .parallax-new .content-column .logos {
+        display: none;
+    }
+
+}
 
 @media (max-width: 575.98px) {
 
