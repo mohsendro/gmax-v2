@@ -278,8 +278,8 @@ var swiper = new Swiper(".googleadsSwiper", {
 });
 
 var swiper = new Swiper(".discoverSwiper", {
-    // slidesPerView: "auto",
-    slidesPerView: 2.6,
+    slidesPerView: "auto",
+    // slidesPerView: 2.6,
     spaceBetween: 30,
     slidesPerGroup: 1,
     centeredSlides: true,
@@ -295,28 +295,28 @@ var swiper = new Swiper(".discoverSwiper", {
     // },
     breakpoints: {
         0: {
-            // slidesPerView: 1,
-            // spaceBetween: 15,
+            slidesPerView: 1,
+            spaceBetween: 0,
         },
         576: {
-            // slidesPerView: 1.2,
-            // spaceBetween: 15,
+            slidesPerView: 1.2,
+            spaceBetween: 5,
         },
         768: {
-            // slidesPerView: 1.4,
-            // spaceBetween: 15,
+            slidesPerView: 1.4,
+            spaceBetween: 15,
         },
         992: {
-            // slidesPerView: 2.4,
-            // spaceBetween: 15,
+            slidesPerView: 1.4,
+            spaceBetween: 15,
         },
         1200: {
-            // slidesPerView: 2.6,
-            // spaceBetween: 15,
+            slidesPerView: 2.6,
+            spaceBetween: 30,
         },
         1400: {
-            // slidesPerView: 2.6,
-            // spaceBetween: 15,
+            slidesPerView: 2.6,
+            spaceBetween: 30,
         },
     },
 });

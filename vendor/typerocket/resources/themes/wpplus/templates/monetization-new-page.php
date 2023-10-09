@@ -92,6 +92,9 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="box-discover">
+                                    <div class="heading line-clamp-2">
+                                        سئو و بهینه سازی موتورهای جستجوگر
+                                    </div>
                                     <div class="image">
                                         <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider8-800px.webp" alt="" width="auto" height="auto">
                                     </div>
@@ -118,6 +121,9 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="box-discover">
+                                    <div class="heading line-clamp-2">
+                                        سئو و بهینه سازی موتورهای جستجوگر
+                                    </div>
                                     <div class="image">
                                         <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider8-800px.webp" alt="" width="auto" height="auto">
                                     </div>
@@ -144,6 +150,9 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="box-discover">
+                                    <div class="heading line-clamp-2">
+                                        سئو و بهینه سازی موتورهای جستجوگر
+                                    </div>
                                     <div class="image">
                                         <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider8-800px.webp" alt="" width="auto" height="auto">
                                     </div>
@@ -170,6 +179,9 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="box-discover">
+                                    <div class="heading line-clamp-2">
+                                        سئو و بهینه سازی موتورهای جستجوگر
+                                    </div>
                                     <div class="image">
                                         <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider8-800px.webp" alt="" width="auto" height="auto">
                                     </div>
@@ -196,6 +208,9 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="box-discover">
+                                    <div class="heading line-clamp-2">
+                                        سئو و بهینه سازی موتورهای جستجوگر
+                                    </div>
                                     <div class="image">
                                         <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider8-800px.webp" alt="" width="auto" height="auto">
                                     </div>
@@ -222,6 +237,9 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="box-discover">
+                                    <div class="heading line-clamp-2">
+                                        سئو و بهینه سازی موتورهای جستجوگر
+                                    </div>
                                     <div class="image">
                                         <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider8-800px.webp" alt="" width="auto" height="auto">
                                     </div>

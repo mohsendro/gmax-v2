@@ -4890,21 +4890,34 @@ span::after {
 }
 
 .monetization-new-discover .swiper-slide-active .box-discover {
-    /* align-items: center; */
     top: 50%;
     transform: translate(0, -100%);
 }
 
 .monetization-new-discover .swiper-slide-prev .box-discover {
-    /* align-items: flex-end; */
     top: 0%;
     transform: translate(0, 25%);
 }
 
 .monetization-new-discover .swiper-slide-next .box-discover {
-    /* align-items: flex-start; */
     top: 0%;
     transform: translate(0, -50%);
+}
+
+.monetization-new-discover .box-discover .heading {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: -100px;
+    font-size: 25px;
+    line-height: 1.7em;
+    font-weight: bold;
+    color: var(--glue-grey-0);
+    text-align: right;
+    z-index: 3;
+    padding: 10px 20px;
 }
 
 .monetization-new-discover .box-discover .image {
@@ -4936,7 +4949,7 @@ span::after {
     width: 100%;
     max-width: 300px;
     height: auto;
-    min-height: 300px;
+    min-height: 280px;
     position: absolute;
     top: 200px;
     left: -100px;
@@ -4957,6 +4970,11 @@ span::after {
     -webkit-backdrop-filter: blur( 20px );
     z-index: 2;
     padding: 10px 20px;
+    -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 600ms ease-in-out;
+    -ms-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+    transition: all 600ms ease-in-out;
 }
 
 .monetization-new-discover .swiper-slide-active .content {
@@ -5060,4 +5078,35 @@ span::after {
 
 .monetization-new-discover .box-discover .more i {
     transform: rotate(45deg);
+}
+
+.monetization-new-discover .swiper-button-prev {
+    width: 50px;
+    bottom: 25%;
+    right: 25%;
+}
+.monetization-new-discover .swiper-button-next {
+    width: 50px;
+    top: 25%;
+    left: 25%;
+}
+
+.monetization-new-discover .swiper-button-prev:after {
+    content: "empty";
+    width: 50px;
+    height: auto;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"><path style="fill:%23ffffff" d="m17.5 5.999-.707.707 5.293 5.293H1v1h21.086l-5.294 5.295.707.707L24 12.499l-6.5-6.5z" data-name="Right"/></svg>');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.monetization-new-discover .swiper-button-next:after {
+    content: "empty";
+    width: 50px;
+    height: auto;
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25"><path style="fill:%23ffffff" d="M24 12.001H2.914l5.294-5.295-.707-.707L1 12.501l6.5 6.5.707-.707-5.293-5.293H24v-1z" data-name="Left"/></svg>');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
