@@ -76,7 +76,179 @@
             <div class="row">
                 <div class="col-12 column">
                     <div class="image">
-                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube7.webp" alt="کسب درآمد از یوتیوب" width="100%" height="auto">
+                        <img src="<?php //echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube7.webp" alt="کسب درآمد از یوتیوب" width="100%" height="auto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="monetization-new-discover" class="container-fluid monetization-new-discover">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 column">
+                    <!-- Swiper -->
+                    <div class="swiper discoverSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="box-discover">
+                                    <div class="image">
+                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider8-800px.webp" alt="" width="auto" height="auto">
+                                    </div>
+                                    <div class="content">
+                                        <div class="title">
+                                            علی صالحی <span>مدیر سئو</span>
+                                        </div>
+                                        <div class="desc">
+                                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                        </div>
+                                        <div class="details">
+                                            <span>
+                                                <div class="sup">لورم ایپسوم</div>
+                                                <div class="sub">05:45:47</div>
+                                            </span>
+                                            <span>
+                                                <div class="sup">لورم ایپسوم</div>
+                                                <div class="sub">05:45:47</div>
+                                            </span>
+                                        </div>
+                                        <a href="#" class="more">نمایش بیشتر <i class="las la-long-arrow-alt-left"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box-discover">
+                                    <div class="image">
+                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider8-800px.webp" alt="" width="auto" height="auto">
+                                    </div>
+                                    <div class="content">
+                                        <div class="title">
+                                            علی صالحی <span>مدیر سئو</span>
+                                        </div>
+                                        <div class="desc">
+                                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                        </div>
+                                        <div class="details">
+                                            <span>
+                                                <div class="sup">لورم ایپسوم</div>
+                                                <div class="sub">05:45:47</div>
+                                            </span>
+                                            <span>
+                                                <div class="sup">لورم ایپسوم</div>
+                                                <div class="sub">05:45:47</div>
+                                            </span>
+                                        </div>
+                                        <a href="#" class="more">نمایش بیشتر <i class="las la-long-arrow-alt-left"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box-discover">
+                                    <div class="image">
+                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider8-800px.webp" alt="" width="auto" height="auto">
+                                    </div>
+                                    <div class="content">
+                                        <div class="title">
+                                            علی صالحی <span>مدیر سئو</span>
+                                        </div>
+                                        <div class="desc">
+                                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                        </div>
+                                        <div class="details">
+                                            <span>
+                                                <div class="sup">لورم ایپسوم</div>
+                                                <div class="sub">05:45:47</div>
+                                            </span>
+                                            <span>
+                                                <div class="sup">لورم ایپسوم</div>
+                                                <div class="sub">05:45:47</div>
+                                            </span>
+                                        </div>
+                                        <a href="#" class="more">نمایش بیشتر <i class="las la-long-arrow-alt-left"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box-discover">
+                                    <div class="image">
+                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider8-800px.webp" alt="" width="auto" height="auto">
+                                    </div>
+                                    <div class="content">
+                                        <div class="title">
+                                            علی صالحی <span>مدیر سئو</span>
+                                        </div>
+                                        <div class="desc">
+                                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                        </div>
+                                        <div class="details">
+                                            <span>
+                                                <div class="sup">لورم ایپسوم</div>
+                                                <div class="sub">05:45:47</div>
+                                            </span>
+                                            <span>
+                                                <div class="sup">لورم ایپسوم</div>
+                                                <div class="sub">05:45:47</div>
+                                            </span>
+                                        </div>
+                                        <a href="#" class="more">نمایش بیشتر <i class="las la-long-arrow-alt-left"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box-discover">
+                                    <div class="image">
+                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider8-800px.webp" alt="" width="auto" height="auto">
+                                    </div>
+                                    <div class="content">
+                                        <div class="title">
+                                            علی صالحی <span>مدیر سئو</span>
+                                        </div>
+                                        <div class="desc">
+                                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                        </div>
+                                        <div class="details">
+                                            <span>
+                                                <div class="sup">لورم ایپسوم</div>
+                                                <div class="sub">05:45:47</div>
+                                            </span>
+                                            <span>
+                                                <div class="sup">لورم ایپسوم</div>
+                                                <div class="sub">05:45:47</div>
+                                            </span>
+                                        </div>
+                                        <a href="#" class="more">نمایش بیشتر <i class="las la-long-arrow-alt-left"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="box-discover">
+                                    <div class="image">
+                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/slider8-800px.webp" alt="" width="auto" height="auto">
+                                    </div>
+                                    <div class="content">
+                                        <div class="title">
+                                            علی صالحی <span>مدیر سئو</span>
+                                        </div>
+                                        <div class="desc">
+                                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
+                                        </div>
+                                        <div class="details">
+                                            <span>
+                                                <div class="sup">لورم ایپسوم</div>
+                                                <div class="sub">05:45:47</div>
+                                            </span>
+                                            <span>
+                                                <div class="sup">لورم ایپسوم</div>
+                                                <div class="sub">05:45:47</div>
+                                            </span>
+                                        </div>
+                                        <a href="#" class="more">نمایش بیشتر <i class="las la-long-arrow-alt-left"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="discoverswiper-button-next swiper-button-next"></div>
+                        <div class="discoverswiper-button-prev swiper-button-prev"></div>
                     </div>
                 </div>
             </div>

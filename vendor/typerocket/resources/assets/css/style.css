@@ -4623,9 +4623,9 @@ span::after {
     justify-content: center;
     align-items: center;
     background: rgb(196,48,43);
-    background: -moz-linear-gradient(75deg, rgba(196,48,43,1) 0%, rgba(178,34,34,1) 100%);
-    background: -webkit-linear-gradient(75deg, rgba(196,48,43,1) 0%, rgba(178,34,34,1) 100%);
-    background: linear-gradient(75deg, rgba(196,48,43,1) 0%, rgba(178,34,34,1) 100%);
+    background: -moz-linear-gradient(180deg, rgba(196,48,43,1) 0%, rgba(178,34,34,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(196,48,43,1) 0%, rgba(178,34,34,1) 100%);
+    background: linear-gradient(180deg, rgba(196,48,43,1) 0%, rgba(178,34,34,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c4302b",endColorstr="#b22222",GradientType=1);
     overflow: hidden;
     padding: 6% 6% 150px;
@@ -4795,7 +4795,7 @@ span::after {
     border-radius: 50%;
     position: absolute;
     left: -175px;
-    bottom: -350px;
+    bottom: -400px;
 }
 
 .monetization-new-image {}
@@ -4824,4 +4824,240 @@ span::after {
     background-position: top left,top center,top right,center right, bottom right,bottom center,bottom left,center left;
     background-repeat: no-repeat;
     padding: 4px;
+}
+
+.monetization-new-discover {
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    background: rgb(196,48,43);
+    background: -moz-linear-gradient(0deg, rgba(196,48,43,1) 0%, rgba(178,34,34,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(196,48,43,1) 0%, rgba(178,34,34,1) 100%);
+    background: linear-gradient(0deg, rgba(196,48,43,1) 0%, rgba(178,34,34,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c4302b",endColorstr="#b22222",GradientType=1);
+    overflow: hidden;
+}
+
+.monetization-new-discover .container {}
+
+.monetization-new-discover .row {}
+
+.monetization-new-discover .column {}
+
+.monetization-new-discover .swiper {}
+
+.monetization-new-discover .swiper-wrapper {
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.monetization-new-discover .swiper-slide {
+    width: auto;
+    min-height: 800px;
+    position: relative;
+    background-color: transparent;
+    padding: 20px;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.monetization-new-discover .box-discover {
+    width: auto;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.monetization-new-discover .swiper-slide-active .box-discover {
+    /* align-items: center; */
+    top: 50%;
+    transform: translate(0, -100%);
+}
+
+.monetization-new-discover .swiper-slide-prev .box-discover {
+    /* align-items: flex-end; */
+    top: 0%;
+    transform: translate(0, 25%);
+}
+
+.monetization-new-discover .swiper-slide-next .box-discover {
+    /* align-items: flex-start; */
+    top: 0%;
+    transform: translate(0, -50%);
+}
+
+.monetization-new-discover .box-discover .image {
+    max-width: 300px;
+    position: relative;
+}
+
+.monetization-new-discover .box-discover .image::before {
+    content: "";
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    position: absolute;
+    top: 10px;
+    right: -10px;
+    border: 1px solid #ffffff;
+}
+
+.monetization-new-discover .box-discover .image img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 400px;
+    position: relative;
+    object-fit: cover;
+}
+
+.monetization-new-discover .box-discover .content {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    min-height: 300px;
+    position: absolute;
+    top: 200px;
+    left: -100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--glue-grey-0);
+    text-align: right;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 20px );
+    -webkit-backdrop-filter: blur( 20px );
+    z-index: 2;
+    padding: 10px 20px;
+}
+
+.monetization-new-discover .swiper-slide-active .content {
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+
+.monetization-new-discover .swiper-slide-prev .content {
+    -moz-transform: scale(0);
+    -webkit-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+}
+
+.monetization-new-discover .swiper-slide-next .content {
+    -moz-transform: scale(0);
+    -webkit-transform: scale(0);
+    -o-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+}
+
+.monetization-new-discover .box-discover .title {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    border-right: 3px solid var(--google-red);
+    padding-right: 10px;
+}
+
+.monetization-new-discover .box-discover .title span {
+    font-weight: 300;
+}
+
+.monetization-new-discover .box-discover .desc {
+    width: 100%;
+    line-height: 1.8em;
+}
+
+.monetization-new-discover .box-discover .details {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.monetization-new-discover .box-discover .details span {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.monetization-new-discover .box-discover .details span:last-child::before {
+    content: "";
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    right: -20px;
+    background-color: var(--glue-grey-0);
+    opacity: 0.5;
+}
+
+.monetization-new-discover .box-discover .sup {
+    width: 100%;
+}
+
+.monetization-new-discover .box-discover .sub {
+    width: 100%;
+}
+
+.monetization-new-discover .box-discover .more {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    color: var(--google-red);
+}
+
+.monetization-new-discover .box-discover .more i {
+    transform: rotate(45deg);
 }

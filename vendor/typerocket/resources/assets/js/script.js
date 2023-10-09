@@ -73,10 +73,6 @@ var swiper = new Swiper(".sliderSwiper", {
             spaceBetween: 0,
         },
     },
-    // scrollbar: {
-        //   el: ".slider-swiper-scrollbar",
-        //   hide: true,
-    // },
 });
 
 var swiper = new Swiper(".infoBoxSwiper", {
@@ -86,10 +82,6 @@ var swiper = new Swiper(".infoBoxSwiper", {
     centeredSlides: true,
     loop: true,
     loopFillGroupWithBlank: true,
-    // pagination: {
-    //     el: ".swiper-pagination",
-    //     clickable: true,
-    // },
     autoplay: {
         delay: 5000,
         disableOnInteraction: false,
@@ -129,10 +121,6 @@ var swiper = new Swiper(".blogSwiper", {
     // centeredSlides: true,
     loop: true,
     loopFillGroupWithBlank: true,
-    // pagination: {
-    //     el: ".blog-swiper-pagination",
-    //     clickable: true,
-    // },
     navigation: {
         nextEl: ".blogswiper-button-next",
         prevEl: ".blogswiper-button-prev",
@@ -173,24 +161,15 @@ var swiper = new Swiper(".blogSwiper", {
 });
 
 var swiper = new Swiper(".blogNewSwiper", {
-    // slidesPerView: "auto",
     spaceBetween: 100,
     slidesPerGroup: 1,
     centeredSlides: true,
     loop: true,
     loopFillGroupWithBlank: true,
-    // pagination: {
-    //     el: ".blog-swiper-pagination",
-    //     clickable: true,
-    // },
-    // navigation: {
-    //     nextEl: ".blogswiper-button-next",
-    //     prevEl: ".blogswiper-button-prev",
-    // },
-    // autoplay: {
-    //     delay: 5000,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
     breakpoints: {
         0: {
             slidesPerView: 1,
@@ -274,10 +253,6 @@ var swiper = new Swiper(".googleadsSwiper", {
         delay: 3000,
         disableOnInteraction: false,
     },
-    // mousewheel: {
-        //     eventsTarged: ".swiper-slide",
-        //     sensitivity: 5
-    // },
     keyboard: {
         enabled: true,
         onlyInViewport: true
@@ -301,6 +276,55 @@ var swiper = new Swiper(".googleadsSwiper", {
         // },
     },
 });
+
+var swiper = new Swiper(".discoverSwiper", {
+    // slidesPerView: "auto",
+    slidesPerView: 2.6,
+    spaceBetween: 30,
+    slidesPerGroup: 1,
+    centeredSlides: true,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    navigation: {
+        nextEl: ".discoverswiper-button-next",
+        prevEl: ".discoverswiper-button-prev",
+    },
+    // autoplay: {
+    //     delay: 5000,
+    //     disableOnInteraction: false,
+    // },
+    breakpoints: {
+        0: {
+            // slidesPerView: 1,
+            // spaceBetween: 15,
+        },
+        576: {
+            // slidesPerView: 1.2,
+            // spaceBetween: 15,
+        },
+        768: {
+            // slidesPerView: 1.4,
+            // spaceBetween: 15,
+        },
+        992: {
+            // slidesPerView: 2.4,
+            // spaceBetween: 15,
+        },
+        1200: {
+            // slidesPerView: 2.6,
+            // spaceBetween: 15,
+        },
+        1400: {
+            // slidesPerView: 2.6,
+            // spaceBetween: 15,
+        },
+    },
+});
+
+
+
+
+
 
 const sliderNewSwiperCallbackBack = (swiper, action) => {
 
