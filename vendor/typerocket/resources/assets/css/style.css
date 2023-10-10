@@ -5110,3 +5110,299 @@ span::after {
     background-position: center;
     background-repeat: no-repeat;
 }
+
+.monetization-customers {
+    margin-top: 50px;
+}
+
+.monetization-customers .container {}
+
+.monetization-customers .row {}
+
+.monetization-customers .column {}
+
+
+.monetization-customers .head {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 25px;
+    color: var(--main-title);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.monetization-customers .head strong {
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--google-red);
+}
+
+.monetization-customers img {
+    width: auto;
+    display: block;
+    text-align: center;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    margin: 0 auto;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.monetization-customers img:hover {
+    -webkit-filter: grayscale(0%);
+    filter: grayscale(0%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.monetization-product {
+    margin-top: 100px;
+}
+
+.monetization-product .row {}
+
+.monetization-product .column {}
+
+.monetization-product .heading-title {
+    display: block;
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 40px;
+    font-family: var(--main-font);
+    text-align: center;
+    color: var(--title-color);
+    margin-bottom: 50px;
+}
+
+.monetization-product .tabs {
+    width: 100%;
+    height: 100%;
+    min-height: 600px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.monetization-product .nav {
+    width: 35%;
+    min-width: max-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.monetization-product .nav-link {
+    width: 100%;
+    min-width: max-content;
+    max-width: 220px;
+    height: 52px;
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--glue-grey-700);
+    border: 1px solid var(--glue-grey-200);
+    background-color: var(--glue-grey-0);
+    border-radius: 500px;
+    padding: 0 24px;
+}
+
+.monetization-product .nav-link:hover {
+    
+    background-color: #c4302b20;
+    color: var(--glue-grey-700);
+
+}
+
+.monetization-product .nav-link.active {
+    background-color: var(--google-red);
+    -webkit-box-shadow: 2px 2px 2px 1px #c4302b20;
+    box-shadow: 2px 2px 2px 1px #c4302b20;
+}
+
+.monetization-product .nav-link svg {
+    font-size: 24px;
+    vertical-align: middle;
+    fill: var(--glue-grey-700);
+    margin-right: 10px;
+}
+
+.monetization-product .nav-link.active svg {
+    fill: var(--bs-nav-pills-link-active-color);
+}
+
+.monetization-product .tab-content {
+    width: 100%;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.monetization-product .tab-pane {
+    width: 100%;
+    background: rgb(196,48,43);
+    background: -moz-linear-gradient(315deg, rgba(196,48,43,0.09576330532212884) 0%, rgba(196,48,43,0.04534313725490191) 23%, rgba(196,48,43,0) 100%);
+    background: -webkit-linear-gradient(315deg, rgba(196,48,43,0.09576330532212884) 0%, rgba(196,48,43,0.04534313725490191) 23%, rgba(196,48,43,0) 100%);
+    background: linear-gradient(315deg, rgba(196,48,43,0.09576330532212884) 0%, rgba(196,48,43,0.04534313725490191) 23%, rgba(196,48,43,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c4302b",endColorstr="#c4302b",GradientType=1);
+}
+
+.monetization-product .tab-pane .image {
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    margin: 0 auto;
+}
+
+.monetization-product .tab-pane .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 10%;
+}
+
+.monetization-product .tab-pane .title {
+    width: 100%;
+    display: block;
+    font-family: var(--main-font);
+    font-size: 25px;
+    font-weight: 500;
+    text-align: right;
+    color: var(--title-color);
+}
+
+.monetization-product .tab-pane .desc {
+    width: 100%;
+    display: block;
+    font-family: var(--main-font);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: justify;
+    color: var(--desc-color);
+}
+
+.monetization-product .tab-pane .list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    padding-right: 0;
+}
+
+.monetization-product .tab-pane .list li {
+    width: 100%;
+    position: relative;
+    font-family: var(--main-font);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: justify;
+    color: var(--text-color);
+}
+
+.monetization-product .tab-pane .list li::before {
+    content: "";
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 3px;
+    right: -30px;
+    background-image: url('data:image/svg+xml,<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 44" width="42" height="44"><defs><image width="41" height="44" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAsBAMAAAAKg4x2AAAAAXNSR0IB2cksfwAAADBQTFRF6kM16kM16kM16kM16kM16kM16kM16kM16kM16kM16kM16kM16kM16kM16kM16kM1D9QNPAAAABB0Uk5TAP+Q4LBAwIBwEPDQUSCgBEARiboAAADBSURBVHictdPBDcIwDAVQmwMF9RKDhASHSh2lI7ABo7AKo7ABozACcUIS27HoiUhNm59XV61qgDowxCmAGTPFHTIhEgXgw1A6xh2yNA+FF06upPE2MTSYsiKFhy/aKVyNxJtK9gIL0dKhXWLbf3h0dOniUXTp/Bf69GgGL/vettjNxRcfy8rdF/1VeRX7lSeBz2s4WCz2xYLPp5KWGxWtS54PLc3YUPGvTzKFkqow9RB2PQT5aXeTcm9i15tpvNP8AdrPHs2ogM94AAAAAElFTkSuQmCC"/></defs><use id="Background" href="%23img1" x="0" y="0"/></svg>');
+    background-size: 22px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.monetization-product .tab-pane .link {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--glue-blue-600);
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+}
+
+.monetization-product .tab-pane .link:hover {
+    color: var(--glue-blue-900);
+}
+
+.monetization-product .tab-pane .link i {
+    width: 55px;
+    height: 55px;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    color: var(--glue-grey-0);
+    background-color: var(--glue-blue-600);
+    border-radius: 50%;
+}
+
+.monetization-product .tab-pane .link:hover i {
+    color: var(--glue-blue-900);
+    background-color: var(--glue-blue-50);
+}

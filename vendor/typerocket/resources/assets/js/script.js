@@ -531,7 +531,7 @@ form.addEventListener('keypress', function(e) {
 // Prfoessionally Scroll
 const growSectionScroll = (e) => {
 
-    element = document.getElementById("grow-prfoessionally");
+    element = document.getElementById("customer");
     element.scrollIntoView(
         { 
             behavior: "smooth",
