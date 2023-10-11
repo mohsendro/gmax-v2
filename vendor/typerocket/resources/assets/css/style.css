@@ -5121,7 +5121,6 @@ span::after {
 
 .monetization-customers .column {}
 
-
 .monetization-customers .head {
     width: 100%;
     display: flex;
@@ -5163,29 +5162,6 @@ span::after {
     -webkit-filter: grayscale(0%);
     filter: grayscale(0%);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .monetization-product {
     margin-top: 100px;
@@ -5394,4 +5370,30 @@ span::after {
 .monetization-product .tab-pane .link:hover i {
     color: var(--glue-blue-900);
     background-color: var(--glue-blue-50);
+}
+
+.monetization-whyus {
+    margin-top: 100px;
+}
+
+.monetization-whyus .container-fluid {}
+
+.monetization-whyus .container {}
+
+.monetization-whyus .row {}
+
+.monetization-whyus .column {}
+
+.monetization-whyus .title {}
+
+.monetization-whyus .desc {}
+
+.monetization-whyus .list {}
+
+.monetization-whyus .list li {}
+
+.monetization-whyus img {
+    width: auto;
+    max-width: 100%;
+    height: auto;
 }

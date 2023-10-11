@@ -431,6 +431,30 @@
             </div>
         </div>
     </section>
+
+    <section id="monetization-whyus" class="container-fluid monetization-whyus">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-xl-6 column">
+                        <div class="title">چرا جیمکس</div>
+                        <div class="desc">
+                          شرکت جیمکس در سال 1400 توسط هولدینگ ماموت و هولدینگ مکس سرمایه تاسیس شد و در زمینه ی تبلیغ در گوگل و یوتیوب، سئو، طراحی وب سایت و نقد کردن درآمد یوتیوب فعالیت می کند. جیمکس در ایران، امارات و انگلیس ثبت شده است
+                        </div>
+                        <ul class="list">
+                            <li>سابقه درخشان جیمکس در ارائه خدمات مختلف گواه کیفیت خدمات جیمکس است</li>
+                            <li>برترین یوتیوبرهای ایران به جیمکس اعتماد کرده اند. همین مساله بزرگترین گواه کیفیت خدمات ما است</li>
+                            <li>تسویه ی به موقع و با بهترین قیمت تعهدی است که جیمکس به تمامی یوتیوبرهای خود میدهد</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 col-xl-6 column">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube11.webp" alt="چرا جیمکس" width="auto" height="auto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php get_footer(); ?>
