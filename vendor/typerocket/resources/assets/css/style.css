@@ -3678,7 +3678,7 @@ a:hover {
     padding: 0 24px;
 }
 
-.advertising-animated-hero .nav-link:hover {
+.advertising-animated-hero .nav-link:not(.active):hover {
     
     background-color: var(--glue-grey-200);
     color: var(--glue-grey-700);
@@ -5201,7 +5201,7 @@ span::after {
     font-weight: 900;
     line-height: 40px;
     font-family: var(--main-font);
-    text-align: center;
+    text-align: right;
     color: var(--title-color);
     margin-bottom: 50px;
 }
@@ -5211,19 +5211,20 @@ span::after {
     height: 100%;
     min-height: 600px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     flex-wrap: nowrap;
     align-content: flex-start;
     justify-content: flex-start;
     align-items: center;
+    gap: 50px;
 }
 
 .monetization-product .nav {
-    width: 35%;
+    width: 100%;
     min-width: max-content;
     display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: nowrap;
     align-content: flex-end;
     justify-content: flex-start;
     align-items: flex-start;
@@ -5240,11 +5241,10 @@ span::after {
     color: var(--glue-grey-700);
     border: 1px solid var(--glue-grey-200);
     background-color: var(--glue-grey-0);
-    border-radius: 500px;
     padding: 0 24px;
 }
 
-.monetization-product .nav-link:hover {
+.monetization-product .nav-link:not(.active):hover {
     
     background-color: #c4302b20;
     color: var(--glue-grey-700);
@@ -5277,15 +5277,15 @@ span::after {
     align-content: flex-start;
     align-items: flex-start;
     justify-content: flex-start;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 .monetization-product .tab-pane {
     width: 100%;
     background: rgb(196,48,43);
-    background: -moz-linear-gradient(315deg, rgba(196,48,43,0.09576330532212884) 0%, rgba(196,48,43,0.04534313725490191) 23%, rgba(196,48,43,0) 100%);
-    background: -webkit-linear-gradient(315deg, rgba(196,48,43,0.09576330532212884) 0%, rgba(196,48,43,0.04534313725490191) 23%, rgba(196,48,43,0) 100%);
-    background: linear-gradient(315deg, rgba(196,48,43,0.09576330532212884) 0%, rgba(196,48,43,0.04534313725490191) 23%, rgba(196,48,43,0) 100%);
+    background: -moz-linear-gradient(45deg, rgba(196,48,43,0.09576330532212884) 0%, rgba(196,48,43,0.04534313725490191) 23%, rgba(196,48,43,0) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(196,48,43,0.09576330532212884) 0%, rgba(196,48,43,0.04534313725490191) 23%, rgba(196,48,43,0) 100%);
+    background: linear-gradient(45deg, rgba(196,48,43,0.09576330532212884) 0%, rgba(196,48,43,0.04534313725490191) 23%, rgba(196,48,43,0) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c4302b",endColorstr="#c4302b",GradientType=1);
 }
 
@@ -5367,24 +5367,13 @@ span::after {
 }
 
 .monetization-product .tab-pane .link {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-content: flex-start;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 20px;
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--glue-blue-600);
-    background-color: transparent;
-    border: 0;
-    padding: 0;
+    background-color: var(--google-red);
+    border-color: var(--google-red);
+    padding: 12px 24px;
 }
 
 .monetization-product .tab-pane .link:hover {
-    color: var(--glue-blue-900);
+    background-color: #ce392d;
 }
 
 .monetization-product .tab-pane .link i {

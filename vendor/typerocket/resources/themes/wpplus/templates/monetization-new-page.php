@@ -369,10 +369,7 @@
                                                     محافظت از محتوای شما از دیگر خدماتی است که جیمکس ارائه می کند. دیگر لازم نیست نگران سو استفاده از محتوای شما توسط دیگران باشید. جیمکس این مساله را برای شما انجام میدهد
                                                 </li>
                                             </ul>
-                                            <a href="tel:02191095659" class="link">
-                                                <i class="las la-long-arrow-alt-left"></i>
-                                                تماس با ما
-                                            </a>
+                                            <a href="tel:02191095659" class="btn btn-primary link">تماس با ما</a>
                                         </div>
                                     </div>
                                 </div>
@@ -380,27 +377,16 @@
                             <div class="tab-pane fade" id="v-pills-two" role="tabpanel" tabindex="0">
                                 <div class="row">
                                     <div class="col-12 col-xl-6 order-2">
-                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/googleads6.webp" alt="استودیو جیمکس" class="image">
+                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube11.webp" alt="استودیو جیمکس" class="image">
                                     </div>
                                     <div class="col-12 col-xl-6 order-1">
                                         <div class="content">
-                                            <div class="title">
-                                                در مقابل چشمان مشتریان باشید
-                                            </div>
-                                            <div class="desc">
-                                                با تبلیغات نمایشی، تصاویر تبلیغاتی خود را به مشتریان نمایش داده و برند خود را در ذهن آنها حک کنید. شما می توانید تصاویر تبلیغاتی خود را در جیمیل، اپلیکیشن های موبایل و دیگر وب سایت هایی که تبلیغات گوگل را به نمایش میگذارند نمایش دهید
-                                            </div>
                                             <ul class="list">
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
+                                                <li>اگر برای تولید محتوای خود مشکل فضا و تجهیزات دارید، جیمکس در کنار شماست. استودیو جیمکس می تواند کیفیت محتوای شما را چندین برابر کند</li>
+                                                <li>استودیو جیمکس با به روز ترین تجهیزات صوتی و تصویری موجود و با استفاده از بهترین اپراتورهای استودیو کیفیت نهایی محتوای شما را تضمین می کند</li>
+                                                <li>قیمت های مناسب استودیو جیمکس برای استفاده ی یوتیوبرهای مجموعه می تواند راه حلی برای رشد کانال شما و موفقیت بیشتر شما باشد</li>
                                             </ul>
-                                            <a href="tel:02191095659" class="link">
-                                                <i class="las la-long-arrow-alt-left"></i>
-                                                تماس با ما
-                                            </a>
+                                            <a href="tel:02191095659" class="btn btn-primary link">تماس با ما</a>
                                         </div>
                                     </div>
                                 </div>
@@ -408,27 +394,16 @@
                             <div class="tab-pane fade" id="v-pills-three" role="tabpanel" tabindex="0">
                                 <div class="row">
                                     <div class="col-12 col-xl-6 order-2">
-                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/googleads7.webp" alt="ادیت ویدئو" class="image">
+                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube11.webp" alt="ادیت ویدئو" class="image">
                                     </div>
                                     <div class="col-12 col-xl-6 order-1">
                                         <div class="content">
-                                            <div class="title">
-                                                با تبلیغات ویدئویی برند خود را قوی تر کنید
-                                            </div>
-                                            <div class="desc">
-                                                شما می توانید تبلیغات ویدئویی خود را با هزینه ای بسیار مناسب، قبل یا در میان ویدئوهایی که خودتان می خواهید به نمایش بگذارید. شما می توانید چند ویدئو یا چند کانال خاص را برای نمایش ویدئوهای تبلیغاتی خود انتخاب کرده و بهترین نتیجه را بگیرید
-                                            </div>
                                             <ul class="list">
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
+                                                <li>تیم جیمکس برای راحتی کار شما، و افزایش تولید محتوای شما تیمی حرفه ای از ادیتورها را در کنار خود قرار داده است</li>
+                                                <li>تیم ادیت جیمکس تنها برای بهترین کانال های یوتیوب مجموعه خدمات خود را ارائه میدهد. در صورتی که نیاز به خدمات ادیت دارید، با ما تماس بگیرید</li>
+                                                <li>به وسیله سرویس ادیت جیمکس، کیفیت محتوای خود را بالاتر ببرید. بسیاری از یوتیوبرهای موفق جیمکس، مسیر موفقیت خود را در کنار ادیتورهای حرفه ای جیمکس طی کرده اند</li>
                                             </ul>
-                                            <a href="tel:02191095659" class="link">
-                                                <i class="las la-long-arrow-alt-left"></i>
-                                                تماس با ما
-                                            </a>
+                                            <a href="tel:02191095659" class="btn btn-primary link">تماس با ما</a>
                                         </div>
                                     </div>
                                 </div>
@@ -436,27 +411,16 @@
                             <div class="tab-pane fade" id="v-pills-four" role="tabpanel" tabindex="0">
                                 <div class="row">
                                     <div class="col-12 col-xl-6 order-2">
-                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/googleads8.webp" alt="سئو یوتیوب" class="image">
+                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube11.webp" alt="سئو یوتیوب" class="image">
                                     </div>
                                     <div class="col-12 col-xl-6 order-1">
                                         <div class="content">
-                                            <div class="title">
-                                                اپلیکیشن خود را تبلیغ کنید
-                                            </div>
-                                            <div class="desc">
-                                                به کمک تبلیغ در پلی استور، می توانید اپلیکیشن خود را به کاربرانی که به اپ شما علاقه دارند نمایش دهید. شما می توانید مشخص کنید که کاربران با سرچ چه عباراتی اپلیکیشن شما را ببینند. همین مساله باعث می شود که تنها کاربران علاقه مند به خدمات شما، اپلیکیشن شما را پیدا کرده و نصب نمایند
-                                            </div>
                                             <ul class="list">
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
-                                                <li></li>
+                                                <li>سئو یوتیوب یکی از مهم ترین المان های موفقیت کانال یوتیوب شماست. تیم متخصص سئو یوتیوب جیمکس می تواند درآمد شما را در بازه زمانی کوتاهی بالاتر برده و درآمد کلی شما را بیشتر نماید</li>
+                                                <li>اگر محتوای شما کم دیده می شود، یا RPM محتوای شما پایین است، استفاده از خدمات سئو یوتیوب جیمکس را به شما پیشنهاد می کنیم</li>
+                                                <li>تیم آنالیز جیمکس می تواند برای موفقیت بیشتر کانال یوتیوب شما، مسیرهای محتوایی راحت تری را به شما پیشنهاد بدهد</li>
                                             </ul>
-                                            <a href="tel:02191095659" class="link">
-                                                <i class="las la-long-arrow-alt-left"></i>
-                                                تماس با ما
-                                            </a>
+                                            <a href="tel:02191095659" class="btn btn-primary link">تماس با ما</a>
                                         </div>
                                     </div>
                                 </div>
