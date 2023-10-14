@@ -330,10 +330,10 @@ var swiper = new Swiper(".experienceSwiper", {
         nextEl: ".experiencewiper-button-next",
         prevEl: ".experiencewiper-button-prev",
     },
-    // autoplay: {
-    //     delay: 5000,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
     breakpoints: {
         0: {
             slidesPerView: 1,

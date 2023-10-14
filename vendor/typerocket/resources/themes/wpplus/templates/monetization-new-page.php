@@ -435,7 +435,7 @@
     <section id="monetization-whyus" class="container-fluid monetization-whyus">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-xl-6 content-column column">
+                <div class="col-12 col-xl-6 content-column column order-1 order-xl-2">
                     <div class="title">چرا جیمکس</div>
                     <div class="desc">
                         شرکت جیمکس در سال 1400 توسط هولدینگ ماموت و هولدینگ مکس سرمایه تاسیس شد و در زمینه ی تبلیغ در گوگل و یوتیوب، سئو، طراحی وب سایت و نقد کردن درآمد یوتیوب فعالیت می کند. جیمکس در ایران، امارات و انگلیس ثبت شده است
@@ -447,7 +447,7 @@
                     </ul>
                 </div>
 
-                <div class="col-12 col-xl-6 image-column column">
+                <div class="col-12 col-xl-6 image-column column order-2 order-xl-1">
                     <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube11.webp" alt="چرا جیمکس" width="auto" height="auto">
                 </div>
             </div>
@@ -456,11 +456,11 @@
 
     <section id="monetization-experience" class="container-fluid monetization-experience">
         <div class="container">
-            <div class="row mb-5">
-                <div class="col-12 col-sm-5 column">
+            <div class="row heading-row">
+                <div class="col-12 col-md-6 col-xl-5 column">
                     <div class="head-title">نظرات مشتریان ما</div>
                 </div>
-                <div class="col-12 col-sm-5 column">
+                <div class="col-12 col-md-6 col-xl-5 column">
                     <div class="experiencewiper-button-next swiper-button-next"></div>
                     <div class="experiencewiper-button-prev swiper-button-prev"></div>
                 </div>
@@ -472,10 +472,12 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="testomonize-box">
-                                    <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar1.jpg" class="avatar">
-                                    <div class="person">
-                                        <div class="name">علی صالحی</div>
-                                        <div class="job">مدیر سئو</div>
+                                    <div class="info">
+                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar1.jpg" class="avatar" width="auto" height="auto">
+                                        <div class="person">
+                                            <div class="name">علی صالحی</div>
+                                            <div class="job">مدیر سئو</div>
+                                        </div>
                                     </div>
                                     <p class="desc">
                                         لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
@@ -484,10 +486,12 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="testomonize-box">
-                                    <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar1.jpg" class="avatar">
-                                    <div class="person">
-                                        <div class="name">علی صالحی</div>
-                                        <div class="job">مدیر سئو</div>
+                                    <div class="info">
+                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar2.jpg" class="avatar" width="auto" height="auto">
+                                        <div class="person">
+                                            <div class="name">علی صالحی</div>
+                                            <div class="job">مدیر سئو</div>
+                                        </div>
                                     </div>
                                     <p class="desc">
                                         لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
@@ -496,10 +500,12 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="testomonize-box">
-                                    <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar1.jpg" class="avatar">
-                                    <div class="person">
-                                        <div class="name">علی صالحی</div>
-                                        <div class="job">مدیر سئو</div>
+                                    <div class="info">
+                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar3.jpg" class="avatar" width="auto" height="auto">
+                                        <div class="person">
+                                            <div class="name">علی صالحی</div>
+                                            <div class="job">مدیر سئو</div>
+                                        </div>
                                     </div>
                                     <p class="desc">
                                         لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
@@ -508,10 +514,12 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="testomonize-box">
-                                    <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar1.jpg" class="avatar">
-                                    <div class="person">
-                                        <div class="name">علی صالحی</div>
-                                        <div class="job">مدیر سئو</div>
+                                    <div class="info">
+                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar4.jpg" class="avatar" width="auto" height="auto">
+                                        <div class="person">
+                                            <div class="name">علی صالحی</div>
+                                            <div class="job">مدیر سئو</div>
+                                        </div>
                                     </div>
                                     <p class="desc">
                                         لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
@@ -520,10 +528,12 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="testomonize-box">
-                                    <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar1.jpg" class="avatar">
-                                    <div class="person">
-                                        <div class="name">علی صالحی</div>
-                                        <div class="job">مدیر سئو</div>
+                                    <div class="info">
+                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar5.jpg" class="avatar" width="auto" height="auto">
+                                        <div class="person">
+                                            <div class="name">علی صالحی</div>
+                                            <div class="job">مدیر سئو</div>
+                                        </div>
                                     </div>
                                     <p class="desc">
                                         لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
@@ -532,10 +542,12 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="testomonize-box">
-                                    <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar1.jpg" class="avatar">
-                                    <div class="person">
-                                        <div class="name">علی صالحی</div>
-                                        <div class="job">مدیر سئو</div>
+                                    <div class="info">
+                                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar6.jpg" class="avatar" width="auto" height="auto">
+                                        <div class="person">
+                                            <div class="name">علی صالحی</div>
+                                            <div class="job">مدیر سئو</div>
+                                        </div>
                                     </div>
                                     <p class="desc">
                                         لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
@@ -544,6 +556,28 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="monetization-cta" class="container-fluid monetization-cta">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-xl-6 content-column column">
+                    <div class="title">
+                        <span>کارشناسان جیمکس</span>
+                        <span>قدم به قدم در کنار شما</span>
+                    </div>
+                    <div class="desc">
+                        همین حالا می توانید با کارشناسان ما تماس بگیرید و تمامی سوالات خود را از آنها بپرسید. کارشناسان یوتیوب جیمکس با تجربه کار بر روی صدها کانال یوتیوب، در کنار شما هستند تا تجربیات خود را به شما منتقل نمایند
+                    </div>
+                    <button class="btn">
+                        <a href="http://localhost/gmaxads/contact-us">شروع کنید</a>
+                    </button>
+                </div>
+                <div class="col-12 col-xl-6 image-column column">
+                    <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/monetization-cta.webp" alt="پشتیبانی یوتیوب جیمکس" class="image">
                 </div>
             </div>
         </div>

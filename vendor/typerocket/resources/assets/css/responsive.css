@@ -596,6 +596,18 @@
         align-content: center;
     }
 
+    .monetization-cta .image-column {
+        margin-top: 30px;
+    }
+
+    .monetization-cta .title {
+        width: 100%;
+    }
+
+    .monetization-cta .desc {
+        width: 100%;
+    }
+
     /************* Studio Page *************/
     .studio-info {
         margin-top: 70px;
@@ -708,6 +720,13 @@
         width: 100%;
     }
 
+    .monetization-cta .title {
+        width: 100%;
+        flex-direction: row;
+        font-size: 25px;
+        line-height: 40px;
+    }
+
 	/************* Blog Single *************/
 	.blog-single .top-content img {
 		margin-bottom: 40px;
@@ -720,6 +739,11 @@
     /************* Index New Page *************/
     .parallax-new .content-column .logos {
         display: none;
+    }
+
+    /************* Monetization New Page *************/
+    .monetization-experience .heading-row {
+        gap: 30px;
     }
 
 }

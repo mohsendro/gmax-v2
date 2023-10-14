@@ -5398,7 +5398,7 @@ span::after {
 
 .monetization-whyus .image-column {
     justify-content: center;
-    align-content: flex-end;
+    /* align-content: flex-end; */
 }
 
 .monetization-whyus .title {
@@ -5456,7 +5456,7 @@ span::after {
 }
 
 .monetization-whyus img {
-    width: auto;
+    width: 100%;
     max-width: 500px;
     height: auto;
 }
@@ -5478,7 +5478,13 @@ span::after {
     justify-content: center;
 }
 
-.monetization-experience .column {}
+.monetization-experience .heading-row {
+    margin-bottom: 50px;
+}
+
+.monetization-experience .column {
+    position: relative;
+}
 
 .monetization-experience .head-title {
     width: 100%;
@@ -5494,18 +5500,222 @@ span::after {
 
 .monetization-experience .swiper-wrapper {}
 
-.monetization-experience .swiper-slide {}
+.monetization-experience .swiper-slide {
+    background: transparent;
+}
 
-.monetization-experience .testomonize-box {}
+.monetization-experience .testomonize-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+    border: 1px solid var(--glue-grey-900);
+    border-radius: 15px;
+    padding: 25px;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
 
-.monetization-experience .swiper-slide-active .testomonize-box {}
+.monetization-experience .swiper-slide-active .testomonize-box {
+    border-color: #c4302b;
+}
 
-.monetization-experience .testomonize-box img {}
+.monetization-experience .testomonize-box .info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: stretch;
+    gap: 15px;
+}
 
-.monetization-experience .testomonize-box .person {}
+.monetization-experience .testomonize-box img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
 
-.monetization-experience .testomonize-box .name {}
+.monetization-experience .testomonize-box .person {
+    width: calc(110% - 115px);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+}
 
-.monetization-experience .testomonize-box .job {}
+.monetization-experience .testomonize-box .name {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5em;
+    text-align: right;
+    color: var(--title-color);
+}
 
-.monetization-experience .testomonize-box .desc {}
+.monetization-experience .testomonize-box .job {
+    width: 100%;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5em;
+    text-align: right;
+    color: var(--title-color);
+}
+
+.monetization-experience .testomonize-box .desc {
+    display: block;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    text-align: justify;
+    color: var(--title-color);
+    margin: 0;
+}
+
+.monetization-experience .swiper-button-next,
+.monetization-experience .swiper-button-prev {
+    width: 45px;
+    height: 45px;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    -webkit-transition: all 300ms ease-in-out;
+    -moz-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -o-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    padding: 10px;
+}
+
+.monetization-experience .swiper-button-prev {
+    left: 0;
+}
+
+.monetization-experience .swiper-button-next {
+    left: 80px;
+    right: auto;
+}
+
+.monetization-experience .swiper-button-next:hover,
+.monetization-experience .swiper-button-prev:hover {
+    background-color: #c4302b;
+    border-color: #c4302b;
+}
+
+.monetization-experience .swiper-button-prev:after,
+.monetization-experience .swiper-button-next:after {
+    content: "empty";
+    width: 45px;
+    height: 45px;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.monetization-experience .swiper-button-prev:after {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="m12.718 4.707-1.413-1.415L2.585 12l8.72 8.707 1.413-1.415L6.417 13H20v-2H6.416l6.302-6.293z"/></svg>');
+}
+
+.monetization-experience .swiper-button-next:after {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M11.293 4.707 17.586 11H4v2h13.586l-6.293 6.293 1.414 1.414L21.414 12l-8.707-8.707-1.414 1.414z"/></svg>');
+}
+
+.monetization-experience .swiper-button-prev:hover::after,
+.monetization-experience .swiper-button-next:hover::after {}
+
+.monetization-experience .swiper-button-prev:hover:after {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="m12.718 4.707-1.413-1.415L2.585 12l8.72 8.707 1.413-1.415L6.417 13H20v-2H6.416l6.302-6.293z" fill="%23ffffff"/></svg>');
+}
+
+.monetization-experience .swiper-button-next:hover:after {
+    background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M11.293 4.707 17.586 11H4v2h13.586l-6.293 6.293 1.414 1.414L21.414 12l-8.707-8.707-1.414 1.414z" fill="%23ffffff"/></svg>');
+}
+
+.monetization-cta {
+    margin-top: 100px;
+}
+
+.monetization-cta .container {}
+
+.monetization-cta .row {}
+
+.monetization-cta .column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.monetization-cta .content-column {}
+
+.monetization-cta .image-column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.monetization-cta .image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+.monetization-cta .title {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 5px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: right;
+    color: var(--title-color);
+}
+
+.monetization-cta .title span {}
+
+.monetization-cta .desc {
+    width: 80%;
+    display: block;
+    font-family: var(--main-font);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: justify;
+    color: var(--desc-color);
+}
+
+.monetization-cta .btn {
+    background-color: var(--google-red);
+    border-radius: 50px;
+    -webkit-box-shadow: 0 3px 5px 1px rgba(0,0,0,0.13);
+    box-shadow: 0 3px 5px 1px rgba(0,0,0,0.13);
+    padding: 10px 30px;
+}
+
+.monetization-cta .btn:hover {
+    background-color: #ce392d;
+}
+
+.monetization-cta .btn a {
+    color: #FFFFFF;
+}
