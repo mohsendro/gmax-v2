@@ -289,10 +289,10 @@ var swiper = new Swiper(".discoverSwiper", {
         nextEl: ".discoverswiper-button-next",
         prevEl: ".discoverswiper-button-prev",
     },
-    // autoplay: {
-    //     delay: 5000,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
     breakpoints: {
         0: {
             slidesPerView: 1,
@@ -321,7 +321,46 @@ var swiper = new Swiper(".discoverSwiper", {
     },
 });
 
-
+var swiper = new Swiper(".experienceSwiper", {
+    slidesPerView: 50,
+    slidesPerGroup: 1,
+    loop: true,
+    loopFillGroupWithBlank: true,
+    navigation: {
+        nextEl: ".experiencewiper-button-next",
+        prevEl: ".experiencewiper-button-prev",
+    },
+    // autoplay: {
+    //     delay: 5000,
+    //     disableOnInteraction: false,
+    // },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+        },
+        576: {
+            slidesPerView: 1,
+            spaceBetween: 5,
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+        },
+        992: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+        },
+        1200: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+        },
+        1400: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+        },
+    },
+});
 
 
 
@@ -531,7 +570,7 @@ form.addEventListener('keypress', function(e) {
 // Prfoessionally Scroll
 const growSectionScroll = (e) => {
 
-    element = document.getElementById("customer");
+    element = document.getElementById("grow-prfoessionally");
     element.scrollIntoView(
         { 
             behavior: "smooth",
