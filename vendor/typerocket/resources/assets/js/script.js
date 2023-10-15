@@ -362,8 +362,46 @@ var swiper = new Swiper(".experienceSwiper", {
     },
 });
 
-
-
+var swiper = new Swiper(".monetizationBlogSwiper", {
+    centeredSlides: true,
+    loop: true,
+    speed: 500,
+    loopFillGroupWithBlank: true,
+    navigation: {
+        nextEl: ".monetizationeblogswiper-button-next",
+        prevEl: ".monetizationeblogswiper-button-prev",
+    },
+    // autoplay: {
+    //     delay: 5000,
+    //     disableOnInteraction: false,
+    // },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+        },
+        576: {
+            slidesPerView: 1,
+            spaceBetween: 5,
+        },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+        },
+        992: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+        },
+        1200: {
+            slidesPerView: 2,
+            spaceBetween: 30,
+        },
+        1400: {
+            slidesPerView: 4.4,
+            spaceBetween: 30,
+        },
+    },
+});
 
 const sliderNewSwiperCallbackBack = (swiper, action) => {
 
