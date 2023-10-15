@@ -5644,6 +5644,7 @@ span::after {
 
 .monetization-cta {
     margin-top: 100px;
+    overflow: hidden;
 }
 
 .monetization-cta .container {}
@@ -5696,6 +5697,7 @@ span::after {
 .monetization-cta .desc {
     width: 80%;
     display: block;
+    position: relative;
     font-family: var(--main-font);
     font-size: 15px;
     font-weight: 400;
@@ -5719,3 +5721,47 @@ span::after {
 .monetization-cta .btn a {
     color: #FFFFFF;
 }
+
+.monetization-cta .shape {
+    width: 50px;
+    height: auto;
+}
+
+.monetization-cta .shape1 {}
+
+.monetization-cta .shape2 {
+    width: 70px;
+    position: relative;
+    right: 20px;
+}
+
+.monetization-cta .shape3 {
+    width: 40px;
+    position: absolute;
+    top: -25px;
+    left: -80px;
+}
+
+.monetization-blog {}
+
+.monetization-blog .container {}
+
+.monetization-blog .head-container {}
+
+.monetization-blog .carousel-container {}
+
+.monetization-blog .row {}
+
+.monetization-blog .column {}
+
+.monetization-blog {}
+
+
+
+
+
+
+
+
+
+

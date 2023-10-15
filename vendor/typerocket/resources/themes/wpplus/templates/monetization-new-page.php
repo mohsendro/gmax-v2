@@ -17,6 +17,16 @@
     ];
     $option = $option->findAll()->where($where_option)->select('option_value')->get()->toArray();
     $option = $option[0]['option_value'];
+
+    $post = new \App\Models\Post;
+    $where_post = [
+        [
+            'column'   => 'post_status',
+            'operator' => '=',
+            'value'    => 'publish'
+        ]
+    ];
+    $posts = $post->findAll()->with('meta')->where($where_post)->orderBy('id', 'DESC')->take($option)->get();
 ?>
 
 <main id="main" class="main monetization-new">
@@ -565,23 +575,72 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 col-xl-6 content-column column">
+                    <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/icon/shape1.png" class="shape shape1" width="auto" height="auto">
                     <div class="title">
                         <span>کارشناسان جیمکس</span>
-                        <span>قدم به قدم در کنار شما</span>
+                        <span>قدم به قدم در کنار شما<img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/icon/shape2.png" class="shape shape2" width="auto" height="auto"></span>
                     </div>
                     <div class="desc">
                         همین حالا می توانید با کارشناسان ما تماس بگیرید و تمامی سوالات خود را از آنها بپرسید. کارشناسان یوتیوب جیمکس با تجربه کار بر روی صدها کانال یوتیوب، در کنار شما هستند تا تجربیات خود را به شما منتقل نمایند
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/icon/shape3.png" class="shape shape3" width="auto" height="auto">
                     </div>
                     <button class="btn">
-                        <a href="http://localhost/gmaxads/contact-us">شروع کنید</a>
+                        <a href="<?php echo get_home_url(); ?>/contact-us">شروع کنید</a>
                     </button>
                 </div>
                 <div class="col-12 col-xl-6 image-column column">
-                    <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/monetization-cta.webp" alt="پشتیبانی یوتیوب جیمکس" class="image">
+                    <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/monetization-cta.webp" alt="پشتیبانی یوتیوب جیمکس" class="image" width="auto" height="auto">
                 </div>
             </div>
         </div>
     </section>
+
+    <?php // if( $posts ): ?>
+        <section id="monetization-blog" class="container-fluid monetization-blog">
+            <div class="container head-container">
+                <div class="row">
+                    <div class="col-12 col-xl-6 column">
+                        <a href="<?php echo get_home_url(); ?>/blog" type="button" class="btn btn-outline-primary">تماس با ما</a>
+                    </div>
+                    <div class="col-12 col-xl-6 column">
+                        <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/icon/shape5.png" class="shape shape5" width="auto" height="auto">
+                        <div class="sup">جدیدترین ها</div>
+                        <div class="title">
+                            <span>دیگران</span>
+                            <span>درباره‌ی</span> <strong>جیمکس</strong>
+                            <span>چه می‌گویند</span>
+                        </div>
+                        <div class="desc">
+                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid carousel-container">
+                <div class="row">
+                    <div class="col-12 column">
+                        <!-- Swiper -->
+                        <div class="swiper experienceSwiper">
+                            <div class="swiper-wrapper">
+                                <?php // foreach( $posts as $post ): ?>
+                                    <div class="swiper-slide">
+                                        <!-- Component Blog New Card Start -->
+                                        <?php //require TYPEROCKET_DIR_PATH . '/resources/themes/wpplus/components/blog-card-index.php'; ?>
+
+
+
+                                        
+                                        <!-- Component Blog New Card Start -->
+                                    </div>
+                                <?php // endforeach; ?>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <?php // endif; ?>
 </main>
 
 <?php get_footer(); ?>
