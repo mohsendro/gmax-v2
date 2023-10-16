@@ -327,8 +327,8 @@ var swiper = new Swiper(".experienceSwiper", {
     loop: true,
     loopFillGroupWithBlank: true,
     navigation: {
-        nextEl: ".experiencewiper-button-next",
-        prevEl: ".experiencewiper-button-prev",
+        nextEl: ".experienceswiper-button-next",
+        prevEl: ".experienceswiper-button-prev",
     },
     autoplay: {
         delay: 5000,
@@ -371,33 +371,33 @@ var swiper = new Swiper(".monetizationBlogSwiper", {
         nextEl: ".monetizationeblogswiper-button-next",
         prevEl: ".monetizationeblogswiper-button-prev",
     },
-    // autoplay: {
-    //     delay: 5000,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
     breakpoints: {
         0: {
-            slidesPerView: 1,
-            spaceBetween: 0,
+            slidesPerView: 1.4,
+            spaceBetween: 15,
         },
         576: {
-            slidesPerView: 1,
-            spaceBetween: 5,
+            slidesPerView: 1.4,
+            spaceBetween: 15,
         },
         768: {
             slidesPerView: 2,
             spaceBetween: 15,
         },
         992: {
-            slidesPerView: 2,
+            slidesPerView: 2.4,
             spaceBetween: 15,
         },
         1200: {
-            slidesPerView: 2,
-            spaceBetween: 30,
+            slidesPerView: 2.4,
+            spaceBetween: 15,
         },
         1400: {
-            slidesPerView: 4.4,
+            slidesPerView: 3.4,
             spaceBetween: 30,
         },
     },

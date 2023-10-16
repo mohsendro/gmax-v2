@@ -458,7 +458,9 @@
                 </div>
 
                 <div class="col-12 col-xl-6 image-column column order-2 order-xl-1">
-                    <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube11.webp" alt="چرا جیمکس" width="auto" height="auto">
+                    <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/youtube11.webp" alt="چرا جیمکس" width="auto" height="auto"
+                        data-aos="fade-up" data-aos-duration="200" data-aos-delay="200" data-aos-easing="ease-in-sine" class="aos-init aos-animate"
+                    >
                 </div>
             </div>
         </div>
@@ -589,7 +591,9 @@
                     </button>
                 </div>
                 <div class="col-12 col-xl-6 image-column column">
-                    <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/monetization-cta.webp" alt="پشتیبانی یوتیوب جیمکس" class="image" width="auto" height="auto">
+                    <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/monetization-cta.webp" alt="پشتیبانی یوتیوب جیمکس" class="image" width="auto" height="auto"
+                        data-aos="fade-up" data-aos-duration="200" data-aos-delay="200" data-aos-easing="ease-in-sine" class="aos-init aos-animate"
+                    >
                 </div>
             </div>
         </div>
@@ -626,170 +630,49 @@
                                 <?php // foreach( $posts as $post ): ?>
                                     <div class="swiper-slide">
                                         <!-- Component Monetization Blog Card Start -->
-                                        <?php //require TYPEROCKET_DIR_PATH . '/resources/themes/wpplus/components/blog-card-index.php'; ?>
-                                        <div class="monetization-blog-box">
-                                            <h3 class="title line-clamp-1">
-                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
-                                            </h3>
-                                            <div class="content line-clamp-3">
-                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
-                                            </div>
-                                            <div class="author">
-                                                <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar1.jpg" class="avatar" width="auto" height="auto">
-                                                <div class="info">
-                                                    <span class="name">محسن دروگر</span>
-                                                    <span class="job">برنامه نویس</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- Component Monetization Blog Card Start -->
-                                    </div>
-
-                                    <div class="swiper-slide">
-                                        <!-- Component Monetization Blog Card Start -->
-                                        <?php //require TYPEROCKET_DIR_PATH . '/resources/themes/wpplus/components/blog-card-index.php'; ?>
-                                        <div class="monetization-blog-box">
-                                            <h3 class="title line-clamp-1">
-                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
-                                            </h3>
-                                            <div class="content line-clamp-3">
-                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
-                                            </div>
-                                            <div class="author">
-                                                <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar1.jpg" class="avatar" width="auto" height="auto">
-                                                <div class="info">
-                                                    <span class="name">محسن دروگر</span>
-                                                    <span class="job">برنامه نویس</span>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <?php require TYPEROCKET_DIR_PATH . '/resources/themes/wpplus/components/blog-card-monetization.php'; ?>
                                         <!-- Component Monetization Blog Card Start -->
                                     </div>
                                     <div class="swiper-slide">
                                         <!-- Component Monetization Blog Card Start -->
-                                        <?php //require TYPEROCKET_DIR_PATH . '/resources/themes/wpplus/components/blog-card-index.php'; ?>
-                                        <div class="monetization-blog-box">
-                                            <h3 class="title line-clamp-1">
-                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
-                                            </h3>
-                                            <div class="content line-clamp-3">
-                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
-                                            </div>
-                                            <div class="author">
-                                                <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar1.jpg" class="avatar" width="auto" height="auto">
-                                                <div class="info">
-                                                    <span class="name">محسن دروگر</span>
-                                                    <span class="job">برنامه نویس</span>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <?php require TYPEROCKET_DIR_PATH . '/resources/themes/wpplus/components/blog-card-monetization.php'; ?>
                                         <!-- Component Monetization Blog Card Start -->
                                     </div>
                                     <div class="swiper-slide">
                                         <!-- Component Monetization Blog Card Start -->
-                                        <?php //require TYPEROCKET_DIR_PATH . '/resources/themes/wpplus/components/blog-card-index.php'; ?>
-                                        <div class="monetization-blog-box">
-                                            <h3 class="title line-clamp-1">
-                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
-                                            </h3>
-                                            <div class="content line-clamp-3">
-                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
-                                            </div>
-                                            <div class="author">
-                                                <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar1.jpg" class="avatar" width="auto" height="auto">
-                                                <div class="info">
-                                                    <span class="name">محسن دروگر</span>
-                                                    <span class="job">برنامه نویس</span>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <?php require TYPEROCKET_DIR_PATH . '/resources/themes/wpplus/components/blog-card-monetization.php'; ?>
                                         <!-- Component Monetization Blog Card Start -->
                                     </div>
                                     <div class="swiper-slide">
                                         <!-- Component Monetization Blog Card Start -->
-                                        <?php //require TYPEROCKET_DIR_PATH . '/resources/themes/wpplus/components/blog-card-index.php'; ?>
-                                        <div class="monetization-blog-box">
-                                            <h3 class="title line-clamp-1">
-                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
-                                            </h3>
-                                            <div class="content line-clamp-3">
-                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
-                                            </div>
-                                            <div class="author">
-                                                <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar1.jpg" class="avatar" width="auto" height="auto">
-                                                <div class="info">
-                                                    <span class="name">محسن دروگر</span>
-                                                    <span class="job">برنامه نویس</span>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <?php require TYPEROCKET_DIR_PATH . '/resources/themes/wpplus/components/blog-card-monetization.php'; ?>
                                         <!-- Component Monetization Blog Card Start -->
                                     </div>
                                     <div class="swiper-slide">
                                         <!-- Component Monetization Blog Card Start -->
-                                        <?php //require TYPEROCKET_DIR_PATH . '/resources/themes/wpplus/components/blog-card-index.php'; ?>
-                                        <div class="monetization-blog-box">
-                                            <h3 class="title line-clamp-1">
-                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
-                                            </h3>
-                                            <div class="content line-clamp-3">
-                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
-                                            </div>
-                                            <div class="author">
-                                                <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar1.jpg" class="avatar" width="auto" height="auto">
-                                                <div class="info">
-                                                    <span class="name">محسن دروگر</span>
-                                                    <span class="job">برنامه نویس</span>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <?php require TYPEROCKET_DIR_PATH . '/resources/themes/wpplus/components/blog-card-monetization.php'; ?>
                                         <!-- Component Monetization Blog Card Start -->
                                     </div>
                                     <div class="swiper-slide">
                                         <!-- Component Monetization Blog Card Start -->
-                                        <?php //require TYPEROCKET_DIR_PATH . '/resources/themes/wpplus/components/blog-card-index.php'; ?>
-                                        <div class="monetization-blog-box">
-                                            <h3 class="title line-clamp-1">
-                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
-                                            </h3>
-                                            <div class="content line-clamp-3">
-                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
-                                            </div>
-                                            <div class="author">
-                                                <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar1.jpg" class="avatar" width="auto" height="auto">
-                                                <div class="info">
-                                                    <span class="name">محسن دروگر</span>
-                                                    <span class="job">برنامه نویس</span>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <?php require TYPEROCKET_DIR_PATH . '/resources/themes/wpplus/components/blog-card-monetization.php'; ?>
                                         <!-- Component Monetization Blog Card Start -->
                                     </div>
                                     <div class="swiper-slide">
                                         <!-- Component Monetization Blog Card Start -->
-                                        <?php //require TYPEROCKET_DIR_PATH . '/resources/themes/wpplus/components/blog-card-index.php'; ?>
-                                        <div class="monetization-blog-box">
-                                            <h3 class="title line-clamp-1">
-                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
-                                            </h3>
-                                            <div class="content line-clamp-3">
-                                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
-                                            </div>
-                                            <div class="author">
-                                                <img src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/avatar1.jpg" class="avatar" width="auto" height="auto">
-                                                <div class="info">
-                                                    <span class="name">محسن دروگر</span>
-                                                    <span class="job">برنامه نویس</span>
-                                                </div>
-                                            </div>
-                                        </div>
+                                        <?php require TYPEROCKET_DIR_PATH . '/resources/themes/wpplus/components/blog-card-monetization.php'; ?>
+                                        <!-- Component Monetization Blog Card Start -->
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <!-- Component Monetization Blog Card Start -->
+                                        <?php require TYPEROCKET_DIR_PATH . '/resources/themes/wpplus/components/blog-card-monetization.php'; ?>
                                         <!-- Component Monetization Blog Card Start -->
                                     </div>
                                 <?php // endforeach; ?>
                             </div>
                         </div>
                     </div>
-                    <div class="col-12 column">
+                    <div class="col-12 nav-column column">
                         <div class="monetizationeblogswiper-button-next swiper-button-next"></div>
                         <div class="monetizationeblogswiper-button-prev swiper-button-prev"></div>
                     </div>
@@ -797,6 +680,16 @@
             </div>
         </section>
     <?php // endif; ?>
+
+    <section id="monetization-income" class="container-fluid monetization-income">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 column">
+
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
 
 <?php get_footer(); ?>
