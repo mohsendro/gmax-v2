@@ -690,7 +690,7 @@
                             <button class="s1btn">Get Values</button>
                         </div>
                         <div id="slider2">
-                            <input class="s21" type="number" value="0" min="0" max="5000" step="10">
+                            <input class="s21" type="number" value="0" min="0" max="1000000" step="10000">
                             <input class="s22" type="number" value="2000" min="0" max="5000" step="10">
                         </div>
                     </main>
@@ -704,19 +704,23 @@
         let s1vals = [0];
         let s1animals = ["🐬"];
         let slider = new RangeSliderPips({
-        target: document.getElementById("slider"),
-        props: {
-            min: 0,
-            max: 1000000,
-            values: s1vals,
-            pips: true,
-            pipstep: 10000,
-            // all: "label",
-            float: true,
-            handleFormatter: (v) => {
-            return v;
+            target: document.getElementById("slider"),
+            props: {
+                min: 0,
+                max: 1000000,
+                values: s1vals,
+                pips: true,
+                step: 0.5,
+                pipstep: 50000,
+                first: "label",
+                last: "label",
+                rest: "label",
+                float: true,
+                hoverable: true,
+                handleFormatter: (v) => {
+                    return v;
+                }
             }
-        }
         });
 
         let slider2 = new RangeSliderPips({
@@ -744,11 +748,11 @@
         // slider 1 bindings
 
         function setHandles(e) {
-        let labels = e.detail.values;
-        let handles = document.getElementById("slider").querySelectorAll(".rangeHandle");
-        let handle = document.getElementById("slider").querySelectorAll(".rangeHandle.active");
-        Array.prototype.forEach.call(handles,(el,i)=> {
-            el.children[1].innerHTML = labels[i] + s1animals[i];
+            let labels = e.detail.values;
+            let handles = document.getElementById("slider").querySelectorAll(".rangeHandle");
+            let handle = document.getElementById("slider").querySelectorAll(".rangeHandle.active");
+            Array.prototype.forEach.call(handles,(el,i)=> {
+                el.children[1].innerHTML = labels[i] + s1animals[i];
         });
         s1vals = e.detail.values;
         }
@@ -760,29 +764,29 @@
         slider.$on('change', setHandles);
 
         $btn.addEventListener( "click", function() {
-        $btn.innerText = "the values are: " + s1vals;
-        setTimeout(() => {
-            $btn.innerText = "Get Values";
-        }, 1500 );
-        })
+            $btn.innerText = "the values are: " + s1vals;
+            setTimeout(() => {
+                $btn.innerText = "Get Values";
+            }, 1500 );
+        });
 
         // slider 2 bindings 
 
         // .$on() is a svelte component function
         // https://svelte.dev/docs#$on
         slider2.$on('change', function(e) {
-        $s21.value = e.detail.values[0];
-        $s22.value = e.detail.values[1];
+            $s21.value = e.detail.values[0];
+            $s22.value = e.detail.values[1];
         });
 
         // .set() is a svelte component function
         // https://svelte.dev/docs#$set
         $s21.addEventListener("change", (e) => {
-        slider2.$set({ values: [ $s21.value, $s22.value ]});
+            slider2.$set({ values: [ $s21.value, $s22.value ]});
         });
 
         $s22.addEventListener("change", (e) => {
-        slider2.$set({ values: [ $s21.value, $s22.value ]});
+            slider2.$set({ values: [ $s21.value, $s22.value ]});
         });
     </script>
 </main>

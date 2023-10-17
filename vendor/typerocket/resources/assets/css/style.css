@@ -5922,6 +5922,19 @@ span::after {
     background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M11.293 4.707 17.586 11H4v2h13.586l-6.293 6.293 1.414 1.414L21.414 12l-8.707-8.707-1.414 1.414z" fill="%23ffffff"/></svg>');
 }
 
+.monetization-income {
+    background-color: #333844;
+    color: white;
+    padding: 20px 0 20px;
+    font-family: "Heebo", sans-serif;
+    text-align: center;
+}
+
+.monetization-income .container {}
+
+.monetization-income .row {}
+
+.monetization-income .column {}
 
 
 
@@ -6114,7 +6127,7 @@ span::after {
   #slider,
   #slider2 {
     position: relative;
-    max-width: 640px;
+    /* max-width: 640px; */
     margin: 20px auto 140px;
     padding: 0 80px;
   }
@@ -6146,16 +6159,16 @@ span::after {
   /* app styling
   /* ***************** */
   body {
-    --bg: #333844;
+    /* --bg: #333844;
     color: white;
     background: var(--bg);
     padding: 20px 0 20px;
     font-family: "Heebo", sans-serif;
-    text-align: center;
+    text-align: center; */
   }
   
   h1, h2 {
-    margin: 5px 0;
+    /* margin: 5px 0; */
   }
   
   #app {
