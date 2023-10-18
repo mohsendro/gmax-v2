@@ -5923,11 +5923,12 @@ span::after {
 }
 
 .monetization-income {
-    background-color: #333844;
+    /* background-color: #333844;
     color: white;
     padding: 20px 0 20px;
     font-family: "Heebo", sans-serif;
-    text-align: center;
+    text-align: center; */
+    margin-top: 100px;
 }
 
 .monetization-income .container {}
@@ -5935,6 +5936,22 @@ span::after {
 .monetization-income .row {}
 
 .monetization-income .column {}
+
+.monetization-income .slider-column {}
+
+.monetization-income .calculator-column {}
+
+.monetization-income .income-box {}
+
+.monetization-income .income-box .head {}
+
+.monetization-income .income-box .result {}
+
+.monetization-income .income-box .result:not(:last-child) {}
+
+.monetization-income .income-box .prefix {}
+
+.monetization-income .income-box .total {}
 
 
 

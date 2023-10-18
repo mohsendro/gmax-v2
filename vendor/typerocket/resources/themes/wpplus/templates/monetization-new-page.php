@@ -684,6 +684,60 @@
     <section id="monetization-income" class="container-fluid monetization-income">
         <div class="container">
             <div class="row">
+                <div class="col-12 col-xl-9 slider-column column">
+                    <div class="slider-head">
+                        <div class="title">محاسبه درآمد کانال یوتیوب</div>
+                        <div class="subtitle">اسلایدر را به چپ و راست بکشید تا پتانسیل های درآمدزایی محاسبه شود</div>
+                    </div>
+                    <div class="range-view">
+                        <div id="slider-view"></div>
+                    </div>
+                    <div class="range-interaction">
+                        <div id="slider-interaction"></div>
+                    </div>
+
+
+
+
+                    <div class="total-views">
+                        <div class="monthly-view">
+                            <div class="head">20000</div>
+                            <div class="pusifix">بازدید در ماه</div>
+                        </div>
+                        <div class="yearly-view">
+                            <div class="head">240000</div>
+                            <div class="pusifix">بازدید در سال</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-xl-3 calculator-column column">
+                    <div class="income-box">
+                        <span class="head">درآمد تقریبی روزانه</span>
+                        <div class="result daily-result">
+                            <span class="prefix">$ </span><span class="total">0</span>
+                        </div>
+                    </div>
+                    <div class="income-box">
+                        <span class="head">درآمد تقریبی ماهانه</span>
+                        <div class="result monthly-result">
+                            <span class="prefix">$ </span><span class="total">0</span>
+                        </div>
+                    </div>
+                    <div class="income-box">
+                        <span class="head">درآمد تقریبی سالانه</span>
+                        <div class="result yearly-result">
+                            <span class="prefix">$ </span><span class="total">0</span>
+                        </div>
+                    </div>
+                </div>
+                
+
+
+
+
+
+
+
                 <div class="col-12 column">
                     <main id="app">
                         <div id="slider">
@@ -724,19 +778,39 @@
         });
 
         let slider2 = new RangeSliderPips({
-        target: document.getElementById("slider2"),
-        props: {
-            min: 0,
-            max: 5000,
-            range: true,
-            pushy: true,
-            values: [0, 2000],
-            step: 10,
-            pips: true,
-            pipstep: 10,
-            all: "label",
-            prefix: "£"
-        }
+            target: document.getElementById("slider2"),
+            props: {
+                min: 0,
+                max: 5000,
+                range: true,
+                pushy: true,
+                values: [0, 2000],
+                step: 10,
+                pips: true,
+                pipstep: 10,
+                all: "label",
+                prefix: "£"
+            }
+        });
+
+        let sliderView = new RangeSliderPips({
+            target: document.getElementById("slider-view"),
+            props: {
+                min: 0,
+                max: 1000000,
+                values: 50000,
+                pips: true,
+                step: 0.5,
+                pipstep: 50000,
+                first: "label",
+                last: "label",
+                rest: false,
+                float: true,
+                hoverable: true,
+                handleFormatter: (v) => {
+                    return v;
+                }
+            }
         });
 
         // *********************************************
