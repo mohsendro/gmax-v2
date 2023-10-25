@@ -34,7 +34,7 @@
                                 <div class="image">
                                     <img 
                                         src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/googleads1.png"
-                                        width="auto" height="auto" alt="تبلیغ در یوتیوب جیمکس ادز"
+                                        width="auto" height="auto" alt="تبلیغ در گوگل جیمکس ادز"
                                     />
                                     <div class="shape shape1"></div>
                                 </div>                                
@@ -45,7 +45,7 @@
                                 <div class="image">
                                     <img 
                                         src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/googleads3.png"
-                                        width="auto" height="auto" alt="تبلیغات در یوتیوب جیمکس ادز"
+                                        width="auto" height="auto" alt="تبلیغات در گوگل جیمکس ادز"
                                     />  
                                     <div class="shape shape2"></div>
                                 </div>
@@ -56,7 +56,7 @@
                                 <div class="image">
                                     <img 
                                         src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/googleads2.png"
-                                        width="auto" height="auto" alt="تبلیغ در youtube جیمکس ادز"
+                                        width="auto" height="auto" alt="تبلیغ در google جیمکس ادز"
                                     />
                                     <div class="shape shape3"></div>
                                 </div>
@@ -67,7 +67,7 @@
                                 <div class="image">
                                     <img 
                                         src="<?php echo TYPEROCKET_DIR_URL; ?>resources/assets/img/googleads4.png"
-                                        width="auto" height="auto" alt="تبلیغات در youtube جیمکس ادز"
+                                        width="auto" height="auto" alt="تبلیغات در google جیمکس ادز"
                                     />
                                     <div class="shape shape4"></div>
                                 </div>
