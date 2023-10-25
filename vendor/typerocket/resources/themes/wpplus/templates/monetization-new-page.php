@@ -690,15 +690,24 @@
                         <div class="subtitle">اسلایدر را به چپ و راست بکشید تا پتانسیل های درآمدزایی محاسبه شود</div>
                     </div>
                     <div class="range-view">
-                        <div id="slider-view"></div>
+                        <div class="perv-head">
+                            <span class="desc">میزان بازدید روزانه را وارد نمایید</span>
+                            <div class="prev-get">
+                                <span class="price" id="price">495,000</span>
+                                <span class="label">View/Day</span>
+                            </div>
+                        </div>
+                        <!-- <div id="slider-view"></div> -->
                     </div>
                     <div class="range-interaction">
-                        <div id="slider-interaction"></div>
+                        <div class="perv-head">
+                            <span class="title">میانگین نرخ تعامل بازدیدکنندگان</span>
+                            <span class="desc">
+                                هر چه تعامل بازدیدکنندگان نظیر کامنت، لایک بیشتر باشد و همچنین آپشن‌های تبلیغات یوتیوب را روی کانال فعال کرده باشید این نرخ بالاتر خواهد بود و بروی درآمد شما تاثیر گذار خواهد بود.
+                            </span>
+                        </div>
+                        <!-- <div id="slider-interaction"></div> -->
                     </div>
-
-
-
-
                     <div class="total-views">
                         <div class="monthly-view">
                             <div class="head">20000</div>
@@ -710,23 +719,24 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-12 col-xl-3 calculator-column column">
                     <div class="income-box">
                         <span class="head">درآمد تقریبی روزانه</span>
                         <div class="result daily-result">
-                            <span class="prefix">$ </span><span class="total">0</span>
+                            <span class="prefix">$ </span><span class="total">1,980</span>
                         </div>
                     </div>
                     <div class="income-box">
                         <span class="head">درآمد تقریبی ماهانه</span>
                         <div class="result monthly-result">
-                            <span class="prefix">$ </span><span class="total">0</span>
+                            <span class="prefix">$ </span><span class="total">59,400</span>
                         </div>
                     </div>
                     <div class="income-box">
                         <span class="head">درآمد تقریبی سالانه</span>
                         <div class="result yearly-result">
-                            <span class="prefix">$ </span><span class="total">0</span>
+                            <span class="prefix">$ </span><span class="total">722,700</span>
                         </div>
                     </div>
                 </div>

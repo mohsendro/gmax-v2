@@ -5923,31 +5923,95 @@ span::after {
 }
 
 .monetization-income {
-    /* background-color: #333844;
-    color: white;
-    padding: 20px 0 20px;
-    font-family: "Heebo", sans-serif;
-    text-align: center; */
     margin-top: 100px;
 }
 
 .monetization-income .container {}
 
-.monetization-income .row {}
+.monetization-income .row {
+    position: relative;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid rgb(235 234 233 / 64%);
+    background: #fcfcfc;
+    overflow: hidden;
+}
 
 .monetization-income .column {}
 
-.monetization-income .slider-column {}
+.monetization-income .slider-column {
+    padding: 50px !important;
+}
 
-.monetization-income .calculator-column {}
+.monetization-income .calculator-column {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #c02d2980;
+    background-image: url("https://afrak.com/wp-content/themes/afrak/images/yib-side.jpg");
+    background-blend-mode: overlay;
+    padding: 20px !important;
+}
 
-.monetization-income .income-box {}
+.monetization-income .slider-head {}
+.monetization-income .slider-head .title {}
+.monetization-income .slider-head .subtitle {}
+
+
+.monetization-income .range-view {}
+.monetization-income .range-view .perv-head {}
+.monetization-income .range-view .desc {}
+.monetization-income .range-view .prev-get {}
+.monetization-income .range-view .price {}
+.monetization-income .range-view .label {}
+
+
+
+.monetization-income .range-interaction {}
+.monetization-income .range-interaction .perv-head {}
+.monetization-income .range-interaction .title {}
+.monetization-income .range-interaction .desc {}
+
+
+.monetization-income .total-views {}
+.monetization-income .total-views .monthly-view {}
+.monetization-income .total-views .yearly-view {}
+.monetization-income .total-views .head {}
+.monetization-income .total-views .pusifix {}
+
+
+
+
+
+
+
+.monetization-income .income-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    color: #FFFFFF;
+    z-index: 2;
+}
+
+.monetization-income .income-box:not(:last-child) {
+    border-bottom: 1px dashed rgb(255 255 255 / 33%);
+}
 
 .monetization-income .income-box .head {}
 
 .monetization-income .income-box .result {}
-
-.monetization-income .income-box .result:not(:last-child) {}
 
 .monetization-income .income-box .prefix {}
 
